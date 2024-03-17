@@ -1,0 +1,2 @@
+shiba:
+	if [ ! -d bin ]; then mkdir bin fi cd && gcc src/main.c -o bin/shiba

@@ -1,0 +1,47 @@
+2024-03-16 10:18:40.324 [info] Extension host with pid 1227 started
+2024-03-16 10:18:40.324 [info] Skipping acquiring lock for /home/unk0wn/.config/VSCodium/User/workspaceStorage/d7d753354c4e191fbe59d1c6ffee3cc3.
+2024-03-16 10:18:40.327 [info] ExtensionService#_doActivateExtension vscode.emmet, startup: false, activationEvent: 'onLanguage'
+2024-03-16 10:18:40.799 [info] ExtensionService#_doActivateExtension mborik.z80-macroasm, startup: false, activationEvent: 'onLanguage'
+2024-03-16 10:18:43.614 [info] ExtensionService#_doActivateExtension vadimcn.vscode-lldb, startup: false, activationEvent: 'onLanguage:cpp', root cause: franneck94.c-cpp-runner
+2024-03-16 10:18:43.857 [info] ExtensionService#_doActivateExtension vscode.git-base, startup: true, activationEvent: '*', root cause: vscode.git
+2024-03-16 10:18:44.388 [info] ExtensionService#_doActivateExtension franneck94.c-cpp-runner, startup: false, activationEvent: 'onLanguage:cpp'
+2024-03-16 10:18:45.870 [info] ExtensionService#_doActivateExtension vscode.git, startup: true, activationEvent: '*'
+2024-03-16 10:18:46.112 [info] ExtensionService#_doActivateExtension vscode.github, startup: true, activationEvent: '*'
+2024-03-16 10:18:47.081 [info] Eager extensions activated
+2024-03-16 10:18:47.095 [info] ExtensionService#_doActivateExtension vscode.debug-auto-launch, startup: false, activationEvent: 'onStartupFinished'
+2024-03-16 10:18:47.235 [info] ExtensionService#_doActivateExtension vscode.merge-conflict, startup: false, activationEvent: 'onStartupFinished'
+2024-03-16 10:18:47.444 [info] ExtensionService#_doActivateExtension Codeium.codeium, startup: false, activationEvent: 'onStartupFinished'
+2024-03-16 10:18:48.215 [info] ExtensionService#_doActivateExtension esbenp.prettier-vscode, startup: false, activationEvent: 'onStartupFinished'
+2024-03-16 10:18:49.065 [info] ExtensionService#_doActivateExtension vscode-icons-team.vscode-icons, startup: false, activationEvent: 'onStartupFinished'
+2024-03-16 10:46:28.518 [info] ExtensionService#_doActivateExtension vscode.extension-editing, startup: false, activationEvent: 'onLanguage:markdown'
+2024-03-16 10:46:28.643 [info] ExtensionService#_doActivateExtension vscode.markdown-language-features, startup: false, activationEvent: 'onLanguage:markdown'
+2024-03-16 11:07:51.181 [info] ExtensionService#_doActivateExtension vscode.json-language-features, startup: false, activationEvent: 'onLanguage:jsonc'
+2024-03-16 11:07:51.366 [info] ExtensionService#_doActivateExtension vscode.typescript-language-features, startup: false, activationEvent: 'onLanguage:jsonc'
+2024-03-16 12:12:36.136 [info] ExtensionService#_doActivateExtension vscode.markdown-math, startup: false, activationEvent: 'api', root cause: vscode.markdown-language-features
+2024-03-16 12:12:48.872 [info] ExtensionService#_doActivateExtension rangav.vscode-thunder-client, startup: false, activationEvent: 'onView:thunder-client-sidebar'
+2024-03-16 12:25:30.106 [info] Extension host terminating: renderer closed the MessagePort
+2024-03-16 12:25:30.117 [error] Canceled: Canceled
+	at new p (/opt/vscodium-bin/resources/app/out/vs/workbench/api/node/extensionHostProcess.js:140:49379)
+	at s._remoteCall (/opt/vscodium-bin/resources/app/out/vs/workbench/api/node/extensionHostProcess.js:147:7739)
+	at x.<computed>.M.charCodeAt.x.<computed> (/opt/vscodium-bin/resources/app/out/vs/workbench/api/node/extensionHostProcess.js:147:4291)
+	at u._doExecuteCommand (/opt/vscodium-bin/resources/app/out/vs/workbench/api/node/extensionHostProcess.js:150:218860)
+	at u.executeCommand (/opt/vscodium-bin/resources/app/out/vs/workbench/api/node/extensionHostProcess.js:150:218185)
+	at f.registerCommand.description (/opt/vscodium-bin/resources/app/out/vs/workbench/api/node/extensionHostProcess.js:150:217429)
+	at u._executeContributedCommand (/opt/vscodium-bin/resources/app/out/vs/workbench/api/node/extensionHostProcess.js:150:219498)
+	at u._doExecuteCommand (/opt/vscodium-bin/resources/app/out/vs/workbench/api/node/extensionHostProcess.js:150:218318)
+	at u.executeCommand (/opt/vscodium-bin/resources/app/out/vs/workbench/api/node/extensionHostProcess.js:150:218185)
+	at Object.executeCommand (/opt/vscodium-bin/resources/app/out/vs/workbench/api/node/extensionHostProcess.js:160:27860)
+	at setContextValue (/home/unk0wn/.vscode-oss/extensions/franneck94.c-cpp-runner-9.4.7-universal/dist/main.js:5980:28)
+	at Object.deactivate (/home/unk0wn/.vscode-oss/extensions/franneck94.c-cpp-runner-9.4.7-universal/dist/main.js:3869:39)
+	at b._deactivate (/opt/vscodium-bin/resources/app/out/vs/workbench/api/node/extensionHostProcess.js:156:12676)
+	at /opt/vscodium-bin/resources/app/out/vs/workbench/api/node/extensionHostProcess.js:156:10145
+	at Array.map (<anonymous>)
+	at b._deactivateAll (/opt/vscodium-bin/resources/app/out/vs/workbench/api/node/extensionHostProcess.js:156:10132)
+	at b.terminate (/opt/vscodium-bin/resources/app/out/vs/workbench/api/node/extensionHostProcess.js:156:10515)
+	at o.terminate (/opt/vscodium-bin/resources/app/out/vs/workbench/api/node/extensionHostProcess.js:160:1908)
+	at t (/opt/vscodium-bin/resources/app/out/vs/workbench/api/node/extensionHostProcess.js:173:11683)
+	at MessagePortMain.<anonymous> (/opt/vscodium-bin/resources/app/out/vs/workbench/api/node/extensionHostProcess.js:173:7758)
+	at MessagePortMain.emit (node:events:514:28)
+	at MessagePortMain.emit (node:domain:489:12)
+	at Object.emit (node:electron/js2c/utility_init:2:2285) setContext undefined
+2024-03-16 12:25:30.119 [info] Extension host with pid 1227 exiting with code 0

@@ -1,0 +1,136 @@
+2024-03-16 12:39:04.590 [INFO]: No proxy settings found
+2024-03-16 12:39:09.896 [INFO]: Creating manager directory: /tmp/ccab5470-581a-4223-b2ed-f715e3bc1d8e/codeium/manager
+2024-03-16 12:39:10.168 [INFO]: Using cached LS with valid crc32: /home/unk0wn/.vscode-oss/extensions/codeium.codeium-1.8.11-universal/dist/ae9d4149edcf0d092aac843e1d0e2d395e771664/language_server_linux_x64
+2024-03-16 12:39:10.175 [INFO]: Language server started
+2024-03-16 12:39:10.295 [INFO]: [Language Server (stderr)]:
+I0316 12:39:10.295147 22306 main.go:544] Starting language server manager with pid 22306
+I0316 12:39:10.295210 22306 main.go:107] Manager acquired its lock file /tmp/ccab5470-581a-4223-b2ed-f715e3bc1d8e/codeium/manager/locks/manager.lock
+2024-03-16 12:39:10.296 [INFO]: [Language Server (stderr)]:
+I0316 12:39:10.295597 22306 main.go:245] Waiting for random port file in /tmp/ccab5470-581a-4223-b2ed-f715e3bc1d8e/codeium/manager/child_random_port_1710610750295273499_2270760614666533205 to be created
+2024-03-16 12:39:10.412 [INFO]: [Language Server (stderr)]:
+I0316 12:39:10.412001 22317 main.go:538] Starting language server process with pid 22317
+I0316 12:39:10.412037 22317 server.go:151] Language server will attempt to listen on host 127.0.0.1
+I0316 12:39:10.412175 22317 server.go:158] Language server listening on random port at 43047
+I0316 12:39:10.412202 22317 proxy.go:113] proxyplease.proxy> No proxy provided. Attempting to infer from system.
+I0316 12:39:10.412211 22317 proxy.go:113] proxyplease.proxy> No proxy could be determined. Assuming a direct connection.
+I0316 12:39:10.412220 22317 client.go:589] [DEBUG] GET https://server.codeium.com/exa.api_server_pb.ApiServerService/GetCompletions
+2024-03-16 12:39:10.542 [INFO]: [Language Server (stderr)]:
+I0316 12:39:10.541788 22317 unleash.go:86] Initializing Unleash
+2024-03-16 12:39:10.668 [INFO]: [Language Server (stderr)]:
+I0316 12:39:10.667154 22317 unleash.go:106] Successfully initialized Unleash
+2024-03-16 12:39:10.681 [INFO]: [Language Server (stderr)]:
+I0316 12:39:10.680635 22317 server.go:336] Successfully created API server client
+2024-03-16 12:39:10.690 [INFO]: [Language Server (stderr)]:
+I0316 12:39:10.689182 22317 server.go:350] Successfully created API streaming client
+2024-03-16 12:39:10.733 [INFO]: [Language Server (stderr)]:
+I0316 12:39:10.732745 22317 server.go:359] Successfully initialized tokenizer
+I0316 12:39:10.732807 22317 search_provider.go:169] Using database at /home/unk0wn/.codeium/database/9c0694567290725d9dcba14ade58e297/2/MODEL_EMBED_6591
+2024-03-16 12:39:10.733 [INFO]: [Language Server (stderr)]:
+I0316 12:39:10.733351 22317 search_provider.go:181] Successfully created embedding search database
+2024-03-16 12:39:10.733 [INFO]: [Language Server (stderr)]:
+I0316 12:39:10.733569 22317 search_provider.go:229] Successfully created embedding search provider
+I0316 12:39:10.733576 22317 server.go:444] Successfully created exact search provider
+2024-03-16 12:39:10.734 [INFO]: [Language Server (stderr)]:
+E0316 12:39:10.734021 22317 unleash.go:57] Unleash error: Version string empty
+E0316 12:39:10.734029 22317 unleash.go:57] Unleash error: Version string empty
+E0316 12:39:10.734086 22317 unleash.go:57] Unleash error: Version string empty
+E0316 12:39:10.734130 22317 unleash.go:57] Unleash error: Version string empty
+2024-03-16 12:39:10.736 [INFO]: [Language Server (stderr)]:
+I0316 12:39:10.736721 22317 server.go:472] Successfully created completion provider
+2024-03-16 12:39:10.782 [INFO]: [Language Server (stderr)]:
+I0316 12:39:10.782448 22317 server.go:548] Child process attempting to acquire lock file /tmp/ccab5470-581a-4223-b2ed-f715e3bc1d8e/codeium/manager/locks/child_lock_1710610750295296235_6043460929584278363
+I0316 12:39:10.782525 22317 server.go:558] Child process acquired lock file /tmp/ccab5470-581a-4223-b2ed-f715e3bc1d8e/codeium/manager/locks/child_lock_1710610750295296235_6043460929584278363
+2024-03-16 12:39:10.785 [INFO]: [Language Server (stderr)]:
+I0316 12:39:10.784777 22317 server.go:178] LSP listening on random port at 42163
+2024-03-16 12:39:10.787 [INFO]: [Language Server (stderr)]:
+I0316 12:39:10.785817 22317 web_server.go:235] Chat Web Server listening at ws://127.0.0.1:39419
+2024-03-16 12:39:10.798 [INFO]: [Language Server (stdout)]:
+42163
+2024-03-16 12:39:10.798 [INFO]: [Language Server (stderr)]:
+I0316 12:39:10.798196 22306 main.go:281] Language server manager found random server port 43047
+I0316 12:39:10.798214 22306 main.go:282] Language server manager found random lsp port 42163
+I0316 12:39:10.798223 22306 main.go:289] Language server manager attempting to connect to language server at 127.0.0.1:43047
+2024-03-16 12:39:10.814 [INFO]: [Language Server (stderr)]:
+I0316 12:39:10.814455 22306 main.go:160] Fixing language server port at 43047
+I0316 12:39:10.814468 22306 main.go:340] Language server manager successfully connected to new language server at 127.0.0.1:43047
+2024-03-16 12:39:10.888 [INFO]: Found language server running on port 43047
+2024-03-16 12:39:10.919 [INFO]: Downloaded binary: /home/unk0wn/.codeium/bin/af6b6c543b224d348a8876f0c06245d9ea7929c5/ripgrep_linux_x64
+2024-03-16 12:39:11.042 [INFO]: [Language Server (stderr)]:
+I0316 12:39:11.041647 22317 rpcs_miscellaneous.go:301] University version is up to date.
+2024-03-16 12:39:11.107 [INFO]: [Language Server (stderr)]:
+I0316 12:39:11.104262 22317 rpcs_seat_management.go:94] GetUserStatus Request: metadata:{ide_name:"vscode" ide_version:"VSCodium 1.87.1" extension_name:"vscode" extension_version:"1.8.11" api_key:"d64f76b7-d802-4704-b4b3-583168f2f64e" locale:"en" disable_telemetry:true session_id:"76f14b51-a323-4b98-857b-b19680c4ef1e" request_id:2 extension_path:"/home/unk0wn/.vscode-oss/extensions/codeium.codeium-1.8.11-universal"}
+2024-03-16 12:39:11.145 [INFO]: [Language Server (stderr)]:
+I0316 12:39:11.145349 22317 rpcs_seat_management.go:103] GetUserStatus Response: user_status:{pro:true name:"Asher" email:"asherlr2@gmail.com"}
+2024-03-16 12:39:31.144 [INFO]: Completion request was cancelled by token (9.93ms)
+2024-03-16 12:39:31.280 [INFO]: Completion request succeeded (9.12ms)
+2024-03-16 12:39:31.281 [INFO]: Skipping completions because the prompt is too short
+2024-03-16 12:39:31.281 [INFO]: provideInlineCompletionItems request succeeded (11.06ms)
+2024-03-16 12:39:31.537 [INFO]: Completion request succeeded (13.86ms)
+2024-03-16 12:39:31.538 [INFO]: Skipping completions because the prompt is too short
+2024-03-16 12:39:31.539 [INFO]: provideInlineCompletionItems request succeeded (16.63ms)
+2024-03-16 12:39:31.682 [INFO]: Completion request succeeded (14.96ms)
+2024-03-16 12:39:31.683 [INFO]: Skipping completions because the prompt is too short
+2024-03-16 12:39:31.683 [INFO]: provideInlineCompletionItems request succeeded (17.88ms)
+2024-03-16 12:39:31.836 [INFO]: Completion request succeeded (13.83ms)
+2024-03-16 12:39:31.837 [INFO]: Skipping completions because the prompt is too short
+2024-03-16 12:39:31.838 [INFO]: provideInlineCompletionItems request succeeded (17.3ms)
+2024-03-16 12:39:31.978 [INFO]: Completion request succeeded (13.99ms)
+2024-03-16 12:39:31.978 [INFO]: Skipping completions because the prompt is too short
+2024-03-16 12:39:31.979 [INFO]: provideInlineCompletionItems request succeeded (16.56ms)
+2024-03-16 12:39:32.287 [INFO]: Completion request succeeded (14ms)
+2024-03-16 12:39:32.288 [INFO]: Skipping completions because the prompt is too short
+2024-03-16 12:39:32.289 [INFO]: provideInlineCompletionItems request succeeded (16.71ms)
+2024-03-16 12:39:32.431 [INFO]: Completion request succeeded (19.64ms)
+2024-03-16 12:39:32.432 [INFO]: Skipping completions because the prompt is too short
+2024-03-16 12:39:32.432 [INFO]: provideInlineCompletionItems request succeeded (22.18ms)
+2024-03-16 12:39:32.795 [INFO]: Completion request succeeded (12.06ms)
+2024-03-16 12:39:32.796 [INFO]: Skipping completions because the prompt is too short
+2024-03-16 12:39:32.796 [INFO]: provideInlineCompletionItems request succeeded (13.59ms)
+2024-03-16 12:39:33.244 [INFO]: Completion request succeeded (10.99ms)
+2024-03-16 12:39:33.244 [INFO]: Skipping completions because the prompt is too short
+2024-03-16 12:39:33.245 [INFO]: provideInlineCompletionItems request succeeded (11.95ms)
+2024-03-16 12:39:33.442 [INFO]: Completion request succeeded (14.22ms)
+2024-03-16 12:39:33.443 [INFO]: Skipping completions because the prompt is too short
+2024-03-16 12:39:33.443 [INFO]: provideInlineCompletionItems request succeeded (16.58ms)
+2024-03-16 12:39:33.594 [INFO]: Completion request succeeded (14.14ms)
+2024-03-16 12:39:33.595 [INFO]: Skipping completions because the prompt is too short
+2024-03-16 12:39:33.595 [INFO]: provideInlineCompletionItems request succeeded (16.45ms)
+2024-03-16 12:39:34.196 [INFO]: Completion request succeeded (12.04ms)
+2024-03-16 12:39:34.196 [INFO]: Skipping completions because the prompt is too short
+2024-03-16 12:39:34.197 [INFO]: provideInlineCompletionItems request succeeded (13.37ms)
+2024-03-16 12:39:34.604 [INFO]: Completion request succeeded (223.5ms)
+2024-03-16 12:39:34.606 [INFO]: No completions were generated
+2024-03-16 12:39:34.606 [INFO]: provideInlineCompletionItems request succeeded (227.05ms)
+2024-03-16 12:39:35.749 [INFO]: Completion request succeeded (6.63ms)
+2024-03-16 12:39:35.749 [INFO]: Skipping completions because the prompt is too short
+2024-03-16 12:39:35.749 [INFO]: provideInlineCompletionItems request succeeded (7.86ms)
+2024-03-16 12:39:35.957 [INFO]: Completion request was cancelled by token (96.2ms)
+2024-03-16 12:39:36.227 [INFO]: Completion request succeeded (192.71ms)
+2024-03-16 12:39:36.229 [INFO]: No completions were generated
+2024-03-16 12:39:36.229 [INFO]: provideInlineCompletionItems request succeeded (196.08ms)
+2024-03-16 12:39:37.672 [INFO]: Completion request succeeded (9.76ms)
+2024-03-16 12:39:37.672 [INFO]: Skipping completions because the prompt is too short
+2024-03-16 12:39:37.673 [INFO]: provideInlineCompletionItems request succeeded (11.64ms)
+2024-03-16 12:39:37.851 [INFO]: Completion request succeeded (16.12ms)
+2024-03-16 12:39:37.852 [INFO]: Skipping completions because the prompt is too short
+2024-03-16 12:39:37.852 [INFO]: provideInlineCompletionItems request succeeded (18.59ms)
+2024-03-16 12:39:38.449 [INFO]: Completion request succeeded (210.3ms)
+2024-03-16 12:39:38.451 [INFO]: No completions were generated
+2024-03-16 12:39:38.452 [INFO]: provideInlineCompletionItems request succeeded (213.48ms)
+2024-03-16 12:39:40.933 [INFO]: Completion request succeeded (221.68ms)
+2024-03-16 12:39:40.935 [INFO]: No completions were generated
+2024-03-16 12:39:40.936 [INFO]: provideInlineCompletionItems request succeeded (225.38ms)
+2024-03-16 12:39:41.528 [INFO]: Completion request succeeded (231.24ms)
+2024-03-16 12:39:41.530 [INFO]: Generated 1 completions
+2024-03-16 12:39:41.532 [INFO]: provideInlineCompletionItems request succeeded (235.81ms)
+2024-03-16 12:40:35.650 [INFO]: Completion request succeeded (187.29ms)
+2024-03-16 12:40:35.652 [INFO]: No completions were generated
+2024-03-16 12:40:35.653 [INFO]: provideInlineCompletionItems request succeeded (190.04ms)
+2024-03-16 12:40:36.076 [INFO]: Completion request succeeded (192.23ms)
+2024-03-16 12:40:36.078 [INFO]: No completions were generated
+2024-03-16 12:40:36.078 [INFO]: provideInlineCompletionItems request succeeded (195.24ms)
+2024-03-16 12:40:43.310 [INFO]: Codeium is not enabled for the current document.
+2024-03-16 12:40:43.399 [INFO]: Codeium is not enabled for the current document.
+2024-03-16 12:40:43.760 [INFO]: Codeium is not enabled for the current document.
+2024-03-16 12:40:43.872 [INFO]: Codeium is not enabled for the current document.
+2024-03-16 12:40:45.298 [INFO]: Codeium is not enabled for the current document.

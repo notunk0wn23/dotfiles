@@ -1,0 +1,16 @@
+all: build
+
+build: main.o http.o
+	if [ ! -d build ]; then make clean; fi
+	g++ -o build/program build/obj/main.o build/obj/http.o
+
+main.o: source/main.cpp
+	g++ -c source/main.cpp -o build/obj/main.o
+
+http.o: source/http.cpp source/http.h
+	g++ -c source/http.cpp -o build/obj/http.o
+
+clean: 
+	rm -rf build
+	mkdir build
+	mkdir build/obj

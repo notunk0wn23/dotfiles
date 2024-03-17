@@ -1,0 +1,9 @@
+{
+    "workbench.colorTheme": "Tokyo Night",
+    "workbench.startupEditor": "none",
+    "workbench.iconTheme": "vscode-icons",
+    "codeium.enableConfig": {
+        "*": true,
+        "cpp": false
+    }
+}

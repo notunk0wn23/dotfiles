@@ -1,0 +1,8 @@
+shiba:
+	if [ -d "$DIRECTORY" ]; then mkdir bin fi gcc src/main.c -o bin/shiba
+
+clean:
+	rm bin/shiba
+
+run:
+	./bin/shiba

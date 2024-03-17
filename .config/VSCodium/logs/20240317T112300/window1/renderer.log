@@ -1,0 +1,5 @@
+2024-03-17 11:23:01.032 [info] Started local extension host with pid 2473.
+2024-03-17 11:23:03.872 [info] [perf] Render performance baseline is 24ms
+2024-03-17 11:23:09.851 [warning] [backup tracker] suspended, ignoring dirty change event file:///home/unk0wn/cpp/test/source/main.cpp 
+2024-03-17 11:23:10.477 [info] Started local extension host with pid 2721.
+2024-03-17 11:23:13.136 [info] [perf] Render performance baseline is 27ms

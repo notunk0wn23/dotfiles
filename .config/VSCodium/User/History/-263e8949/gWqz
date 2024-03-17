@@ -1,0 +1,22 @@
+all: server client
+
+server: build/TCPServer.o build/main.o
+	g++ build/TCPServer.o build/main.o -o server
+
+client: build/TCPClient.o
+	g++ build/TCPClient.o -o client
+
+build/TCPServer.o: source/TCPServer.cpp | build
+	g++ -c source/TCPServer.cpp -o build/TCPServer.o
+
+build/TCPClient.o: source/TCPClient.cpp | build
+	g++ -c source/TCPClient.cpp -o build/TCPClient.o
+
+build/main.o: source/main.cpp | build
+	g++ -c source/main.cpp -o build/main.o -Isource
+
+build:
+	mkdir -p build
+
+clean:
+	rm -rf build server client
