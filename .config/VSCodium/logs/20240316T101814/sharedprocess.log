@@ -1,0 +1,12 @@
+2024-03-16 12:12:34.119 [info] Getting Manifest... rangav.vscode-thunder-client
+2024-03-16 12:12:34.180 [info] Installing extension: rangav.vscode-thunder-client
+2024-03-16 12:12:35.775 [error] Could not load vsce-sign module Cannot find module '@vscode/vsce-sign'
+Require stack:
+- /opt/vscodium-bin/resources/app/out/bootstrap-amd.js
+- /opt/vscodium-bin/resources/app/out/bootstrap-fork.js
+- 
+2024-03-16 12:12:35.835 [info] Extension signature verification is not done: rangav.vscode-thunder-client
+2024-03-16 12:12:35.966 [info] Extracted extension to file:///home/unk0wn/.vscode-oss/extensions/rangav.vscode-thunder-client-2.19.5-universal: rangav.vscode-thunder-client
+2024-03-16 12:12:36.009 [info] Renamed to /home/unk0wn/.vscode-oss/extensions/rangav.vscode-thunder-client-2.19.5-universal
+2024-03-16 12:12:36.010 [info] Extracting extension completed. rangav.vscode-thunder-client
+2024-03-16 12:12:36.053 [info] Extension installed successfully: rangav.vscode-thunder-client

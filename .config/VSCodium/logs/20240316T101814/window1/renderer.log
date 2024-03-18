@@ -1,0 +1,25 @@
+2024-03-16 10:18:32.944 [info] Started local extension host with pid 1227.
+2024-03-16 10:18:37.944 [info] [perf] Render performance baseline is 23ms
+2024-03-16 11:34:37.561 [error] spawn xterm ENOENT: Error: spawn xterm ENOENT
+    at ChildProcess._handle.onexit (node:internal/child_process:283:19)
+    at onErrorNT (node:internal/child_process:476:16)
+    at process.processTicksAndRejections (node:internal/process/task_queues:82:21)
+2024-03-16 12:12:57.245 [error] Method not found: toJSON: CodeExpectedError: Method not found: toJSON
+    at Object.call (/opt/vscodium-bin/resources/app/out/vs/code/electron-main/main.js:42:6168)
+    at R.onPromise (/opt/vscodium-bin/resources/app/out/vs/code/electron-main/main.js:40:5765)
+    at R.onRawMessage (/opt/vscodium-bin/resources/app/out/vs/code/electron-main/main.js:40:5153)
+    at E.value (/opt/vscodium-bin/resources/app/out/vs/code/electron-main/main.js:40:4441)
+    at f._deliver (/opt/vscodium-bin/resources/app/out/vs/code/electron-main/main.js:35:2465)
+    at f._deliverQueue (/opt/vscodium-bin/resources/app/out/vs/code/electron-main/main.js:35:2556)
+    at f.fire (/opt/vscodium-bin/resources/app/out/vs/code/electron-main/main.js:35:2891)
+    at E.value (/opt/vscodium-bin/resources/app/out/vs/code/electron-main/main.js:33:30201)
+    at f._deliver (/opt/vscodium-bin/resources/app/out/vs/code/electron-main/main.js:35:2465)
+    at f.fire (/opt/vscodium-bin/resources/app/out/vs/code/electron-main/main.js:35:2784)
+    at E.value (/opt/vscodium-bin/resources/app/out/vs/code/electron-main/main.js:33:30404)
+    at f._deliver (/opt/vscodium-bin/resources/app/out/vs/code/electron-main/main.js:35:2465)
+    at f.fire (/opt/vscodium-bin/resources/app/out/vs/code/electron-main/main.js:35:2784)
+    at fe (/opt/vscodium-bin/resources/app/out/vs/code/electron-main/main.js:33:32872)
+    at IpcMainImpl.c (/opt/vscodium-bin/resources/app/out/vs/code/electron-main/main.js:42:24322)
+    at IpcMainImpl.emit (node:events:514:28)
+    at WebContents.<anonymous> (node:electron/js2c/browser_init:2:79287)
+    at WebContents.emit (node:events:514:28)

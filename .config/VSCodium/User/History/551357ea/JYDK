@@ -1,0 +1,8 @@
+shiba:
+	gcc src/main.c -o bin/shiba
+
+clean:
+	rm bin/shiba
+
+run:
+	./bin/shiba

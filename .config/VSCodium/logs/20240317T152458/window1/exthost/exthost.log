@@ -1,0 +1,79 @@
+2024-03-17 15:24:59.260 [info] Extension host with pid 19402 started
+2024-03-17 15:24:59.260 [info] Skipping acquiring lock for /home/unk0wn/.config/VSCodium/User/workspaceStorage/4064b736022c0bef8c8e5550d420d7c5.
+2024-03-17 15:24:59.393 [info] ExtensionService#_doActivateExtension vscode.emmet, startup: false, activationEvent: 'onLanguage'
+2024-03-17 15:24:59.397 [info] ExtensionService#_doActivateExtension mborik.z80-macroasm, startup: false, activationEvent: 'onLanguage'
+2024-03-17 15:24:59.404 [info] ExtensionService#_doActivateExtension vadimcn.vscode-lldb, startup: false, activationEvent: 'onLanguage:cpp', root cause: franneck94.c-cpp-runner
+2024-03-17 15:24:59.661 [info] ExtensionService#_doActivateExtension franneck94.c-cpp-runner, startup: false, activationEvent: 'onLanguage:cpp'
+2024-03-17 15:24:59.734 [info] ExtensionService#_doActivateExtension vscode.git-base, startup: true, activationEvent: '*', root cause: vscode.git
+2024-03-17 15:24:59.745 [info] ExtensionService#_doActivateExtension vscode.git, startup: true, activationEvent: '*'
+2024-03-17 15:24:59.757 [info] ExtensionService#_doActivateExtension vscode.github, startup: true, activationEvent: '*'
+2024-03-17 15:24:59.778 [info] Eager extensions activated
+2024-03-17 15:24:59.813 [info] ExtensionService#_doActivateExtension vscode.debug-auto-launch, startup: false, activationEvent: 'onStartupFinished'
+2024-03-17 15:24:59.814 [info] ExtensionService#_doActivateExtension vscode.merge-conflict, startup: false, activationEvent: 'onStartupFinished'
+2024-03-17 15:24:59.817 [info] ExtensionService#_doActivateExtension Codeium.codeium, startup: false, activationEvent: 'onStartupFinished'
+2024-03-17 15:25:00.109 [info] ExtensionService#_doActivateExtension esbenp.prettier-vscode, startup: false, activationEvent: 'onStartupFinished'
+2024-03-17 15:25:00.137 [info] ExtensionService#_doActivateExtension vscode-icons-team.vscode-icons, startup: false, activationEvent: 'onStartupFinished'
+2024-03-17 15:25:10.384 [info] Extension host terminating: renderer closed the MessagePort
+2024-03-17 15:25:10.391 [error] Canceled: Canceled
+	at new p (/opt/vscodium-bin/resources/app/out/vs/workbench/api/node/extensionHostProcess.js:140:49379)
+	at s._remoteCall (/opt/vscodium-bin/resources/app/out/vs/workbench/api/node/extensionHostProcess.js:147:7739)
+	at x.<computed>.M.charCodeAt.x.<computed> (/opt/vscodium-bin/resources/app/out/vs/workbench/api/node/extensionHostProcess.js:147:4291)
+	at u._doExecuteCommand (/opt/vscodium-bin/resources/app/out/vs/workbench/api/node/extensionHostProcess.js:150:218860)
+	at u.executeCommand (/opt/vscodium-bin/resources/app/out/vs/workbench/api/node/extensionHostProcess.js:150:218185)
+	at f.registerCommand.description (/opt/vscodium-bin/resources/app/out/vs/workbench/api/node/extensionHostProcess.js:150:217429)
+	at u._executeContributedCommand (/opt/vscodium-bin/resources/app/out/vs/workbench/api/node/extensionHostProcess.js:150:219498)
+	at u._doExecuteCommand (/opt/vscodium-bin/resources/app/out/vs/workbench/api/node/extensionHostProcess.js:150:218318)
+	at u.executeCommand (/opt/vscodium-bin/resources/app/out/vs/workbench/api/node/extensionHostProcess.js:150:218185)
+	at Object.executeCommand (/opt/vscodium-bin/resources/app/out/vs/workbench/api/node/extensionHostProcess.js:160:27860)
+	at setContextValue (/home/unk0wn/.vscode-oss/extensions/franneck94.c-cpp-runner-9.4.7-universal/dist/main.js:5980:28)
+	at Object.deactivate (/home/unk0wn/.vscode-oss/extensions/franneck94.c-cpp-runner-9.4.7-universal/dist/main.js:3869:39)
+	at b._deactivate (/opt/vscodium-bin/resources/app/out/vs/workbench/api/node/extensionHostProcess.js:156:12676)
+	at /opt/vscodium-bin/resources/app/out/vs/workbench/api/node/extensionHostProcess.js:156:10145
+	at Array.map (<anonymous>)
+	at b._deactivateAll (/opt/vscodium-bin/resources/app/out/vs/workbench/api/node/extensionHostProcess.js:156:10132)
+	at b.terminate (/opt/vscodium-bin/resources/app/out/vs/workbench/api/node/extensionHostProcess.js:156:10515)
+	at o.terminate (/opt/vscodium-bin/resources/app/out/vs/workbench/api/node/extensionHostProcess.js:160:1908)
+	at t (/opt/vscodium-bin/resources/app/out/vs/workbench/api/node/extensionHostProcess.js:173:11683)
+	at MessagePortMain.<anonymous> (/opt/vscodium-bin/resources/app/out/vs/workbench/api/node/extensionHostProcess.js:173:7758)
+	at MessagePortMain.emit (node:events:514:28)
+	at MessagePortMain.emit (node:domain:489:12)
+	at Object.emit (node:electron/js2c/utility_init:2:2285) setContext undefined
+2024-03-17 15:25:10.391 [info] Extension host with pid 19402 exiting with code 0
+2024-03-17 15:25:11.404 [info] Extension host with pid 19680 started
+2024-03-17 15:25:11.404 [info] Skipping acquiring lock for /home/unk0wn/.config/VSCodium/User/workspaceStorage/1ff85650f61a7f40fb4faf69028b47a6.
+2024-03-17 15:25:11.413 [info] ExtensionService#_doActivateExtension vscode.git-base, startup: true, activationEvent: '*', root cause: vscode.git
+2024-03-17 15:25:11.423 [info] ExtensionService#_doActivateExtension vscode.git, startup: true, activationEvent: '*'
+2024-03-17 15:25:11.441 [info] ExtensionService#_doActivateExtension vscode.github, startup: true, activationEvent: '*'
+2024-03-17 15:25:11.467 [info] Eager extensions activated
+2024-03-17 15:25:11.481 [info] ExtensionService#_doActivateExtension vscode.debug-auto-launch, startup: false, activationEvent: 'onStartupFinished'
+2024-03-17 15:25:11.482 [info] ExtensionService#_doActivateExtension vscode.merge-conflict, startup: false, activationEvent: 'onStartupFinished'
+2024-03-17 15:25:11.485 [info] ExtensionService#_doActivateExtension Codeium.codeium, startup: false, activationEvent: 'onStartupFinished'
+2024-03-17 15:25:11.758 [info] ExtensionService#_doActivateExtension esbenp.prettier-vscode, startup: false, activationEvent: 'onStartupFinished'
+2024-03-17 15:25:11.786 [info] ExtensionService#_doActivateExtension vadimcn.vscode-lldb, startup: false, activationEvent: 'onStartupFinished'
+2024-03-17 15:25:11.796 [info] ExtensionService#_doActivateExtension vscode-icons-team.vscode-icons, startup: false, activationEvent: 'onStartupFinished'
+2024-03-17 15:25:18.928 [info] Extension host terminating: renderer closed the MessagePort
+2024-03-17 15:25:18.955 [info] Extension host with pid 19680 exiting with code 0
+2024-03-17 15:25:19.807 [info] Extension host with pid 19809 started
+2024-03-17 15:25:19.807 [info] Skipping acquiring lock for /home/unk0wn/.config/VSCodium/User/workspaceStorage/db9e7dc7fdc6cddeb361156121aef005.
+2024-03-17 15:25:19.816 [info] ExtensionService#_doActivateExtension vscode.git-base, startup: true, activationEvent: '*'
+2024-03-17 15:25:19.818 [info] ExtensionService#_doActivateExtension vscode.npm, startup: true, activationEvent: 'workspaceContains:package.json'
+2024-03-17 15:25:19.906 [info] ExtensionService#_doActivateExtension vscode.github, startup: true, activationEvent: '*'
+2024-03-17 15:25:19.915 [info] Eager extensions activated
+2024-03-17 15:25:19.916 [info] ExtensionService#_doActivateExtension vscode.debug-auto-launch, startup: false, activationEvent: 'onStartupFinished'
+2024-03-17 15:25:19.918 [info] ExtensionService#_doActivateExtension vscode.merge-conflict, startup: false, activationEvent: 'onStartupFinished'
+2024-03-17 15:25:19.921 [info] ExtensionService#_doActivateExtension esbenp.prettier-vscode, startup: false, activationEvent: 'onStartupFinished'
+2024-03-17 15:25:19.941 [info] ExtensionService#_doActivateExtension vscode-icons-team.vscode-icons, startup: false, activationEvent: 'onStartupFinished'
+2024-03-17 15:25:26.570 [info] ExtensionService#_doActivateExtension vscode.git, startup: false, activationEvent: 'api', root cause: vscode.github
+2024-03-17 15:25:26.594 [info] ExtensionService#_doActivateExtension Codeium.codeium, startup: false, activationEvent: 'onStartupFinished'
+2024-03-17 15:25:26.862 [info] ExtensionService#_doActivateExtension vadimcn.vscode-lldb, startup: false, activationEvent: 'onStartupFinished'
+2024-03-17 15:25:27.385 [info] ExtensionService#_doActivateExtension vscode.github-authentication, startup: false, activationEvent: 'onAuthenticationRequest:github'
+2024-03-17 15:25:30.139 [info] ExtensionService#_doActivateExtension vscode.emmet, startup: false, activationEvent: 'onLanguage'
+2024-03-17 15:25:30.143 [info] ExtensionService#_doActivateExtension mborik.z80-macroasm, startup: false, activationEvent: 'onLanguage'
+2024-03-17 15:25:54.725 [info] ExtensionService#_doActivateExtension vscode.extension-editing, startup: false, activationEvent: 'onLanguage:json'
+2024-03-17 15:25:54.781 [info] ExtensionService#_doActivateExtension vscode.json-language-features, startup: false, activationEvent: 'onLanguage:json'
+2024-03-17 15:25:58.805 [info] ExtensionService#_doActivateExtension vscode.typescript-language-features, startup: false, activationEvent: 'onLanguage:jsonc'
+2024-03-17 15:28:36.047 [info] ExtensionService#_doActivateExtension vscode.markdown-language-features, startup: false, activationEvent: 'onLanguage:markdown'
+2024-03-17 15:28:36.729 [info] ExtensionService#_doActivateExtension vscode.markdown-math, startup: false, activationEvent: 'api', root cause: vscode.markdown-language-features
+2024-03-17 15:42:22.742 [warning] [Decorations] CAPPING events from decorations provider vscode.git 328
+2024-03-17 15:42:29.636 [warning] [Decorations] CAPPING events from decorations provider vscode.git 328
+2024-03-17 15:42:48.666 [warning] [Decorations] CAPPING events from decorations provider vscode.git 330

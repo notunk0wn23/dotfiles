@@ -1,0 +1,2139 @@
+2024-03-16 10:18:49.195 [INFO]: No proxy settings found
+2024-03-16 10:18:50.607 [INFO]: Creating manager directory: /tmp/2f84061d-bd71-4593-b075-564f2c6c92af/codeium/manager
+2024-03-16 10:18:58.307 [INFO]: Using cached LS with valid crc32: /home/unk0wn/.vscode-oss/extensions/codeium.codeium-1.8.11-universal/dist/ae9d4149edcf0d092aac843e1d0e2d395e771664/language_server_linux_x64
+2024-03-16 10:18:58.353 [INFO]: Language server started
+2024-03-16 10:18:58.475 [INFO]: [Language Server (stderr)]:
+I0316 10:18:58.475285  1599 main.go:544] Starting language server manager with pid 1599
+I0316 10:18:58.475348  1599 main.go:107] Manager acquired its lock file /tmp/2f84061d-bd71-4593-b075-564f2c6c92af/codeium/manager/locks/manager.lock
+2024-03-16 10:18:58.476 [INFO]: [Language Server (stderr)]:
+I0316 10:18:58.475652  1599 main.go:245] Waiting for random port file in /tmp/2f84061d-bd71-4593-b075-564f2c6c92af/codeium/manager/child_random_port_1710602338475409816_3940683164751987781 to be created
+2024-03-16 10:18:58.597 [INFO]: [Language Server (stderr)]:
+I0316 10:18:58.596722  1610 main.go:538] Starting language server process with pid 1610
+I0316 10:18:58.596774  1610 server.go:151] Language server will attempt to listen on host 127.0.0.1
+I0316 10:18:58.596868  1610 server.go:158] Language server listening on random port at 46191
+I0316 10:18:58.596902  1610 proxy.go:113] proxyplease.proxy> No proxy provided. Attempting to infer from system.
+I0316 10:18:58.596913  1610 proxy.go:113] proxyplease.proxy> No proxy could be determined. Assuming a direct connection.
+2024-03-16 10:18:58.597 [INFO]: [Language Server (stderr)]:
+I0316 10:18:58.596925  1610 client.go:589] [DEBUG] GET https://server.codeium.com/exa.api_server_pb.ApiServerService/GetCompletions
+2024-03-16 10:18:58.867 [INFO]: [Language Server (stderr)]:
+I0316 10:18:58.867267  1610 unleash.go:86] Initializing Unleash
+2024-03-16 10:18:59.003 [INFO]: [Language Server (stderr)]:
+I0316 10:18:59.002046  1610 unleash.go:106] Successfully initialized Unleash
+2024-03-16 10:18:59.009 [INFO]: [Language Server (stderr)]:
+I0316 10:18:59.008862  1610 server.go:336] Successfully created API server client
+2024-03-16 10:18:59.010 [INFO]: [Language Server (stderr)]:
+I0316 10:18:59.010563  1610 server.go:350] Successfully created API streaming client
+2024-03-16 10:18:59.034 [INFO]: [Language Server (stderr)]:
+I0316 10:18:59.033637  1610 server.go:359] Successfully initialized tokenizer
+2024-03-16 10:18:59.034 [INFO]: [Language Server (stderr)]:
+I0316 10:18:59.033897  1610 search_provider.go:169] Using database at /home/unk0wn/.codeium/database/9c0694567290725d9dcba14ade58e297/2/MODEL_EMBED_6591
+2024-03-16 10:18:59.113 [INFO]: [Language Server (stderr)]:
+I0316 10:18:59.112022  1610 search_provider.go:181] Successfully created embedding search database
+2024-03-16 10:18:59.114 [INFO]: [Language Server (stderr)]:
+I0316 10:18:59.112957  1610 search_provider.go:229] Successfully created embedding search provider
+I0316 10:18:59.112993  1610 server.go:444] Successfully created exact search provider
+2024-03-16 10:18:59.116 [INFO]: [Language Server (stderr)]:
+E0316 10:18:59.115002  1610 unleash.go:57] Unleash error: Version string empty
+2024-03-16 10:18:59.117 [INFO]: [Language Server (stderr)]:
+E0316 10:18:59.115232  1610 unleash.go:57] Unleash error: Version string empty
+E0316 10:18:59.115270  1610 unleash.go:57] Unleash error: Version string empty
+E0316 10:18:59.115348  1610 unleash.go:57] Unleash error: Version string empty
+2024-03-16 10:18:59.120 [INFO]: [Language Server (stderr)]:
+I0316 10:18:59.119955  1610 server.go:472] Successfully created completion provider
+2024-03-16 10:18:59.189 [INFO]: [Language Server (stderr)]:
+I0316 10:18:59.189355  1610 server.go:548] Child process attempting to acquire lock file /tmp/2f84061d-bd71-4593-b075-564f2c6c92af/codeium/manager/locks/child_lock_1710602338475432664_546499362032385025
+I0316 10:18:59.189418  1610 server.go:558] Child process acquired lock file /tmp/2f84061d-bd71-4593-b075-564f2c6c92af/codeium/manager/locks/child_lock_1710602338475432664_546499362032385025
+2024-03-16 10:18:59.193 [INFO]: [Language Server (stderr)]:
+I0316 10:18:59.191973  1610 server.go:178] LSP listening on random port at 41327
+2024-03-16 10:18:59.193 [INFO]: [Language Server (stderr)]:
+I0316 10:18:59.192806  1610 web_server.go:235] Chat Web Server listening at ws://127.0.0.1:44317
+2024-03-16 10:18:59.281 [INFO]: [Language Server (stdout)]:
+41327
+2024-03-16 10:18:59.282 [INFO]: [Language Server (stderr)]:
+I0316 10:18:59.281198  1599 main.go:281] Language server manager found random server port 46191
+I0316 10:18:59.281240  1599 main.go:282] Language server manager found random lsp port 41327
+I0316 10:18:59.281267  1599 main.go:289] Language server manager attempting to connect to language server at 127.0.0.1:46191
+2024-03-16 10:18:59.319 [INFO]: [Language Server (stderr)]:
+I0316 10:18:59.318273  1599 main.go:160] Fixing language server port at 46191
+I0316 10:18:59.318318  1599 main.go:340] Language server manager successfully connected to new language server at 127.0.0.1:46191
+2024-03-16 10:18:59.362 [INFO]: Found language server running on port 46191
+2024-03-16 10:18:59.393 [INFO]: Downloaded binary: /home/unk0wn/.codeium/bin/af6b6c543b224d348a8876f0c06245d9ea7929c5/ripgrep_linux_x64
+2024-03-16 10:18:59.528 [INFO]: [Language Server (stderr)]:
+I0316 10:18:59.526966  1610 rpcs_miscellaneous.go:301] University version is up to date.
+2024-03-16 10:18:59.592 [INFO]: [Language Server (stderr)]:
+I0316 10:18:59.590675  1610 rpcs_seat_management.go:94] GetUserStatus Request: metadata:{ide_name:"vscode" ide_version:"VSCodium 1.87.1" extension_name:"vscode" extension_version:"1.8.11" api_key:"d64f76b7-d802-4704-b4b3-583168f2f64e" locale:"en" disable_telemetry:true session_id:"c20dbf75-589d-485f-b135-cd7ceeb1d13f" request_id:2 extension_path:"/home/unk0wn/.vscode-oss/extensions/codeium.codeium-1.8.11-universal"}
+2024-03-16 10:18:59.648 [INFO]: [Language Server (stderr)]:
+I0316 10:18:59.647664  1610 rpcs_seat_management.go:103] GetUserStatus Response: user_status:{pro:true name:"Asher" email:"asherlr2@gmail.com"}
+2024-03-16 10:24:32.534 [INFO]: Codeium is not enabled for the current document.
+2024-03-16 10:24:33.361 [INFO]: Codeium is not enabled for the current document.
+2024-03-16 10:24:33.511 [INFO]: Codeium is not enabled for the current document.
+2024-03-16 10:24:34.297 [INFO]: Codeium is not enabled for the current document.
+2024-03-16 10:24:34.648 [INFO]: Codeium is not enabled for the current document.
+2024-03-16 10:24:34.801 [INFO]: Codeium is not enabled for the current document.
+2024-03-16 10:24:35.166 [INFO]: Codeium is not enabled for the current document.
+2024-03-16 10:24:35.780 [INFO]: Codeium is not enabled for the current document.
+2024-03-16 10:24:36.124 [INFO]: Codeium is not enabled for the current document.
+2024-03-16 10:24:36.389 [INFO]: Codeium is not enabled for the current document.
+2024-03-16 10:24:38.704 [INFO]: Codeium is not enabled for the current document.
+2024-03-16 10:24:40.293 [INFO]: Codeium is not enabled for the current document.
+2024-03-16 10:24:40.510 [INFO]: Codeium is not enabled for the current document.
+2024-03-16 10:24:40.690 [INFO]: Codeium is not enabled for the current document.
+2024-03-16 10:24:42.877 [INFO]: Codeium is not enabled for the current document.
+2024-03-16 10:24:42.989 [INFO]: Codeium is not enabled for the current document.
+2024-03-16 10:24:44.578 [INFO]: Codeium is not enabled for the current document.
+2024-03-16 10:24:44.932 [INFO]: Codeium is not enabled for the current document.
+2024-03-16 10:24:45.487 [INFO]: Codeium is not enabled for the current document.
+2024-03-16 10:24:45.619 [INFO]: Codeium is not enabled for the current document.
+2024-03-16 10:24:46.043 [INFO]: Codeium is not enabled for the current document.
+2024-03-16 10:24:46.451 [INFO]: Codeium is not enabled for the current document.
+2024-03-16 10:24:46.662 [INFO]: Codeium is not enabled for the current document.
+2024-03-16 10:24:46.744 [INFO]: Codeium is not enabled for the current document.
+2024-03-16 10:24:47.095 [INFO]: Codeium is not enabled for the current document.
+2024-03-16 10:24:47.233 [INFO]: Codeium is not enabled for the current document.
+2024-03-16 10:24:47.397 [INFO]: Codeium is not enabled for the current document.
+2024-03-16 10:24:47.557 [INFO]: Codeium is not enabled for the current document.
+2024-03-16 10:24:47.948 [INFO]: Codeium is not enabled for the current document.
+2024-03-16 10:24:48.483 [INFO]: Codeium is not enabled for the current document.
+2024-03-16 10:24:48.695 [INFO]: Codeium is not enabled for the current document.
+2024-03-16 10:24:48.807 [INFO]: Codeium is not enabled for the current document.
+2024-03-16 10:24:48.901 [INFO]: Codeium is not enabled for the current document.
+2024-03-16 10:24:49.184 [INFO]: Codeium is not enabled for the current document.
+2024-03-16 10:24:50.054 [INFO]: Codeium is not enabled for the current document.
+2024-03-16 10:24:50.956 [INFO]: Codeium is not enabled for the current document.
+2024-03-16 10:24:51.117 [INFO]: Codeium is not enabled for the current document.
+2024-03-16 10:24:51.621 [INFO]: Codeium is not enabled for the current document.
+2024-03-16 10:24:51.878 [INFO]: Codeium is not enabled for the current document.
+2024-03-16 10:24:52.032 [INFO]: Codeium is not enabled for the current document.
+2024-03-16 10:24:52.926 [INFO]: Codeium is not enabled for the current document.
+2024-03-16 10:24:53.074 [INFO]: Codeium is not enabled for the current document.
+2024-03-16 10:24:53.455 [INFO]: Codeium is not enabled for the current document.
+2024-03-16 10:24:53.534 [INFO]: Codeium is not enabled for the current document.
+2024-03-16 10:24:53.752 [INFO]: Codeium is not enabled for the current document.
+2024-03-16 10:24:53.851 [INFO]: Codeium is not enabled for the current document.
+2024-03-16 10:24:53.962 [INFO]: Codeium is not enabled for the current document.
+2024-03-16 10:24:54.682 [INFO]: Codeium is not enabled for the current document.
+2024-03-16 10:24:54.873 [INFO]: Codeium is not enabled for the current document.
+2024-03-16 10:24:54.982 [INFO]: Codeium is not enabled for the current document.
+2024-03-16 10:24:55.088 [INFO]: Codeium is not enabled for the current document.
+2024-03-16 10:24:57.489 [INFO]: Codeium is not enabled for the current document.
+2024-03-16 10:24:57.662 [INFO]: Codeium is not enabled for the current document.
+2024-03-16 10:24:57.744 [INFO]: Codeium is not enabled for the current document.
+2024-03-16 10:24:58.090 [INFO]: Codeium is not enabled for the current document.
+2024-03-16 10:25:00.388 [INFO]: Codeium is not enabled for the current document.
+2024-03-16 10:25:00.543 [INFO]: Codeium is not enabled for the current document.
+2024-03-16 10:25:00.775 [INFO]: Codeium is not enabled for the current document.
+2024-03-16 10:26:36.371 [INFO]: Completion request succeeded (199.23ms)
+2024-03-16 10:26:36.372 [INFO]: No completions were generated
+2024-03-16 10:26:36.372 [INFO]: provideInlineCompletionItems request succeeded (200.82ms)
+2024-03-16 10:46:58.123 [INFO]: Completion request was cancelled by token (66.09ms)
+2024-03-16 10:46:58.460 [INFO]: Completion request succeeded (262.87ms)
+2024-03-16 10:46:58.463 [INFO]: Generated 3 completions
+2024-03-16 10:46:58.466 [INFO]: provideInlineCompletionItems request succeeded (268.9ms)
+2024-03-16 10:46:58.820 [INFO]: Completion request succeeded (13.01ms)
+2024-03-16 10:46:58.821 [INFO]: Generated 3 completions
+2024-03-16 10:46:58.821 [INFO]: provideInlineCompletionItems request succeeded (14.98ms)
+2024-03-16 10:46:59.271 [INFO]: Completion request was cancelled by token (129.02ms)
+2024-03-16 10:46:59.410 [INFO]: Completion request was cancelled by token (63.92ms)
+2024-03-16 10:46:59.880 [INFO]: Completion request succeeded (342.14ms)
+2024-03-16 10:46:59.882 [INFO]: Generated 5 completions
+2024-03-16 10:46:59.884 [INFO]: provideInlineCompletionItems request succeeded (347.42ms)
+2024-03-16 10:47:00.213 [INFO]: Completion request succeeded (212.71ms)
+2024-03-16 10:47:00.215 [INFO]: Generated 1 completions
+2024-03-16 10:47:00.215 [INFO]: provideInlineCompletionItems request succeeded (216.19ms)
+2024-03-16 10:47:00.545 [INFO]: Completion request succeeded (12.57ms)
+2024-03-16 10:47:00.545 [INFO]: Generated 5 completions
+2024-03-16 10:47:00.546 [INFO]: provideInlineCompletionItems request succeeded (14.24ms)
+2024-03-16 10:47:00.922 [INFO]: Completion request was cancelled by token (171.37ms)
+2024-03-16 10:47:01.020 [INFO]: Skipping completions because autocomplete is open
+2024-03-16 10:47:02.117 [INFO]: Completion request was cancelled by token (131.61ms)
+2024-03-16 10:47:02.430 [INFO]: Completion request succeeded (236.56ms)
+2024-03-16 10:47:02.432 [INFO]: Generated 1 completions
+2024-03-16 10:47:02.433 [INFO]: provideInlineCompletionItems request succeeded (240.2ms)
+2024-03-16 10:47:09.593 [INFO]: Completion request succeeded (192.88ms)
+2024-03-16 10:47:09.594 [INFO]: No completions were generated
+2024-03-16 10:47:09.595 [INFO]: provideInlineCompletionItems request succeeded (195.42ms)
+2024-03-16 10:47:10.189 [INFO]: Completion request succeeded (241.15ms)
+2024-03-16 10:47:10.191 [INFO]: Generated 2 completions
+2024-03-16 10:47:10.192 [INFO]: provideInlineCompletionItems request succeeded (244.89ms)
+2024-03-16 10:47:11.586 [INFO]: Skipping completions because autocomplete is open
+2024-03-16 10:47:11.733 [INFO]: Skipping completions because autocomplete is open
+2024-03-16 10:47:11.835 [INFO]: Skipping completions because autocomplete is open
+2024-03-16 10:47:12.121 [INFO]: Skipping completions because autocomplete is open
+2024-03-16 10:47:14.972 [INFO]: Completion request succeeded (3.99ms)
+2024-03-16 10:47:14.972 [INFO]: Generated 1 completions
+2024-03-16 10:47:14.972 [INFO]: provideInlineCompletionItems request succeeded (4.82ms)
+2024-03-16 10:47:16.683 [INFO]: Completion request succeeded (199.7ms)
+2024-03-16 10:47:16.684 [INFO]: No completions were generated
+2024-03-16 10:47:16.685 [INFO]: provideInlineCompletionItems request succeeded (202.6ms)
+2024-03-16 10:47:17.710 [INFO]: Completion request succeeded (340.78ms)
+2024-03-16 10:47:17.711 [INFO]: Generated 6 completions
+2024-03-16 10:47:17.712 [INFO]: provideInlineCompletionItems request succeeded (343.47ms)
+2024-03-16 10:47:19.900 [INFO]: Completion request succeeded (7.15ms)
+2024-03-16 10:47:19.901 [INFO]: Generated 6 completions
+2024-03-16 10:47:19.903 [INFO]: provideInlineCompletionItems request succeeded (11.01ms)
+2024-03-16 10:47:21.548 [INFO]: Completion request succeeded (272.69ms)
+2024-03-16 10:47:21.550 [INFO]: Generated 1 completions
+2024-03-16 10:47:21.551 [INFO]: provideInlineCompletionItems request succeeded (276.21ms)
+2024-03-16 10:47:29.951 [INFO]: Completion request was cancelled by token (59.24ms)
+2024-03-16 10:47:30.089 [INFO]: Skipping completions because autocomplete is open
+2024-03-16 10:47:30.742 [INFO]: Completion request succeeded (199.65ms)
+2024-03-16 10:47:30.744 [INFO]: No completions were generated
+2024-03-16 10:47:30.744 [INFO]: provideInlineCompletionItems request succeeded (202.85ms)
+2024-03-16 10:47:32.946 [INFO]: Completion request succeeded (258.75ms)
+2024-03-16 10:47:32.948 [INFO]: Generated 1 completions
+2024-03-16 10:47:32.948 [INFO]: provideInlineCompletionItems request succeeded (262.68ms)
+2024-03-16 10:47:33.060 [INFO]: Completion request succeeded (16.06ms)
+2024-03-16 10:47:33.061 [INFO]: Generated 1 completions
+2024-03-16 10:47:33.062 [INFO]: provideInlineCompletionItems request succeeded (18.82ms)
+2024-03-16 10:47:33.260 [INFO]: Skipping completions because autocomplete is open
+2024-03-16 10:47:33.899 [INFO]: Skipping completions because autocomplete is open
+2024-03-16 10:47:34.371 [INFO]: Completion request succeeded (12.79ms)
+2024-03-16 10:47:34.371 [INFO]: Generated 1 completions
+2024-03-16 10:47:34.371 [INFO]: provideInlineCompletionItems request succeeded (14.02ms)
+2024-03-16 10:47:35.181 [INFO]: Completion request succeeded (193.08ms)
+2024-03-16 10:47:35.183 [INFO]: No completions were generated
+2024-03-16 10:47:35.184 [INFO]: provideInlineCompletionItems request succeeded (195.99ms)
+2024-03-16 10:47:41.180 [INFO]: Completion request succeeded (189.47ms)
+2024-03-16 10:47:41.182 [INFO]: No completions were generated
+2024-03-16 10:47:41.182 [INFO]: provideInlineCompletionItems request succeeded (192.45ms)
+2024-03-16 10:47:58.377 [INFO]: Skipping completions because autocomplete is open
+2024-03-16 10:48:32.165 [INFO]: Skipping completions because autocomplete is open
+2024-03-16 10:48:32.403 [INFO]: Skipping completions because autocomplete is open
+2024-03-16 10:48:32.830 [INFO]: Completion request succeeded (224.69ms)
+2024-03-16 10:48:32.832 [INFO]: Generated 1 completions
+2024-03-16 10:48:32.833 [INFO]: provideInlineCompletionItems request succeeded (228.82ms)
+2024-03-16 10:48:33.106 [INFO]: Completion request was cancelled by token (64.51ms)
+2024-03-16 10:48:33.267 [INFO]: Completion request was cancelled by token (88.4ms)
+2024-03-16 10:48:33.418 [INFO]: Completion request was cancelled by token (80.72ms)
+2024-03-16 10:48:33.713 [INFO]: Completion request succeeded (223.65ms)
+2024-03-16 10:48:33.715 [INFO]: Generated 1 completions
+2024-03-16 10:48:33.716 [INFO]: provideInlineCompletionItems request succeeded (227.19ms)
+2024-03-16 10:48:34.052 [INFO]: Completion request was cancelled by token (113.34ms)
+2024-03-16 10:48:34.327 [INFO]: Completion request succeeded (203.29ms)
+2024-03-16 10:48:34.329 [INFO]: No completions were generated
+2024-03-16 10:48:34.329 [INFO]: provideInlineCompletionItems request succeeded (206.12ms)
+2024-03-16 10:48:34.946 [INFO]: Skipping completions because autocomplete is open
+2024-03-16 10:48:35.043 [INFO]: Skipping completions because autocomplete is open
+2024-03-16 10:48:35.313 [INFO]: Skipping completions because autocomplete is open
+2024-03-16 10:48:35.691 [INFO]: Completion request succeeded (218.64ms)
+2024-03-16 10:48:35.692 [INFO]: Generated 1 completions
+2024-03-16 10:48:35.693 [INFO]: provideInlineCompletionItems request succeeded (222.12ms)
+2024-03-16 10:48:36.083 [INFO]: Skipping completions because autocomplete is open
+2024-03-16 10:48:36.322 [INFO]: Completion request succeeded (16.4ms)
+2024-03-16 10:48:36.323 [INFO]: Generated 1 completions
+2024-03-16 10:48:36.324 [INFO]: provideInlineCompletionItems request succeeded (19.36ms)
+2024-03-16 10:48:37.013 [INFO]: Completion request succeeded (209.97ms)
+2024-03-16 10:48:37.015 [INFO]: No completions were generated
+2024-03-16 10:48:37.015 [INFO]: provideInlineCompletionItems request succeeded (213.37ms)
+2024-03-16 10:48:39.385 [INFO]: Completion request succeeded (253.01ms)
+2024-03-16 10:48:39.387 [INFO]: Generated 2 completions
+2024-03-16 10:48:39.387 [INFO]: provideInlineCompletionItems request succeeded (256.46ms)
+2024-03-16 10:48:39.665 [INFO]: Skipping completions because autocomplete is open
+2024-03-16 10:48:39.865 [INFO]: Completion request was cancelled by token (7.63ms)
+2024-03-16 10:48:40.231 [INFO]: Completion request succeeded (243.87ms)
+2024-03-16 10:48:40.231 [INFO]: Generated 1 completions
+2024-03-16 10:48:40.231 [INFO]: provideInlineCompletionItems request succeeded (245.38ms)
+2024-03-16 10:48:40.484 [INFO]: Completion request was cancelled by token (80.76ms)
+2024-03-16 10:48:40.635 [INFO]: Completion request was cancelled by token (79.98ms)
+2024-03-16 10:48:40.816 [INFO]: Completion request was cancelled by token (109.61ms)
+2024-03-16 10:48:40.942 [INFO]: Skipping completions because autocomplete is open
+2024-03-16 10:48:41.948 [INFO]: Completion request succeeded (228.02ms)
+2024-03-16 10:48:41.948 [INFO]: Generated 1 completions
+2024-03-16 10:48:41.948 [INFO]: provideInlineCompletionItems request succeeded (228.97ms)
+2024-03-16 10:48:42.730 [INFO]: Completion request succeeded (209.53ms)
+2024-03-16 10:48:42.731 [INFO]: No completions were generated
+2024-03-16 10:48:42.732 [INFO]: provideInlineCompletionItems request succeeded (211.96ms)
+2024-03-16 10:49:15.261 [INFO]: Completion request was cancelled by token (67.07ms)
+2024-03-16 10:49:15.430 [INFO]: Completion request was cancelled by token (98.33ms)
+2024-03-16 10:49:16.683 [INFO]: Skipping completions because autocomplete is open
+2024-03-16 10:49:16.851 [INFO]: Skipping completions because autocomplete is open
+2024-03-16 10:49:16.944 [INFO]: Skipping completions because autocomplete is open
+2024-03-16 10:49:17.259 [INFO]: Completion request succeeded (232.9ms)
+2024-03-16 10:49:17.260 [INFO]: Generated 2 completions
+2024-03-16 10:49:17.261 [INFO]: provideInlineCompletionItems request succeeded (236.32ms)
+2024-03-16 10:49:17.609 [INFO]: Completion request was cancelled by token (173.55ms)
+2024-03-16 10:49:17.888 [INFO]: Completion request succeeded (211.74ms)
+2024-03-16 10:49:17.888 [INFO]: Generated 2 completions
+2024-03-16 10:49:17.888 [INFO]: provideInlineCompletionItems request succeeded (213.15ms)
+2024-03-16 10:49:18.046 [INFO]: Completion request succeeded (19.87ms)
+2024-03-16 10:49:18.047 [INFO]: Generated 2 completions
+2024-03-16 10:49:18.048 [INFO]: provideInlineCompletionItems request succeeded (22.79ms)
+2024-03-16 10:49:19.412 [INFO]: Completion request succeeded (198.73ms)
+2024-03-16 10:49:19.413 [INFO]: No completions were generated
+2024-03-16 10:49:19.414 [INFO]: provideInlineCompletionItems request succeeded (201.08ms)
+2024-03-16 10:49:20.100 [INFO]: Completion request succeeded (206.35ms)
+2024-03-16 10:49:20.102 [INFO]: Generated 1 completions
+2024-03-16 10:49:20.102 [INFO]: provideInlineCompletionItems request succeeded (209.89ms)
+2024-03-16 10:49:21.002 [INFO]: Completion request was cancelled by token (70.94ms)
+2024-03-16 10:49:21.303 [INFO]: Completion request succeeded (227.39ms)
+2024-03-16 10:49:21.304 [INFO]: Generated 2 completions
+2024-03-16 10:49:21.305 [INFO]: provideInlineCompletionItems request succeeded (230.04ms)
+2024-03-16 10:49:21.937 [INFO]: Completion request succeeded (193.07ms)
+2024-03-16 10:49:21.939 [INFO]: No completions were generated
+2024-03-16 10:49:21.939 [INFO]: provideInlineCompletionItems request succeeded (195.86ms)
+2024-03-16 10:49:22.200 [INFO]: Completion request was cancelled by token (176.81ms)
+2024-03-16 10:49:22.286 [INFO]: Skipping completions because autocomplete is open
+2024-03-16 10:49:23.298 [INFO]: Completion request succeeded (211.58ms)
+2024-03-16 10:49:23.299 [INFO]: No completions were generated
+2024-03-16 10:49:23.300 [INFO]: provideInlineCompletionItems request succeeded (214.51ms)
+2024-03-16 10:49:24.029 [INFO]: Completion request succeeded (196.26ms)
+2024-03-16 10:49:24.030 [INFO]: Generated 1 completions
+2024-03-16 10:49:24.031 [INFO]: provideInlineCompletionItems request succeeded (199.1ms)
+2024-03-16 10:49:24.302 [INFO]: Completion request succeeded (192.12ms)
+2024-03-16 10:49:24.304 [INFO]: No completions were generated
+2024-03-16 10:49:24.305 [INFO]: provideInlineCompletionItems request succeeded (195.14ms)
+2024-03-16 10:49:24.849 [INFO]: Completion request succeeded (339.73ms)
+2024-03-16 10:49:24.851 [INFO]: Generated 2 completions
+2024-03-16 10:49:24.852 [INFO]: provideInlineCompletionItems request succeeded (343.62ms)
+2024-03-16 10:49:25.250 [INFO]: Completion request succeeded (9.65ms)
+2024-03-16 10:49:25.251 [INFO]: Generated 2 completions
+2024-03-16 10:49:25.251 [INFO]: provideInlineCompletionItems request succeeded (11.66ms)
+2024-03-16 10:49:29.971 [INFO]: Completion request succeeded (212.97ms)
+2024-03-16 10:49:29.972 [INFO]: Generated 1 completions
+2024-03-16 10:49:29.972 [INFO]: provideInlineCompletionItems request succeeded (214.65ms)
+2024-03-16 10:52:21.420 [INFO]: Skipping completions because autocomplete is open
+2024-03-16 10:52:38.437 [INFO]: Completion request succeeded (206.96ms)
+2024-03-16 10:52:38.437 [INFO]: No completions were generated
+2024-03-16 10:52:38.437 [INFO]: provideInlineCompletionItems request succeeded (208.01ms)
+2024-03-16 10:52:38.601 [INFO]: Completion request was cancelled by token (49.56ms)
+2024-03-16 10:52:38.878 [INFO]: Completion request succeeded (202.02ms)
+2024-03-16 10:52:38.880 [INFO]: No completions were generated
+2024-03-16 10:52:38.880 [INFO]: provideInlineCompletionItems request succeeded (204.89ms)
+2024-03-16 10:52:43.205 [INFO]: Completion request succeeded (258.98ms)
+2024-03-16 10:52:43.206 [INFO]: Generated 2 completions
+2024-03-16 10:52:43.206 [INFO]: provideInlineCompletionItems request succeeded (261.08ms)
+2024-03-16 10:52:43.867 [INFO]: Skipping completions because autocomplete is open
+2024-03-16 10:52:44.955 [INFO]: Skipping completions because autocomplete is open
+2024-03-16 10:52:45.098 [INFO]: Skipping completions because autocomplete is open
+2024-03-16 10:52:45.409 [INFO]: Completion request succeeded (215.21ms)
+2024-03-16 10:52:45.411 [INFO]: Generated 1 completions
+2024-03-16 10:52:45.412 [INFO]: provideInlineCompletionItems request succeeded (218.53ms)
+2024-03-16 10:52:46.074 [INFO]: Completion request was cancelled by token (154.66ms)
+2024-03-16 10:52:46.394 [INFO]: Completion request succeeded (242.51ms)
+2024-03-16 10:52:46.396 [INFO]: Generated 1 completions
+2024-03-16 10:52:46.397 [INFO]: provideInlineCompletionItems request succeeded (245.89ms)
+2024-03-16 10:52:47.135 [INFO]: Completion request succeeded (204.65ms)
+2024-03-16 10:52:47.136 [INFO]: No completions were generated
+2024-03-16 10:52:47.137 [INFO]: provideInlineCompletionItems request succeeded (207.2ms)
+2024-03-16 10:52:53.433 [INFO]: Completion request succeeded (210.34ms)
+2024-03-16 10:52:53.434 [INFO]: No completions were generated
+2024-03-16 10:52:53.435 [INFO]: provideInlineCompletionItems request succeeded (213.48ms)
+2024-03-16 10:52:53.779 [INFO]: Completion request succeeded (200.89ms)
+2024-03-16 10:52:53.780 [INFO]: No completions were generated
+2024-03-16 10:52:53.781 [INFO]: provideInlineCompletionItems request succeeded (204.26ms)
+2024-03-16 10:52:55.728 [INFO]: Completion request was cancelled by token (232.34ms)
+2024-03-16 10:52:55.992 [INFO]: Completion request succeeded (194.4ms)
+2024-03-16 10:52:55.994 [INFO]: No completions were generated
+2024-03-16 10:52:55.994 [INFO]: provideInlineCompletionItems request succeeded (197.26ms)
+2024-03-16 10:53:45.775 [INFO]: Completion request succeeded (210.34ms)
+2024-03-16 10:53:45.777 [INFO]: No completions were generated
+2024-03-16 10:53:45.777 [INFO]: provideInlineCompletionItems request succeeded (213.33ms)
+2024-03-16 10:54:32.406 [INFO]: Completion request was cancelled by token (86.93ms)
+2024-03-16 10:54:32.580 [INFO]: Completion request was cancelled by token (102.08ms)
+2024-03-16 10:54:32.772 [INFO]: Completion request was cancelled by token (119.54ms)
+2024-03-16 10:54:33.075 [INFO]: Completion request succeeded (231.29ms)
+2024-03-16 10:54:33.076 [INFO]: Generated 1 completions
+2024-03-16 10:54:33.076 [INFO]: provideInlineCompletionItems request succeeded (233.4ms)
+2024-03-16 10:54:33.319 [INFO]: Completion request was cancelled by token (123.68ms)
+2024-03-16 10:54:33.612 [INFO]: Completion request succeeded (220.72ms)
+2024-03-16 10:54:33.613 [INFO]: No completions were generated
+2024-03-16 10:54:33.613 [INFO]: provideInlineCompletionItems request succeeded (223.03ms)
+2024-03-16 10:54:38.916 [INFO]: Completion request succeeded (319.21ms)
+2024-03-16 10:54:38.917 [INFO]: Generated 7 completions
+2024-03-16 10:54:38.917 [INFO]: provideInlineCompletionItems request succeeded (320.48ms)
+2024-03-16 10:54:39.705 [INFO]: Completion request succeeded (395.3ms)
+2024-03-16 10:54:39.707 [INFO]: Generated 7 completions
+2024-03-16 10:54:39.708 [INFO]: provideInlineCompletionItems request succeeded (398.4ms)
+2024-03-16 10:54:40.233 [INFO]: Completion request succeeded (206.34ms)
+2024-03-16 10:54:40.234 [INFO]: No completions were generated
+2024-03-16 10:54:40.234 [INFO]: provideInlineCompletionItems request succeeded (207.83ms)
+2024-03-16 10:54:42.743 [INFO]: Completion request succeeded (217.45ms)
+2024-03-16 10:54:42.744 [INFO]: No completions were generated
+2024-03-16 10:54:42.744 [INFO]: provideInlineCompletionItems request succeeded (220.1ms)
+2024-03-16 10:54:43.311 [INFO]: Completion request succeeded (207.07ms)
+2024-03-16 10:54:43.312 [INFO]: No completions were generated
+2024-03-16 10:54:43.313 [INFO]: provideInlineCompletionItems request succeeded (209.53ms)
+2024-03-16 10:55:05.512 [INFO]: Completion request succeeded (298.75ms)
+2024-03-16 10:55:05.512 [INFO]: Generated 3 completions
+2024-03-16 10:55:05.512 [INFO]: provideInlineCompletionItems request succeeded (300.11ms)
+2024-03-16 10:56:25.505 [INFO]: [Language Server (stderr)]:
+E0316 10:56:25.504930  1610 embedding.go:30] GetEmbeddings error: unavailable: dial tcp 35.223.238.178:443: connect: connection refused
+2024-03-16 10:56:36.604 [INFO]: [Language Server (stderr)]:
+E0316 10:56:36.603691  1610 embedding.go:30] GetEmbeddings error: unavailable: dial tcp 35.223.238.178:443: connect: connection refused
+2024-03-16 10:56:55.243 [INFO]: Skipping completions because autocomplete is open
+2024-03-16 10:56:55.732 [INFO]: Completion request succeeded (248.5ms)
+2024-03-16 10:56:55.735 [INFO]: Generated 1 completions
+2024-03-16 10:56:55.735 [INFO]: provideInlineCompletionItems request succeeded (253.09ms)
+2024-03-16 10:56:57.982 [INFO]: Skipping completions because autocomplete is open
+2024-03-16 10:56:58.209 [INFO]: Skipping completions because autocomplete is open
+2024-03-16 10:56:59.162 [INFO]: Skipping completions because autocomplete is open
+2024-03-16 10:56:59.481 [INFO]: Skipping completions because autocomplete is open
+2024-03-16 10:56:59.763 [INFO]: Skipping completions because autocomplete is open
+2024-03-16 10:57:00.028 [INFO]: Completion request succeeded (14.13ms)
+2024-03-16 10:57:00.028 [INFO]: Generated 1 completions
+2024-03-16 10:57:00.029 [INFO]: provideInlineCompletionItems request succeeded (15.54ms)
+2024-03-16 10:57:01.486 [INFO]: Completion request succeeded (219.1ms)
+2024-03-16 10:57:01.489 [INFO]: No completions were generated
+2024-03-16 10:57:01.489 [INFO]: provideInlineCompletionItems request succeeded (222.77ms)
+2024-03-16 10:57:06.315 [INFO]: Completion request succeeded (239.17ms)
+2024-03-16 10:57:06.317 [INFO]: Generated 1 completions
+2024-03-16 10:57:06.318 [INFO]: provideInlineCompletionItems request succeeded (242.85ms)
+2024-03-16 10:57:07.158 [INFO]: Completion request was cancelled by token (160.39ms)
+2024-03-16 10:57:07.297 [INFO]: Completion request was cancelled by token (67.72ms)
+2024-03-16 10:57:07.451 [INFO]: Completion request was cancelled by token (81.28ms)
+2024-03-16 10:57:07.786 [INFO]: Completion request succeeded (263.01ms)
+2024-03-16 10:57:07.787 [INFO]: Generated 2 completions
+2024-03-16 10:57:07.787 [INFO]: provideInlineCompletionItems request succeeded (265.57ms)
+2024-03-16 10:57:08.178 [INFO]: Skipping completions because autocomplete is open
+2024-03-16 10:57:08.661 [INFO]: Completion request succeeded (232.57ms)
+2024-03-16 10:57:08.662 [INFO]: Generated 2 completions
+2024-03-16 10:57:08.663 [INFO]: provideInlineCompletionItems request succeeded (235.23ms)
+2024-03-16 10:57:08.993 [INFO]: Completion request was cancelled by token (190.37ms)
+2024-03-16 10:57:09.288 [INFO]: Completion request succeeded (224.27ms)
+2024-03-16 10:57:09.289 [INFO]: Generated 1 completions
+2024-03-16 10:57:09.289 [INFO]: provideInlineCompletionItems request succeeded (225.67ms)
+2024-03-16 10:57:10.312 [INFO]: Completion request succeeded (231.26ms)
+2024-03-16 10:57:10.315 [INFO]: No completions were generated
+2024-03-16 10:57:10.315 [INFO]: provideInlineCompletionItems request succeeded (235.27ms)
+2024-03-16 10:58:06.925 [INFO]: Completion request succeeded (200.07ms)
+2024-03-16 10:58:06.927 [INFO]: No completions were generated
+2024-03-16 10:58:06.928 [INFO]: provideInlineCompletionItems request succeeded (203.74ms)
+2024-03-16 10:58:07.314 [INFO]: Completion request was cancelled by token (136.52ms)
+2024-03-16 10:58:08.330 [INFO]: Skipping completions because autocomplete is open
+2024-03-16 10:58:08.461 [INFO]: Skipping completions because autocomplete is open
+2024-03-16 10:58:08.568 [INFO]: Skipping completions because autocomplete is open
+2024-03-16 10:58:09.161 [INFO]: Completion request succeeded (258.29ms)
+2024-03-16 10:58:09.163 [INFO]: Generated 2 completions
+2024-03-16 10:58:09.164 [INFO]: provideInlineCompletionItems request succeeded (261.64ms)
+2024-03-16 10:58:10.182 [INFO]: Skipping completions because autocomplete is open
+2024-03-16 10:58:10.504 [INFO]: Skipping completions because autocomplete is open
+2024-03-16 10:58:11.958 [INFO]: Skipping completions because autocomplete is open
+2024-03-16 10:58:12.194 [INFO]: Skipping completions because autocomplete is open
+2024-03-16 10:58:12.346 [INFO]: Skipping completions because autocomplete is open
+2024-03-16 10:58:12.514 [INFO]: Skipping completions because autocomplete is open
+2024-03-16 10:58:13.006 [INFO]: Completion request succeeded (208.29ms)
+2024-03-16 10:58:13.007 [INFO]: No completions were generated
+2024-03-16 10:58:13.008 [INFO]: provideInlineCompletionItems request succeeded (211.25ms)
+2024-03-16 10:58:18.006 [INFO]: Skipping completions because autocomplete is open
+2024-03-16 10:58:18.157 [INFO]: Skipping completions because autocomplete is open
+2024-03-16 10:58:18.447 [INFO]: Completion request was cancelled by token (109.81ms)
+2024-03-16 10:58:18.531 [INFO]: Skipping completions because autocomplete is open
+2024-03-16 10:58:19.369 [INFO]: Completion request was cancelled by token (235.09ms)
+2024-03-16 10:58:19.457 [INFO]: Skipping completions because autocomplete is open
+2024-03-16 10:58:19.648 [INFO]: Skipping completions because autocomplete is open
+2024-03-16 10:58:19.770 [INFO]: Skipping completions because autocomplete is open
+2024-03-16 10:58:19.864 [INFO]: Skipping completions because autocomplete is open
+2024-03-16 10:58:20.578 [INFO]: Completion request succeeded (235.35ms)
+2024-03-16 10:58:20.578 [INFO]: Generated 1 completions
+2024-03-16 10:58:20.579 [INFO]: provideInlineCompletionItems request succeeded (236.49ms)
+2024-03-16 10:58:20.693 [INFO]: Skipping completions because autocomplete is open
+2024-03-16 10:58:31.729 [INFO]: Completion request succeeded (327.41ms)
+2024-03-16 10:58:31.731 [INFO]: Generated 1 completions
+2024-03-16 10:58:31.732 [INFO]: provideInlineCompletionItems request succeeded (331.39ms)
+2024-03-16 10:58:32.824 [INFO]: Completion request succeeded (213.92ms)
+2024-03-16 10:58:32.826 [INFO]: No completions were generated
+2024-03-16 10:58:32.826 [INFO]: provideInlineCompletionItems request succeeded (216.81ms)
+2024-03-16 10:58:34.905 [INFO]: Completion request was cancelled by token (67.92ms)
+2024-03-16 10:58:35.059 [INFO]: Completion request was cancelled by token (78.13ms)
+2024-03-16 10:58:35.224 [INFO]: Completion request was cancelled by token (93.86ms)
+2024-03-16 10:58:35.370 [INFO]: Completion request was cancelled by token (74.29ms)
+2024-03-16 10:58:35.503 [INFO]: Completion request was cancelled by token (61.64ms)
+2024-03-16 10:58:35.656 [INFO]: Completion request was cancelled by token (82.08ms)
+2024-03-16 10:58:35.980 [INFO]: Completion request succeeded (251.94ms)
+2024-03-16 10:58:35.982 [INFO]: Generated 1 completions
+2024-03-16 10:58:35.983 [INFO]: provideInlineCompletionItems request succeeded (255.37ms)
+2024-03-16 10:58:36.492 [INFO]: Skipping completions because autocomplete is open
+2024-03-16 10:58:36.706 [INFO]: Completion request was cancelled by token (64.42ms)
+2024-03-16 10:58:36.997 [INFO]: Completion request succeeded (219.6ms)
+2024-03-16 10:58:36.999 [INFO]: Generated 2 completions
+2024-03-16 10:58:36.999 [INFO]: provideInlineCompletionItems request succeeded (222.86ms)
+2024-03-16 10:58:38.166 [INFO]: Completion request was cancelled by token (32.75ms)
+2024-03-16 10:58:38.455 [INFO]: Completion request succeeded (215.6ms)
+2024-03-16 10:58:38.456 [INFO]: No completions were generated
+2024-03-16 10:58:38.457 [INFO]: provideInlineCompletionItems request succeeded (218.6ms)
+2024-03-16 10:58:39.559 [INFO]: Completion request succeeded (199.99ms)
+2024-03-16 10:58:39.560 [INFO]: No completions were generated
+2024-03-16 10:58:39.561 [INFO]: provideInlineCompletionItems request succeeded (202.95ms)
+2024-03-16 10:58:50.426 [INFO]: Completion request succeeded (424.03ms)
+2024-03-16 10:58:50.427 [INFO]: Generated 4 completions
+2024-03-16 10:58:50.427 [INFO]: provideInlineCompletionItems request succeeded (425.37ms)
+2024-03-16 10:58:50.887 [INFO]: Skipping completions because autocomplete is open
+2024-03-16 10:58:51.058 [INFO]: Completion request succeeded (23.27ms)
+2024-03-16 10:58:51.059 [INFO]: Generated 4 completions
+2024-03-16 10:58:51.060 [INFO]: provideInlineCompletionItems request succeeded (26.74ms)
+2024-03-16 10:58:52.035 [INFO]: Skipping completions because autocomplete is open
+2024-03-16 10:58:52.539 [INFO]: Skipping completions because autocomplete is open
+2024-03-16 10:58:53.258 [INFO]: Skipping completions because autocomplete is open
+2024-03-16 10:58:53.726 [INFO]: Completion request succeeded (321.32ms)
+2024-03-16 10:58:53.727 [INFO]: Generated 3 completions
+2024-03-16 10:58:53.728 [INFO]: provideInlineCompletionItems request succeeded (324.81ms)
+2024-03-16 10:58:54.230 [INFO]: Completion request was cancelled by token (117.85ms)
+2024-03-16 10:58:54.618 [INFO]: Completion request succeeded (312.23ms)
+2024-03-16 10:58:54.619 [INFO]: Generated 3 completions
+2024-03-16 10:58:54.619 [INFO]: provideInlineCompletionItems request succeeded (313.71ms)
+2024-03-16 10:58:55.485 [INFO]: Skipping completions because autocomplete is open
+2024-03-16 10:58:55.624 [INFO]: Skipping completions because autocomplete is open
+2024-03-16 10:58:55.709 [INFO]: Skipping completions because autocomplete is open
+2024-03-16 10:58:55.884 [INFO]: Skipping completions because autocomplete is open
+2024-03-16 10:58:56.152 [INFO]: Skipping completions because autocomplete is open
+2024-03-16 10:58:56.235 [INFO]: Skipping completions because autocomplete is open
+2024-03-16 10:58:56.728 [INFO]: Completion request succeeded (279.55ms)
+2024-03-16 10:58:56.730 [INFO]: Generated 3 completions
+2024-03-16 10:58:56.730 [INFO]: provideInlineCompletionItems request succeeded (283.07ms)
+2024-03-16 10:59:00.095 [INFO]: Completion request succeeded (241.09ms)
+2024-03-16 10:59:00.096 [INFO]: No completions were generated
+2024-03-16 10:59:00.096 [INFO]: provideInlineCompletionItems request succeeded (243.59ms)
+2024-03-16 10:59:04.047 [INFO]: Skipping completions because autocomplete is open
+2024-03-16 10:59:04.133 [INFO]: Skipping completions because autocomplete is open
+2024-03-16 10:59:04.824 [INFO]: Skipping completions because autocomplete is open
+2024-03-16 10:59:05.346 [INFO]: Completion request succeeded (208.24ms)
+2024-03-16 10:59:05.347 [INFO]: No completions were generated
+2024-03-16 10:59:05.347 [INFO]: provideInlineCompletionItems request succeeded (210.47ms)
+2024-03-16 10:59:14.807 [INFO]: Skipping completions because autocomplete is open
+2024-03-16 10:59:15.030 [INFO]: Skipping completions because autocomplete is open
+2024-03-16 10:59:15.367 [INFO]: Skipping completions because autocomplete is open
+2024-03-16 10:59:15.930 [INFO]: Completion request was cancelled by token (332.21ms)
+2024-03-16 10:59:16.022 [INFO]: Skipping completions because autocomplete is open
+2024-03-16 10:59:16.153 [INFO]: Skipping completions because autocomplete is open
+2024-03-16 10:59:16.281 [INFO]: Skipping completions because autocomplete is open
+2024-03-16 10:59:19.278 [INFO]: Skipping completions because autocomplete is open
+2024-03-16 10:59:19.440 [INFO]: Skipping completions because autocomplete is open
+2024-03-16 10:59:19.600 [INFO]: Skipping completions because autocomplete is open
+2024-03-16 10:59:19.883 [INFO]: Skipping completions because autocomplete is open
+2024-03-16 10:59:20.351 [INFO]: Completion request succeeded (214.41ms)
+2024-03-16 10:59:20.352 [INFO]: No completions were generated
+2024-03-16 10:59:20.353 [INFO]: provideInlineCompletionItems request succeeded (217.36ms)
+2024-03-16 10:59:26.238 [INFO]: Completion request succeeded (201.39ms)
+2024-03-16 10:59:26.240 [INFO]: No completions were generated
+2024-03-16 10:59:26.240 [INFO]: provideInlineCompletionItems request succeeded (204.46ms)
+2024-03-16 10:59:35.503 [INFO]: Skipping completions because autocomplete is open
+2024-03-16 10:59:35.611 [INFO]: Skipping completions because autocomplete is open
+2024-03-16 10:59:36.982 [INFO]: Completion request succeeded (232.56ms)
+2024-03-16 10:59:36.982 [INFO]: Generated 1 completions
+2024-03-16 10:59:36.982 [INFO]: provideInlineCompletionItems request succeeded (234.44ms)
+2024-03-16 10:59:38.299 [INFO]: Completion request succeeded (203.44ms)
+2024-03-16 10:59:38.300 [INFO]: No completions were generated
+2024-03-16 10:59:38.300 [INFO]: provideInlineCompletionItems request succeeded (206.02ms)
+2024-03-16 10:59:42.962 [INFO]: Completion request succeeded (209.07ms)
+2024-03-16 10:59:42.964 [INFO]: No completions were generated
+2024-03-16 10:59:42.965 [INFO]: provideInlineCompletionItems request succeeded (212.21ms)
+2024-03-16 10:59:43.618 [INFO]: Completion request succeeded (203.5ms)
+2024-03-16 10:59:43.618 [INFO]: No completions were generated
+2024-03-16 10:59:43.618 [INFO]: provideInlineCompletionItems request succeeded (205.82ms)
+2024-03-16 11:00:45.925 [INFO]: Codeium is not enabled for the current document.
+2024-03-16 11:00:46.106 [INFO]: Codeium is not enabled for the current document.
+2024-03-16 11:00:46.226 [INFO]: Codeium is not enabled for the current document.
+2024-03-16 11:00:46.415 [INFO]: Codeium is not enabled for the current document.
+2024-03-16 11:00:46.546 [INFO]: Codeium is not enabled for the current document.
+2024-03-16 11:00:47.390 [INFO]: Codeium is not enabled for the current document.
+2024-03-16 11:00:49.092 [INFO]: Codeium is not enabled for the current document.
+2024-03-16 11:00:50.585 [INFO]: Codeium is not enabled for the current document.
+2024-03-16 11:00:51.652 [INFO]: Codeium is not enabled for the current document.
+2024-03-16 11:00:51.836 [INFO]: Codeium is not enabled for the current document.
+2024-03-16 11:02:57.540 [INFO]: Codeium is not enabled for the current document.
+2024-03-16 11:02:57.713 [INFO]: Codeium is not enabled for the current document.
+2024-03-16 11:02:57.868 [INFO]: Codeium is not enabled for the current document.
+2024-03-16 11:02:58.329 [INFO]: Codeium is not enabled for the current document.
+2024-03-16 11:02:58.408 [INFO]: Codeium is not enabled for the current document.
+2024-03-16 11:02:59.779 [INFO]: Codeium is not enabled for the current document.
+2024-03-16 11:03:00.147 [INFO]: Codeium is not enabled for the current document.
+2024-03-16 11:03:00.569 [INFO]: Codeium is not enabled for the current document.
+2024-03-16 11:03:00.855 [INFO]: Codeium is not enabled for the current document.
+2024-03-16 11:03:01.942 [INFO]: Codeium is not enabled for the current document.
+2024-03-16 11:03:02.158 [INFO]: Codeium is not enabled for the current document.
+2024-03-16 11:03:02.350 [INFO]: Codeium is not enabled for the current document.
+2024-03-16 11:03:02.493 [INFO]: Codeium is not enabled for the current document.
+2024-03-16 11:03:03.508 [INFO]: Codeium is not enabled for the current document.
+2024-03-16 11:03:03.642 [INFO]: Codeium is not enabled for the current document.
+2024-03-16 11:03:03.831 [INFO]: Codeium is not enabled for the current document.
+2024-03-16 11:03:13.864 [INFO]: Codeium is not enabled for the current document.
+2024-03-16 11:03:14.241 [INFO]: Codeium is not enabled for the current document.
+2024-03-16 11:03:16.062 [INFO]: Codeium is not enabled for the current document.
+2024-03-16 11:03:16.360 [INFO]: Codeium is not enabled for the current document.
+2024-03-16 11:03:17.600 [INFO]: Codeium is not enabled for the current document.
+2024-03-16 11:03:17.774 [INFO]: Codeium is not enabled for the current document.
+2024-03-16 11:03:17.928 [INFO]: Codeium is not enabled for the current document.
+2024-03-16 11:03:18.701 [INFO]: Codeium is not enabled for the current document.
+2024-03-16 11:03:18.974 [INFO]: Codeium is not enabled for the current document.
+2024-03-16 11:03:33.619 [INFO]: Codeium is not enabled for the current document.
+2024-03-16 11:03:41.253 [INFO]: Codeium is not enabled for the current document.
+2024-03-16 11:03:41.492 [INFO]: Codeium is not enabled for the current document.
+2024-03-16 11:03:41.635 [INFO]: Codeium is not enabled for the current document.
+2024-03-16 11:03:42.124 [INFO]: Codeium is not enabled for the current document.
+2024-03-16 11:03:42.689 [INFO]: Codeium is not enabled for the current document.
+2024-03-16 11:03:42.879 [INFO]: Codeium is not enabled for the current document.
+2024-03-16 11:03:43.241 [INFO]: Codeium is not enabled for the current document.
+2024-03-16 11:04:53.423 [INFO]: Codeium is not enabled for the current document.
+2024-03-16 11:04:53.836 [INFO]: Codeium is not enabled for the current document.
+2024-03-16 11:04:54.690 [INFO]: Codeium is not enabled for the current document.
+2024-03-16 11:04:58.905 [INFO]: Codeium is not enabled for the current document.
+2024-03-16 11:04:59.714 [INFO]: Codeium is not enabled for the current document.
+2024-03-16 11:05:01.324 [INFO]: Codeium is not enabled for the current document.
+2024-03-16 11:05:20.556 [INFO]: Codeium is not enabled for the current document.
+2024-03-16 11:05:20.699 [INFO]: Codeium is not enabled for the current document.
+2024-03-16 11:05:21.539 [INFO]: Codeium is not enabled for the current document.
+2024-03-16 11:05:21.713 [INFO]: Codeium is not enabled for the current document.
+2024-03-16 11:05:21.832 [INFO]: Codeium is not enabled for the current document.
+2024-03-16 11:05:21.915 [INFO]: Codeium is not enabled for the current document.
+2024-03-16 11:05:22.484 [INFO]: Codeium is not enabled for the current document.
+2024-03-16 11:05:22.728 [INFO]: Codeium is not enabled for the current document.
+2024-03-16 11:05:23.433 [INFO]: Codeium is not enabled for the current document.
+2024-03-16 11:05:23.717 [INFO]: Codeium is not enabled for the current document.
+2024-03-16 11:05:23.921 [INFO]: Codeium is not enabled for the current document.
+2024-03-16 11:05:24.491 [INFO]: Codeium is not enabled for the current document.
+2024-03-16 11:05:24.872 [INFO]: Codeium is not enabled for the current document.
+2024-03-16 11:05:25.100 [INFO]: Codeium is not enabled for the current document.
+2024-03-16 11:05:25.370 [INFO]: Codeium is not enabled for the current document.
+2024-03-16 11:05:25.671 [INFO]: Codeium is not enabled for the current document.
+2024-03-16 11:05:26.152 [INFO]: Codeium is not enabled for the current document.
+2024-03-16 11:05:26.332 [INFO]: Codeium is not enabled for the current document.
+2024-03-16 11:05:26.501 [INFO]: Codeium is not enabled for the current document.
+2024-03-16 11:05:27.137 [INFO]: Codeium is not enabled for the current document.
+2024-03-16 11:05:27.592 [INFO]: Codeium is not enabled for the current document.
+2024-03-16 11:05:27.744 [INFO]: Codeium is not enabled for the current document.
+2024-03-16 11:05:27.925 [INFO]: Codeium is not enabled for the current document.
+2024-03-16 11:06:20.878 [INFO]: Codeium is not enabled for the current document.
+2024-03-16 11:06:21.089 [INFO]: Codeium is not enabled for the current document.
+2024-03-16 11:06:23.363 [INFO]: Codeium is not enabled for the current document.
+2024-03-16 11:06:23.452 [INFO]: Codeium is not enabled for the current document.
+2024-03-16 11:06:23.810 [INFO]: Codeium is not enabled for the current document.
+2024-03-16 11:06:23.969 [INFO]: Codeium is not enabled for the current document.
+2024-03-16 11:06:24.674 [INFO]: Codeium is not enabled for the current document.
+2024-03-16 11:06:25.107 [INFO]: Codeium is not enabled for the current document.
+2024-03-16 11:06:25.251 [INFO]: Codeium is not enabled for the current document.
+2024-03-16 11:06:25.336 [INFO]: Codeium is not enabled for the current document.
+2024-03-16 11:06:25.532 [INFO]: Codeium is not enabled for the current document.
+2024-03-16 11:06:26.056 [INFO]: Codeium is not enabled for the current document.
+2024-03-16 11:06:26.483 [INFO]: Codeium is not enabled for the current document.
+2024-03-16 11:06:26.992 [INFO]: Codeium is not enabled for the current document.
+2024-03-16 11:06:27.468 [INFO]: Codeium is not enabled for the current document.
+2024-03-16 11:06:27.619 [INFO]: Codeium is not enabled for the current document.
+2024-03-16 11:06:28.151 [INFO]: Codeium is not enabled for the current document.
+2024-03-16 11:06:30.761 [INFO]: Codeium is not enabled for the current document.
+2024-03-16 11:06:31.037 [INFO]: Codeium is not enabled for the current document.
+2024-03-16 11:06:31.285 [INFO]: Codeium is not enabled for the current document.
+2024-03-16 11:06:31.454 [INFO]: Codeium is not enabled for the current document.
+2024-03-16 11:06:31.575 [INFO]: Codeium is not enabled for the current document.
+2024-03-16 11:06:31.696 [INFO]: Codeium is not enabled for the current document.
+2024-03-16 11:06:31.775 [INFO]: Codeium is not enabled for the current document.
+2024-03-16 11:06:32.037 [INFO]: Codeium is not enabled for the current document.
+2024-03-16 11:06:33.063 [INFO]: Codeium is not enabled for the current document.
+2024-03-16 11:06:33.515 [INFO]: Codeium is not enabled for the current document.
+2024-03-16 11:06:33.913 [INFO]: Codeium is not enabled for the current document.
+2024-03-16 11:07:46.197 [INFO]: Codeium is not enabled for the current document.
+2024-03-16 11:07:46.393 [INFO]: Codeium is not enabled for the current document.
+2024-03-16 11:07:46.560 [INFO]: Codeium is not enabled for the current document.
+2024-03-16 11:07:55.561 [INFO]: Completion request succeeded (323.32ms)
+2024-03-16 11:07:55.561 [INFO]: Generated 1 completions
+2024-03-16 11:07:55.562 [INFO]: provideInlineCompletionItems request succeeded (325.37ms)
+2024-03-16 11:07:56.793 [INFO]: Completion request succeeded (298.21ms)
+2024-03-16 11:07:56.795 [INFO]: No completions were generated
+2024-03-16 11:07:56.795 [INFO]: provideInlineCompletionItems request succeeded (300.39ms)
+2024-03-16 11:08:07.638 [INFO]: Completion request was cancelled by token (301.78ms)
+2024-03-16 11:08:07.989 [INFO]: Completion request succeeded (285.47ms)
+2024-03-16 11:08:07.990 [INFO]: No completions were generated
+2024-03-16 11:08:07.991 [INFO]: provideInlineCompletionItems request succeeded (288.1ms)
+2024-03-16 11:08:09.316 [INFO]: Completion request succeeded (240.11ms)
+2024-03-16 11:08:09.317 [INFO]: No completions were generated
+2024-03-16 11:08:09.318 [INFO]: provideInlineCompletionItems request succeeded (242.4ms)
+2024-03-16 11:08:10.029 [INFO]: Completion request was cancelled by token (260.48ms)
+2024-03-16 11:08:10.314 [INFO]: Completion request was cancelled by token (214.86ms)
+2024-03-16 11:08:10.615 [INFO]: Completion request succeeded (231.63ms)
+2024-03-16 11:08:10.616 [INFO]: No completions were generated
+2024-03-16 11:08:10.616 [INFO]: provideInlineCompletionItems request succeeded (232.6ms)
+2024-03-16 11:08:11.031 [INFO]: Completion request succeeded (327.96ms)
+2024-03-16 11:08:11.032 [INFO]: No completions were generated
+2024-03-16 11:08:11.033 [INFO]: provideInlineCompletionItems request succeeded (330.14ms)
+2024-03-16 11:08:12.037 [INFO]: Completion request was cancelled by token (197.94ms)
+2024-03-16 11:08:12.619 [INFO]: Completion request succeeded (269.04ms)
+2024-03-16 11:08:12.620 [INFO]: No completions were generated
+2024-03-16 11:08:12.620 [INFO]: provideInlineCompletionItems request succeeded (269.94ms)
+2024-03-16 11:08:12.992 [INFO]: Completion request succeeded (239.05ms)
+2024-03-16 11:08:12.992 [INFO]: No completions were generated
+2024-03-16 11:08:12.993 [INFO]: provideInlineCompletionItems request succeeded (239.84ms)
+2024-03-16 11:08:14.511 [INFO]: Completion request succeeded (260.54ms)
+2024-03-16 11:08:14.513 [INFO]: No completions were generated
+2024-03-16 11:08:14.514 [INFO]: provideInlineCompletionItems request succeeded (263.76ms)
+2024-03-16 11:08:15.398 [INFO]: Completion request succeeded (258.88ms)
+2024-03-16 11:08:15.400 [INFO]: No completions were generated
+2024-03-16 11:08:15.400 [INFO]: provideInlineCompletionItems request succeeded (261.22ms)
+2024-03-16 11:08:16.876 [INFO]: Completion request was cancelled by token (136.64ms)
+2024-03-16 11:08:17.200 [INFO]: Completion request succeeded (249.1ms)
+2024-03-16 11:08:17.200 [INFO]: No completions were generated
+2024-03-16 11:08:17.200 [INFO]: provideInlineCompletionItems request succeeded (250.47ms)
+2024-03-16 11:08:17.583 [INFO]: Completion request succeeded (280.56ms)
+2024-03-16 11:08:17.585 [INFO]: No completions were generated
+2024-03-16 11:08:17.585 [INFO]: provideInlineCompletionItems request succeeded (282.8ms)
+2024-03-16 11:08:18.607 [INFO]: Completion request succeeded (291.2ms)
+2024-03-16 11:08:18.609 [INFO]: No completions were generated
+2024-03-16 11:08:18.609 [INFO]: provideInlineCompletionItems request succeeded (293.56ms)
+2024-03-16 11:08:19.805 [INFO]: Completion request succeeded (250.29ms)
+2024-03-16 11:08:19.806 [INFO]: No completions were generated
+2024-03-16 11:08:19.807 [INFO]: provideInlineCompletionItems request succeeded (252.56ms)
+2024-03-16 11:08:20.644 [INFO]: Completion request was cancelled by token (261.66ms)
+2024-03-16 11:08:21.140 [INFO]: Completion request succeeded (243.42ms)
+2024-03-16 11:08:21.141 [INFO]: No completions were generated
+2024-03-16 11:08:21.142 [INFO]: provideInlineCompletionItems request succeeded (245.67ms)
+2024-03-16 11:08:22.968 [INFO]: Completion request was cancelled by token (126.57ms)
+2024-03-16 11:08:23.318 [INFO]: Completion request succeeded (274.89ms)
+2024-03-16 11:08:23.319 [INFO]: No completions were generated
+2024-03-16 11:08:23.319 [INFO]: provideInlineCompletionItems request succeeded (277.17ms)
+2024-03-16 11:08:24.547 [INFO]: Completion request succeeded (345.23ms)
+2024-03-16 11:08:24.548 [INFO]: No completions were generated
+2024-03-16 11:08:24.549 [INFO]: provideInlineCompletionItems request succeeded (347.57ms)
+2024-03-16 11:08:25.878 [INFO]: Completion request succeeded (330.41ms)
+2024-03-16 11:08:25.879 [INFO]: No completions were generated
+2024-03-16 11:08:25.880 [INFO]: provideInlineCompletionItems request succeeded (332.67ms)
+2024-03-16 11:08:26.772 [INFO]: Completion request was cancelled by token (126.13ms)
+2024-03-16 11:08:27.109 [INFO]: Completion request succeeded (266.83ms)
+2024-03-16 11:08:27.110 [INFO]: Generated 2 completions
+2024-03-16 11:08:27.112 [INFO]: provideInlineCompletionItems request succeeded (270.22ms)
+2024-03-16 11:08:27.607 [INFO]: Completion request was cancelled by token (66.69ms)
+2024-03-16 11:08:27.919 [INFO]: Completion request was cancelled by token (235.08ms)
+2024-03-16 11:08:28.102 [INFO]: Completion request was cancelled by token (112.95ms)
+2024-03-16 11:08:28.291 [INFO]: Completion request was cancelled by token (114.79ms)
+2024-03-16 11:08:28.452 [INFO]: Completion request was cancelled by token (86.53ms)
+2024-03-16 11:08:28.849 [INFO]: Completion request succeeded (322ms)
+2024-03-16 11:08:28.851 [INFO]: Generated 1 completions
+2024-03-16 11:08:28.851 [INFO]: provideInlineCompletionItems request succeeded (325.09ms)
+2024-03-16 11:08:30.095 [INFO]: Completion request succeeded (256.93ms)
+2024-03-16 11:08:30.096 [INFO]: No completions were generated
+2024-03-16 11:08:30.096 [INFO]: provideInlineCompletionItems request succeeded (259.23ms)
+2024-03-16 11:08:31.371 [INFO]: Completion request succeeded (267.72ms)
+2024-03-16 11:08:31.372 [INFO]: No completions were generated
+2024-03-16 11:08:31.372 [INFO]: provideInlineCompletionItems request succeeded (269.85ms)
+2024-03-16 11:08:32.518 [INFO]: Completion request succeeded (258.16ms)
+2024-03-16 11:08:32.519 [INFO]: No completions were generated
+2024-03-16 11:08:32.520 [INFO]: provideInlineCompletionItems request succeeded (260.49ms)
+2024-03-16 11:08:34.390 [INFO]: Completion request succeeded (290.97ms)
+2024-03-16 11:08:34.391 [INFO]: Generated 1 completions
+2024-03-16 11:08:34.392 [INFO]: provideInlineCompletionItems request succeeded (293.53ms)
+2024-03-16 11:08:34.459 [INFO]: Completion request succeeded (8.5ms)
+2024-03-16 11:08:34.459 [INFO]: Generated 1 completions
+2024-03-16 11:08:34.459 [INFO]: provideInlineCompletionItems request succeeded (9.26ms)
+2024-03-16 11:08:37.270 [INFO]: Completion request was cancelled by token (476.08ms)
+2024-03-16 11:08:37.675 [INFO]: Completion request was cancelled by token (331.42ms)
+2024-03-16 11:08:37.978 [INFO]: Completion request succeeded (234.94ms)
+2024-03-16 11:08:37.980 [INFO]: No completions were generated
+2024-03-16 11:08:37.980 [INFO]: provideInlineCompletionItems request succeeded (237.76ms)
+2024-03-16 11:09:10.660 [INFO]: Completion request succeeded (616.6ms)
+2024-03-16 11:09:10.661 [INFO]: Generated 2 completions
+2024-03-16 11:09:10.661 [INFO]: provideInlineCompletionItems request succeeded (618.17ms)
+2024-03-16 11:09:15.122 [INFO]: Skipping completions because autocomplete is open
+2024-03-16 11:09:16.166 [INFO]: Completion request succeeded (303.39ms)
+2024-03-16 11:09:16.167 [INFO]: Generated 2 completions
+2024-03-16 11:09:16.168 [INFO]: provideInlineCompletionItems request succeeded (306.96ms)
+2024-03-16 11:09:18.851 [INFO]: Skipping completions because autocomplete is open
+2024-03-16 11:09:19.317 [INFO]: Skipping completions because autocomplete is open
+2024-03-16 11:09:19.843 [INFO]: Skipping completions because autocomplete is open
+2024-03-16 11:09:20.206 [INFO]: Skipping completions because autocomplete is open
+2024-03-16 11:09:20.286 [INFO]: Skipping completions because autocomplete is open
+2024-03-16 11:09:21.310 [INFO]: Skipping completions because autocomplete is open
+2024-03-16 11:09:22.099 [INFO]: Completion request succeeded (303.21ms)
+2024-03-16 11:09:22.100 [INFO]: Generated 1 completions
+2024-03-16 11:09:22.101 [INFO]: provideInlineCompletionItems request succeeded (306.02ms)
+2024-03-16 11:09:23.553 [INFO]: Completion request was cancelled by token (671.73ms)
+2024-03-16 11:09:25.083 [INFO]: Completion request succeeded (311.25ms)
+2024-03-16 11:09:25.083 [INFO]: Generated 2 completions
+2024-03-16 11:09:25.083 [INFO]: provideInlineCompletionItems request succeeded (312.08ms)
+2024-03-16 11:09:27.015 [INFO]: Completion request succeeded (344.68ms)
+2024-03-16 11:09:27.016 [INFO]: Generated 2 completions
+2024-03-16 11:09:27.017 [INFO]: provideInlineCompletionItems request succeeded (347.96ms)
+2024-03-16 11:09:28.265 [INFO]: Completion request succeeded (681ms)
+2024-03-16 11:09:28.266 [INFO]: Generated 5 completions
+2024-03-16 11:09:28.266 [INFO]: provideInlineCompletionItems request succeeded (682.48ms)
+2024-03-16 11:09:30.187 [INFO]: Completion request succeeded (265.39ms)
+2024-03-16 11:09:30.187 [INFO]: No completions were generated
+2024-03-16 11:09:30.187 [INFO]: provideInlineCompletionItems request succeeded (266.12ms)
+2024-03-16 11:09:36.909 [INFO]: Completion request succeeded (368.68ms)
+2024-03-16 11:09:36.910 [INFO]: Generated 2 completions
+2024-03-16 11:09:36.910 [INFO]: provideInlineCompletionItems request succeeded (369.82ms)
+2024-03-16 11:10:05.775 [INFO]: Completion request succeeded (340.6ms)
+2024-03-16 11:10:05.776 [INFO]: Generated 1 completions
+2024-03-16 11:10:05.777 [INFO]: provideInlineCompletionItems request succeeded (343.75ms)
+2024-03-16 11:10:07.208 [INFO]: Completion request succeeded (657.9ms)
+2024-03-16 11:10:07.211 [INFO]: Generated 3 completions
+2024-03-16 11:10:07.212 [INFO]: provideInlineCompletionItems request succeeded (662.13ms)
+2024-03-16 11:10:13.453 [INFO]: [Language Server (stderr)]:
+I0316 11:10:13.453240  1610 rpcs_seat_management.go:94] GetUserStatus Request: metadata:{ide_name:"vscode" ide_version:"VSCodium 1.87.1" extension_name:"vscode" extension_version:"1.8.11" api_key:"d64f76b7-d802-4704-b4b3-583168f2f64e" locale:"en" disable_telemetry:true session_id:"c20dbf75-589d-485f-b135-cd7ceeb1d13f" request_id:6479 extension_path:"/home/unk0wn/.vscode-oss/extensions/codeium.codeium-1.8.11-universal"}
+2024-03-16 11:10:13.494 [INFO]: [Language Server (stderr)]:
+I0316 11:10:13.494185  1610 rpcs_seat_management.go:103] GetUserStatus Response: user_status:{pro:true name:"Asher" email:"asherlr2@gmail.com"}
+2024-03-16 11:10:13.506 [INFO]: [Language Server (stderr)]:
+I0316 11:10:13.505678  1610 rpcs_seat_management.go:94] GetUserStatus Request: metadata:{ide_name:"vscode" ide_version:"VSCodium 1.87.1" extension_name:"vscode" extension_version:"1.8.11" api_key:"d64f76b7-d802-4704-b4b3-583168f2f64e" locale:"en" disable_telemetry:true session_id:"c20dbf75-589d-485f-b135-cd7ceeb1d13f" request_id:6480 extension_path:"/home/unk0wn/.vscode-oss/extensions/codeium.codeium-1.8.11-universal"}
+2024-03-16 11:10:13.549 [INFO]: [Language Server (stderr)]:
+I0316 11:10:13.548914  1610 rpcs_seat_management.go:103] GetUserStatus Response: user_status:{pro:true name:"Asher" email:"asherlr2@gmail.com"}
+2024-03-16 11:10:16.654 [INFO]: [Language Server (stderr)]:
+I0316 11:10:16.653646  1610 api.go:346] Handle set draft query: {"ops":[]}
+2024-03-16 11:10:17.633 [INFO]: Completion request was cancelled by token (68.2ms)
+2024-03-16 11:10:18.011 [INFO]: Completion request succeeded (288.67ms)
+2024-03-16 11:10:18.012 [INFO]: No completions were generated
+2024-03-16 11:10:18.012 [INFO]: provideInlineCompletionItems request succeeded (290.54ms)
+2024-03-16 11:10:18.284 [INFO]: Completion request was cancelled by token (59.82ms)
+2024-03-16 11:10:18.538 [INFO]: Completion request was cancelled by token (178.13ms)
+2024-03-16 11:10:18.939 [INFO]: Completion request succeeded (330.82ms)
+2024-03-16 11:10:18.941 [INFO]: No completions were generated
+2024-03-16 11:10:18.942 [INFO]: provideInlineCompletionItems request succeeded (334.35ms)
+2024-03-16 11:10:20.120 [INFO]: Completion request was cancelled by token (95.89ms)
+2024-03-16 11:10:20.468 [INFO]: Completion request succeeded (273.94ms)
+2024-03-16 11:10:20.470 [INFO]: No completions were generated
+2024-03-16 11:10:20.470 [INFO]: provideInlineCompletionItems request succeeded (276.94ms)
+2024-03-16 11:10:24.178 [INFO]: Completion request succeeded (251.69ms)
+2024-03-16 11:10:24.180 [INFO]: No completions were generated
+2024-03-16 11:10:24.180 [INFO]: provideInlineCompletionItems request succeeded (254.24ms)
+2024-03-16 11:10:24.897 [INFO]: Completion request succeeded (252.57ms)
+2024-03-16 11:10:24.899 [INFO]: No completions were generated
+2024-03-16 11:10:24.899 [INFO]: provideInlineCompletionItems request succeeded (255.11ms)
+2024-03-16 11:10:25.650 [INFO]: Completion request was cancelled by token (52.55ms)
+2024-03-16 11:10:26.579 [INFO]: Completion request succeeded (854.67ms)
+2024-03-16 11:10:26.583 [INFO]: Generated 3 completions
+2024-03-16 11:10:26.584 [INFO]: provideInlineCompletionItems request succeeded (859.79ms)
+2024-03-16 11:10:27.678 [INFO]: Skipping completions because autocomplete is open
+2024-03-16 11:10:27.835 [INFO]: Skipping completions because autocomplete is open
+2024-03-16 11:10:27.922 [INFO]: Skipping completions because autocomplete is open
+2024-03-16 11:10:28.411 [INFO]: Completion request succeeded (374.76ms)
+2024-03-16 11:10:28.412 [INFO]: Generated 3 completions
+2024-03-16 11:10:28.412 [INFO]: provideInlineCompletionItems request succeeded (376.88ms)
+2024-03-16 11:10:29.128 [INFO]: Completion request was cancelled by token (76.96ms)
+2024-03-16 11:10:29.301 [INFO]: Completion request was cancelled by token (97.33ms)
+2024-03-16 11:10:29.444 [INFO]: Completion request was cancelled by token (70.51ms)
+2024-03-16 11:10:29.589 [INFO]: Completion request was cancelled by token (68.84ms)
+2024-03-16 11:10:29.667 [INFO]: Completion request succeeded (8.27ms)
+2024-03-16 11:10:29.667 [INFO]: Generated 3 completions
+2024-03-16 11:10:29.668 [INFO]: provideInlineCompletionItems request succeeded (9.32ms)
+2024-03-16 11:10:31.592 [INFO]: Completion request succeeded (247.39ms)
+2024-03-16 11:10:31.593 [INFO]: No completions were generated
+2024-03-16 11:10:31.593 [INFO]: provideInlineCompletionItems request succeeded (249.37ms)
+2024-03-16 11:10:58.397 [INFO]: Completion request was cancelled by token (62.63ms)
+2024-03-16 11:10:59.370 [INFO]: Completion request succeeded (897.88ms)
+2024-03-16 11:10:59.374 [INFO]: Generated 3 completions
+2024-03-16 11:10:59.375 [INFO]: provideInlineCompletionItems request succeeded (904.13ms)
+2024-03-16 11:11:00.814 [INFO]: Completion request succeeded (339.85ms)
+2024-03-16 11:11:00.815 [INFO]: No completions were generated
+2024-03-16 11:11:00.816 [INFO]: provideInlineCompletionItems request succeeded (341.79ms)
+2024-03-16 11:11:06.464 [INFO]: Completion request was cancelled by token (73.65ms)
+2024-03-16 11:11:06.954 [INFO]: Completion request succeeded (416.11ms)
+2024-03-16 11:11:06.955 [INFO]: Generated 1 completions
+2024-03-16 11:11:06.955 [INFO]: provideInlineCompletionItems request succeeded (417.09ms)
+2024-03-16 11:11:07.984 [INFO]: Completion request succeeded (329.23ms)
+2024-03-16 11:11:07.986 [INFO]: No completions were generated
+2024-03-16 11:11:07.986 [INFO]: provideInlineCompletionItems request succeeded (331.83ms)
+2024-03-16 11:11:11.259 [INFO]: Completion request succeeded (332.51ms)
+2024-03-16 11:11:11.260 [INFO]: Generated 1 completions
+2024-03-16 11:11:11.260 [INFO]: provideInlineCompletionItems request succeeded (333.79ms)
+2024-03-16 11:11:14.126 [INFO]: Completion request succeeded (347.3ms)
+2024-03-16 11:11:14.127 [INFO]: Generated 6 completions
+2024-03-16 11:11:14.128 [INFO]: provideInlineCompletionItems request succeeded (349.56ms)
+2024-03-16 11:11:15.036 [INFO]: Completion request succeeded (257.5ms)
+2024-03-16 11:11:15.038 [INFO]: No completions were generated
+2024-03-16 11:11:15.038 [INFO]: provideInlineCompletionItems request succeeded (260.05ms)
+2024-03-16 11:11:17.762 [INFO]: Completion request succeeded (304.03ms)
+2024-03-16 11:11:17.764 [INFO]: Generated 3 completions
+2024-03-16 11:11:17.765 [INFO]: provideInlineCompletionItems request succeeded (308.32ms)
+2024-03-16 11:11:20.270 [INFO]: Completion request succeeded (353.75ms)
+2024-03-16 11:11:20.270 [INFO]: No completions were generated
+2024-03-16 11:11:20.271 [INFO]: provideInlineCompletionItems request succeeded (355.12ms)
+2024-03-16 11:11:21.912 [INFO]: Completion request succeeded (348.43ms)
+2024-03-16 11:11:21.914 [INFO]: Generated 3 completions
+2024-03-16 11:11:21.916 [INFO]: provideInlineCompletionItems request succeeded (352.9ms)
+2024-03-16 11:11:26.522 [INFO]: Completion request succeeded (349.76ms)
+2024-03-16 11:11:26.523 [INFO]: No completions were generated
+2024-03-16 11:11:26.524 [INFO]: provideInlineCompletionItems request succeeded (352.4ms)
+2024-03-16 11:11:49.601 [INFO]: Completion request was cancelled by token (125.41ms)
+2024-03-16 11:11:50.768 [INFO]: Completion request was cancelled by token (38.65ms)
+2024-03-16 11:11:52.736 [INFO]: Completion request succeeded (318.57ms)
+2024-03-16 11:11:52.738 [INFO]: Generated 1 completions
+2024-03-16 11:11:52.739 [INFO]: provideInlineCompletionItems request succeeded (322.72ms)
+2024-03-16 11:11:52.931 [INFO]: Skipping completions because autocomplete is open
+2024-03-16 11:11:53.029 [INFO]: Skipping completions because autocomplete is open
+2024-03-16 11:11:53.214 [INFO]: Skipping completions because autocomplete is open
+2024-03-16 11:11:53.297 [INFO]: Skipping completions because autocomplete is open
+2024-03-16 11:11:53.688 [INFO]: Skipping completions because autocomplete is open
+2024-03-16 11:11:54.237 [INFO]: Skipping completions because autocomplete is open
+2024-03-16 11:11:54.682 [INFO]: Completion request succeeded (298.04ms)
+2024-03-16 11:11:54.684 [INFO]: No completions were generated
+2024-03-16 11:11:54.684 [INFO]: provideInlineCompletionItems request succeeded (301.6ms)
+2024-03-16 11:11:56.015 [INFO]: Completion request succeeded (317.06ms)
+2024-03-16 11:11:56.016 [INFO]: No completions were generated
+2024-03-16 11:11:56.017 [INFO]: provideInlineCompletionItems request succeeded (319.74ms)
+2024-03-16 11:11:56.250 [INFO]: Completion request was cancelled by token (80.28ms)
+2024-03-16 11:11:57.038 [INFO]: Completion request succeeded (711.74ms)
+2024-03-16 11:11:57.042 [INFO]: Generated 6 completions
+2024-03-16 11:11:57.044 [INFO]: provideInlineCompletionItems request succeeded (718.78ms)
+2024-03-16 11:11:57.189 [INFO]: Completion request succeeded (10.28ms)
+2024-03-16 11:11:57.189 [INFO]: Generated 6 completions
+2024-03-16 11:11:57.190 [INFO]: provideInlineCompletionItems request succeeded (11.71ms)
+2024-03-16 11:11:57.413 [INFO]: Completion request succeeded (9.47ms)
+2024-03-16 11:11:57.413 [INFO]: Generated 6 completions
+2024-03-16 11:11:57.414 [INFO]: provideInlineCompletionItems request succeeded (11.21ms)
+2024-03-16 11:11:59.968 [INFO]: Completion request succeeded (1258.99ms)
+2024-03-16 11:11:59.971 [INFO]: Generated 6 completions
+2024-03-16 11:11:59.974 [INFO]: provideInlineCompletionItems request succeeded (1265.58ms)
+2024-03-16 11:12:00.257 [INFO]: Completion request succeeded (167.15ms)
+2024-03-16 11:12:00.257 [INFO]: Generated 6 completions
+2024-03-16 11:12:00.258 [INFO]: provideInlineCompletionItems request succeeded (168.48ms)
+2024-03-16 11:12:01.110 [INFO]: Completion request was cancelled by token (346.9ms)
+2024-03-16 11:12:02.094 [INFO]: Completion request succeeded (910.65ms)
+2024-03-16 11:12:02.097 [INFO]: Generated 6 completions
+2024-03-16 11:12:02.099 [INFO]: provideInlineCompletionItems request succeeded (916.66ms)
+2024-03-16 11:12:03.111 [INFO]: Completion request succeeded (251.63ms)
+2024-03-16 11:12:03.112 [INFO]: No completions were generated
+2024-03-16 11:12:03.112 [INFO]: provideInlineCompletionItems request succeeded (252.63ms)
+2024-03-16 11:12:06.628 [INFO]: Completion request succeeded (726.37ms)
+2024-03-16 11:12:06.629 [INFO]: Generated 2 completions
+2024-03-16 11:12:06.629 [INFO]: provideInlineCompletionItems request succeeded (727.84ms)
+2024-03-16 11:12:10.214 [INFO]: Completion request succeeded (896.77ms)
+2024-03-16 11:12:10.217 [INFO]: Generated 6 completions
+2024-03-16 11:12:10.220 [INFO]: provideInlineCompletionItems request succeeded (903.24ms)
+2024-03-16 11:12:12.682 [INFO]: Completion request succeeded (274.8ms)
+2024-03-16 11:12:12.683 [INFO]: Generated 1 completions
+2024-03-16 11:12:12.683 [INFO]: provideInlineCompletionItems request succeeded (276.47ms)
+2024-03-16 11:12:14.183 [INFO]: Completion request succeeded (248.92ms)
+2024-03-16 11:12:14.183 [INFO]: No completions were generated
+2024-03-16 11:12:14.183 [INFO]: provideInlineCompletionItems request succeeded (249.86ms)
+2024-03-16 11:12:16.516 [INFO]: Completion request succeeded (1026.57ms)
+2024-03-16 11:12:16.520 [INFO]: Generated 7 completions
+2024-03-16 11:12:16.523 [INFO]: provideInlineCompletionItems request succeeded (1034.61ms)
+2024-03-16 11:12:17.763 [INFO]: Completion request succeeded (270.14ms)
+2024-03-16 11:12:17.765 [INFO]: Generated 1 completions
+2024-03-16 11:12:17.766 [INFO]: provideInlineCompletionItems request succeeded (273.79ms)
+2024-03-16 11:12:27.377 [INFO]: Completion request succeeded (170.77ms)
+2024-03-16 11:12:27.378 [INFO]: Generated 1 completions
+2024-03-16 11:12:27.378 [INFO]: provideInlineCompletionItems request succeeded (171.78ms)
+2024-03-16 11:12:27.828 [INFO]: Completion request succeeded (10.12ms)
+2024-03-16 11:12:27.828 [INFO]: Generated 1 completions
+2024-03-16 11:12:27.828 [INFO]: provideInlineCompletionItems request succeeded (11.09ms)
+2024-03-16 11:12:29.158 [INFO]: Completion request was cancelled by token (4.1ms)
+2024-03-16 11:12:29.375 [INFO]: Completion request was cancelled by token (141.87ms)
+2024-03-16 11:12:30.394 [INFO]: Completion request succeeded (950.77ms)
+2024-03-16 11:12:30.397 [INFO]: Generated 4 completions
+2024-03-16 11:12:30.400 [INFO]: provideInlineCompletionItems request succeeded (958.01ms)
+2024-03-16 11:12:30.562 [INFO]: Completion request succeeded (10.36ms)
+2024-03-16 11:12:30.562 [INFO]: Generated 4 completions
+2024-03-16 11:12:30.563 [INFO]: provideInlineCompletionItems request succeeded (11.8ms)
+2024-03-16 11:12:31.717 [INFO]: Completion request succeeded (10.25ms)
+2024-03-16 11:12:31.718 [INFO]: Generated 4 completions
+2024-03-16 11:12:31.718 [INFO]: provideInlineCompletionItems request succeeded (11.98ms)
+2024-03-16 11:12:32.424 [INFO]: Completion request succeeded (258.55ms)
+2024-03-16 11:12:32.425 [INFO]: No completions were generated
+2024-03-16 11:12:32.426 [INFO]: provideInlineCompletionItems request succeeded (260.97ms)
+2024-03-16 11:12:53.259 [INFO]: Completion request succeeded (676.45ms)
+2024-03-16 11:12:53.263 [INFO]: Generated 5 completions
+2024-03-16 11:12:53.266 [INFO]: provideInlineCompletionItems request succeeded (683.82ms)
+2024-03-16 11:12:55.754 [INFO]: Completion request succeeded (283.49ms)
+2024-03-16 11:12:55.755 [INFO]: No completions were generated
+2024-03-16 11:12:55.756 [INFO]: provideInlineCompletionItems request succeeded (285.99ms)
+2024-03-16 11:13:09.544 [INFO]: Completion request was cancelled by token (1190.48ms)
+2024-03-16 11:13:10.289 [INFO]: Completion request was cancelled by token (250.35ms)
+2024-03-16 11:13:11.082 [INFO]: Completion request was cancelled by token (723.4ms)
+2024-03-16 11:13:11.533 [INFO]: Completion request succeeded (378.25ms)
+2024-03-16 11:13:11.535 [INFO]: Generated 2 completions
+2024-03-16 11:13:11.537 [INFO]: provideInlineCompletionItems request succeeded (382.43ms)
+2024-03-16 11:13:12.802 [INFO]: Completion request succeeded (328.95ms)
+2024-03-16 11:13:12.804 [INFO]: No completions were generated
+2024-03-16 11:13:12.805 [INFO]: provideInlineCompletionItems request succeeded (331.78ms)
+2024-03-16 11:14:03.241 [INFO]: Completion request succeeded (450.13ms)
+2024-03-16 11:14:03.241 [INFO]: No completions were generated
+2024-03-16 11:14:03.241 [INFO]: provideInlineCompletionItems request succeeded (451.12ms)
+2024-03-16 11:14:16.021 [INFO]: Completion request succeeded (401.85ms)
+2024-03-16 11:14:16.024 [INFO]: Generated 4 completions
+2024-03-16 11:14:16.025 [INFO]: provideInlineCompletionItems request succeeded (406.11ms)
+2024-03-16 11:14:21.537 [INFO]: Completion request succeeded (336.24ms)
+2024-03-16 11:14:21.538 [INFO]: Generated 5 completions
+2024-03-16 11:14:21.539 [INFO]: provideInlineCompletionItems request succeeded (339.24ms)
+2024-03-16 11:14:23.250 [INFO]: Completion request succeeded (220.33ms)
+2024-03-16 11:14:23.252 [INFO]: No completions were generated
+2024-03-16 11:14:23.252 [INFO]: provideInlineCompletionItems request succeeded (222.5ms)
+2024-03-16 11:14:23.692 [INFO]: Completion request succeeded (231.95ms)
+2024-03-16 11:14:23.693 [INFO]: No completions were generated
+2024-03-16 11:14:23.693 [INFO]: provideInlineCompletionItems request succeeded (234.18ms)
+2024-03-16 11:14:23.986 [INFO]: Completion request was cancelled by token (102.86ms)
+2024-03-16 11:14:24.989 [INFO]: Completion request succeeded (934.77ms)
+2024-03-16 11:14:24.991 [INFO]: Generated 6 completions
+2024-03-16 11:14:24.992 [INFO]: provideInlineCompletionItems request succeeded (938.24ms)
+2024-03-16 11:14:29.702 [INFO]: Completion request succeeded (375ms)
+2024-03-16 11:14:29.703 [INFO]: Generated 6 completions
+2024-03-16 11:14:29.703 [INFO]: provideInlineCompletionItems request succeeded (376.04ms)
+2024-03-16 11:14:30.457 [INFO]: Completion request succeeded (6.91ms)
+2024-03-16 11:14:30.458 [INFO]: Generated 6 completions
+2024-03-16 11:14:30.458 [INFO]: provideInlineCompletionItems request succeeded (8.06ms)
+2024-03-16 11:14:31.110 [INFO]: Completion request succeeded (273.21ms)
+2024-03-16 11:14:31.112 [INFO]: No completions were generated
+2024-03-16 11:14:31.112 [INFO]: provideInlineCompletionItems request succeeded (275.53ms)
+2024-03-16 11:14:33.446 [INFO]: Completion request was cancelled by token (144.53ms)
+2024-03-16 11:14:33.958 [INFO]: Completion request succeeded (445.16ms)
+2024-03-16 11:14:33.958 [INFO]: Generated 4 completions
+2024-03-16 11:14:33.958 [INFO]: provideInlineCompletionItems request succeeded (446.01ms)
+2024-03-16 11:14:34.911 [INFO]: Completion request succeeded (222.62ms)
+2024-03-16 11:14:34.912 [INFO]: No completions were generated
+2024-03-16 11:14:34.912 [INFO]: provideInlineCompletionItems request succeeded (224.85ms)
+2024-03-16 11:15:45.233 [INFO]: Completion request was cancelled by token (207.33ms)
+2024-03-16 11:15:45.338 [INFO]: Skipping completions because autocomplete is open
+2024-03-16 11:15:45.847 [INFO]: Completion request succeeded (301.76ms)
+2024-03-16 11:15:45.849 [INFO]: Generated 3 completions
+2024-03-16 11:15:45.851 [INFO]: provideInlineCompletionItems request succeeded (306.47ms)
+2024-03-16 11:15:46.031 [INFO]: Completion request was cancelled by token (87.28ms)
+2024-03-16 11:15:46.191 [INFO]: Completion request was cancelled by token (83.83ms)
+2024-03-16 11:15:46.311 [INFO]: Completion request was cancelled by token (49.9ms)
+2024-03-16 11:15:46.400 [INFO]: Skipping completions because autocomplete is open
+2024-03-16 11:15:46.573 [INFO]: Skipping completions because autocomplete is open
+2024-03-16 11:15:47.031 [INFO]: Completion request succeeded (266.93ms)
+2024-03-16 11:15:47.032 [INFO]: Generated 1 completions
+2024-03-16 11:15:47.032 [INFO]: provideInlineCompletionItems request succeeded (267.88ms)
+2024-03-16 11:15:47.198 [INFO]: Completion request succeeded (10.03ms)
+2024-03-16 11:15:47.198 [INFO]: Generated 1 completions
+2024-03-16 11:15:47.198 [INFO]: provideInlineCompletionItems request succeeded (10.94ms)
+2024-03-16 11:15:47.457 [INFO]: Completion request succeeded (8.39ms)
+2024-03-16 11:15:47.457 [INFO]: Generated 1 completions
+2024-03-16 11:15:47.457 [INFO]: provideInlineCompletionItems request succeeded (9.16ms)
+2024-03-16 11:15:47.882 [INFO]: Completion request succeeded (320.7ms)
+2024-03-16 11:15:47.885 [INFO]: Generated 1 completions
+2024-03-16 11:15:47.886 [INFO]: provideInlineCompletionItems request succeeded (324.26ms)
+2024-03-16 11:15:48.247 [INFO]: Completion request succeeded (9.03ms)
+2024-03-16 11:15:48.248 [INFO]: Generated 1 completions
+2024-03-16 11:15:48.248 [INFO]: provideInlineCompletionItems request succeeded (9.95ms)
+2024-03-16 11:15:48.643 [INFO]: Completion request was cancelled by token (229.52ms)
+2024-03-16 11:15:48.942 [INFO]: Completion request succeeded (229.57ms)
+2024-03-16 11:15:48.945 [INFO]: Generated 1 completions
+2024-03-16 11:15:48.946 [INFO]: provideInlineCompletionItems request succeeded (233.46ms)
+2024-03-16 11:15:49.221 [INFO]: Completion request succeeded (8.29ms)
+2024-03-16 11:15:49.221 [INFO]: Generated 1 completions
+2024-03-16 11:15:49.222 [INFO]: provideInlineCompletionItems request succeeded (9.44ms)
+2024-03-16 11:15:49.611 [INFO]: Completion request was cancelled by token (132.22ms)
+2024-03-16 11:15:50.064 [INFO]: Completion request succeeded (378.61ms)
+2024-03-16 11:15:50.066 [INFO]: Generated 2 completions
+2024-03-16 11:15:50.067 [INFO]: provideInlineCompletionItems request succeeded (382.64ms)
+2024-03-16 11:15:51.679 [INFO]: Completion request succeeded (8.78ms)
+2024-03-16 11:15:51.680 [INFO]: Generated 2 completions
+2024-03-16 11:15:51.680 [INFO]: provideInlineCompletionItems request succeeded (9.79ms)
+2024-03-16 11:15:52.336 [INFO]: Completion request was cancelled by token (560.91ms)
+2024-03-16 11:15:52.490 [INFO]: Completion request was cancelled by token (88.63ms)
+2024-03-16 11:15:52.783 [INFO]: Completion request was cancelled by token (216.55ms)
+2024-03-16 11:15:52.858 [INFO]: Completion request succeeded (8.35ms)
+2024-03-16 11:15:52.858 [INFO]: Generated 2 completions
+2024-03-16 11:15:52.858 [INFO]: provideInlineCompletionItems request succeeded (9.29ms)
+2024-03-16 11:15:53.309 [INFO]: Completion request succeeded (8.87ms)
+2024-03-16 11:15:53.310 [INFO]: Generated 2 completions
+2024-03-16 11:15:53.310 [INFO]: provideInlineCompletionItems request succeeded (9.89ms)
+2024-03-16 11:15:53.613 [INFO]: Completion request succeeded (10.9ms)
+2024-03-16 11:15:53.614 [INFO]: Generated 2 completions
+2024-03-16 11:15:53.614 [INFO]: provideInlineCompletionItems request succeeded (11.92ms)
+2024-03-16 11:15:54.099 [INFO]: Completion request succeeded (240.01ms)
+2024-03-16 11:15:54.100 [INFO]: No completions were generated
+2024-03-16 11:15:54.100 [INFO]: provideInlineCompletionItems request succeeded (241.61ms)
+2024-03-16 11:15:54.439 [INFO]: Completion request succeeded (244.88ms)
+2024-03-16 11:15:54.441 [INFO]: No completions were generated
+2024-03-16 11:15:54.441 [INFO]: provideInlineCompletionItems request succeeded (247.82ms)
+2024-03-16 11:16:31.791 [INFO]: Completion request succeeded (224.96ms)
+2024-03-16 11:16:31.792 [INFO]: Generated 1 completions
+2024-03-16 11:16:31.793 [INFO]: provideInlineCompletionItems request succeeded (227.98ms)
+2024-03-16 11:16:32.913 [INFO]: Completion request succeeded (220ms)
+2024-03-16 11:16:32.914 [INFO]: No completions were generated
+2024-03-16 11:16:32.915 [INFO]: provideInlineCompletionItems request succeeded (222.23ms)
+2024-03-16 11:16:35.004 [INFO]: Completion request succeeded (562.67ms)
+2024-03-16 11:16:35.006 [INFO]: Generated 7 completions
+2024-03-16 11:16:35.008 [INFO]: provideInlineCompletionItems request succeeded (566.84ms)
+2024-03-16 11:16:37.541 [INFO]: Completion request succeeded (25.86ms)
+2024-03-16 11:16:37.542 [INFO]: Generated 7 completions
+2024-03-16 11:16:37.543 [INFO]: provideInlineCompletionItems request succeeded (28.8ms)
+2024-03-16 11:16:38.429 [INFO]: Completion request succeeded (265.59ms)
+2024-03-16 11:16:38.430 [INFO]: No completions were generated
+2024-03-16 11:16:38.431 [INFO]: provideInlineCompletionItems request succeeded (267.87ms)
+2024-03-16 11:16:39.804 [INFO]: Completion request succeeded (220.91ms)
+2024-03-16 11:16:39.806 [INFO]: No completions were generated
+2024-03-16 11:16:39.806 [INFO]: provideInlineCompletionItems request succeeded (223.25ms)
+2024-03-16 11:16:42.192 [INFO]: Completion request succeeded (373.75ms)
+2024-03-16 11:16:42.193 [INFO]: Generated 1 completions
+2024-03-16 11:16:42.193 [INFO]: provideInlineCompletionItems request succeeded (374.95ms)
+2024-03-16 11:16:43.036 [INFO]: Completion request succeeded (215.56ms)
+2024-03-16 11:16:43.037 [INFO]: No completions were generated
+2024-03-16 11:16:43.038 [INFO]: provideInlineCompletionItems request succeeded (217.98ms)
+2024-03-16 11:16:43.530 [INFO]: Completion request succeeded (360.06ms)
+2024-03-16 11:16:43.532 [INFO]: Generated 5 completions
+2024-03-16 11:16:43.533 [INFO]: provideInlineCompletionItems request succeeded (362.99ms)
+2024-03-16 11:16:44.436 [INFO]: Completion request succeeded (209.68ms)
+2024-03-16 11:16:44.437 [INFO]: No completions were generated
+2024-03-16 11:16:44.437 [INFO]: provideInlineCompletionItems request succeeded (211.99ms)
+2024-03-16 11:16:46.202 [INFO]: Completion request succeeded (259.27ms)
+2024-03-16 11:16:46.204 [INFO]: Generated 2 completions
+2024-03-16 11:16:46.205 [INFO]: provideInlineCompletionItems request succeeded (262.32ms)
+2024-03-16 11:16:47.402 [INFO]: Completion request succeeded (222.16ms)
+2024-03-16 11:16:47.403 [INFO]: No completions were generated
+2024-03-16 11:16:47.404 [INFO]: provideInlineCompletionItems request succeeded (224.65ms)
+2024-03-16 11:17:18.300 [INFO]: Completion request succeeded (271.18ms)
+2024-03-16 11:17:18.302 [INFO]: Generated 1 completions
+2024-03-16 11:17:18.303 [INFO]: provideInlineCompletionItems request succeeded (275.3ms)
+2024-03-16 11:17:19.163 [INFO]: Completion request was cancelled by token (167.41ms)
+2024-03-16 11:17:19.674 [INFO]: Completion request succeeded (437.81ms)
+2024-03-16 11:17:19.675 [INFO]: No completions were generated
+2024-03-16 11:17:19.675 [INFO]: provideInlineCompletionItems request succeeded (438.58ms)
+2024-03-16 11:17:22.077 [INFO]: Completion request succeeded (232.42ms)
+2024-03-16 11:17:22.079 [INFO]: No completions were generated
+2024-03-16 11:17:22.080 [INFO]: provideInlineCompletionItems request succeeded (235.23ms)
+2024-03-16 11:17:23.677 [INFO]: Skipping completions because autocomplete is open
+2024-03-16 11:17:24.117 [INFO]: Completion request succeeded (327.46ms)
+2024-03-16 11:17:24.120 [INFO]: Generated 1 completions
+2024-03-16 11:17:24.120 [INFO]: provideInlineCompletionItems request succeeded (331.08ms)
+2024-03-16 11:17:25.545 [INFO]: Completion request succeeded (251.14ms)
+2024-03-16 11:17:25.545 [INFO]: No completions were generated
+2024-03-16 11:17:25.546 [INFO]: provideInlineCompletionItems request succeeded (252.06ms)
+2024-03-16 11:17:26.058 [INFO]: Completion request succeeded (284.29ms)
+2024-03-16 11:17:26.059 [INFO]: No completions were generated
+2024-03-16 11:17:26.059 [INFO]: provideInlineCompletionItems request succeeded (285.59ms)
+2024-03-16 11:17:27.208 [INFO]: Skipping completions because autocomplete is open
+2024-03-16 11:17:27.711 [INFO]: Completion request was cancelled by token (284.51ms)
+2024-03-16 11:17:27.864 [INFO]: Skipping completions because autocomplete is open
+2024-03-16 11:17:28.242 [INFO]: Completion request succeeded (293.58ms)
+2024-03-16 11:17:28.244 [INFO]: Generated 2 completions
+2024-03-16 11:17:28.245 [INFO]: provideInlineCompletionItems request succeeded (297.19ms)
+2024-03-16 11:17:28.479 [INFO]: Completion request was cancelled by token (66.12ms)
+2024-03-16 11:17:28.571 [INFO]: Completion request was cancelled by token (17.03ms)
+2024-03-16 11:17:28.665 [INFO]: Skipping completions because autocomplete is open
+2024-03-16 11:17:29.032 [INFO]: Completion request succeeded (287.15ms)
+2024-03-16 11:17:29.035 [INFO]: Generated 1 completions
+2024-03-16 11:17:29.035 [INFO]: provideInlineCompletionItems request succeeded (290.78ms)
+2024-03-16 11:17:29.986 [INFO]: Completion request was cancelled by token (140.46ms)
+2024-03-16 11:17:30.533 [INFO]: Completion request succeeded (475.97ms)
+2024-03-16 11:17:30.535 [INFO]: Generated 1 completions
+2024-03-16 11:17:30.536 [INFO]: provideInlineCompletionItems request succeeded (479.37ms)
+2024-03-16 11:17:31.967 [INFO]: Completion request was cancelled by token (135.84ms)
+2024-03-16 11:17:32.369 [INFO]: Completion request succeeded (327.12ms)
+2024-03-16 11:17:32.371 [INFO]: Generated 1 completions
+2024-03-16 11:17:32.372 [INFO]: provideInlineCompletionItems request succeeded (330.51ms)
+2024-03-16 11:17:33.310 [INFO]: Completion request succeeded (382.66ms)
+2024-03-16 11:17:33.310 [INFO]: Generated 2 completions
+2024-03-16 11:17:33.310 [INFO]: provideInlineCompletionItems request succeeded (383.73ms)
+2024-03-16 11:17:33.978 [INFO]: Completion request succeeded (167.95ms)
+2024-03-16 11:17:33.978 [INFO]: Generated 2 completions
+2024-03-16 11:17:33.978 [INFO]: provideInlineCompletionItems request succeeded (168.72ms)
+2024-03-16 11:17:40.115 [INFO]: Completion request succeeded (343.79ms)
+2024-03-16 11:17:40.116 [INFO]: Generated 3 completions
+2024-03-16 11:17:40.116 [INFO]: provideInlineCompletionItems request succeeded (345.67ms)
+2024-03-16 11:17:41.627 [INFO]: Completion request succeeded (303.03ms)
+2024-03-16 11:17:41.629 [INFO]: No completions were generated
+2024-03-16 11:17:41.630 [INFO]: provideInlineCompletionItems request succeeded (306.16ms)
+2024-03-16 11:17:46.957 [INFO]: Skipping completions because autocomplete is open
+2024-03-16 11:17:47.199 [INFO]: Completion request was cancelled by token (106.97ms)
+2024-03-16 11:17:47.383 [INFO]: Skipping completions because autocomplete is open
+2024-03-16 11:17:47.524 [INFO]: Skipping completions because autocomplete is open
+2024-03-16 11:18:14.104 [INFO]: Completion request was cancelled by token (239.96ms)
+2024-03-16 11:18:14.774 [INFO]: Completion request was cancelled by token (140.63ms)
+2024-03-16 11:18:16.149 [INFO]: Completion request was cancelled by token (160.67ms)
+2024-03-16 11:18:22.482 [INFO]: Completion request succeeded (287.58ms)
+2024-03-16 11:18:22.483 [INFO]: No completions were generated
+2024-03-16 11:18:22.483 [INFO]: provideInlineCompletionItems request succeeded (289.31ms)
+2024-03-16 11:18:26.071 [INFO]: Completion request succeeded (279.96ms)
+2024-03-16 11:18:26.074 [INFO]: No completions were generated
+2024-03-16 11:18:26.074 [INFO]: provideInlineCompletionItems request succeeded (283.32ms)
+2024-03-16 11:18:27.044 [INFO]: Completion request succeeded (318.05ms)
+2024-03-16 11:18:27.046 [INFO]: No completions were generated
+2024-03-16 11:18:27.047 [INFO]: provideInlineCompletionItems request succeeded (321.54ms)
+2024-03-16 11:18:28.332 [INFO]: Completion request was cancelled by token (58.77ms)
+2024-03-16 11:18:31.259 [INFO]: Completion request succeeded (264.5ms)
+2024-03-16 11:18:31.262 [INFO]: Generated 1 completions
+2024-03-16 11:18:31.263 [INFO]: provideInlineCompletionItems request succeeded (268.46ms)
+2024-03-16 11:18:32.612 [INFO]: Completion request succeeded (273.22ms)
+2024-03-16 11:18:32.614 [INFO]: Generated 1 completions
+2024-03-16 11:18:32.615 [INFO]: provideInlineCompletionItems request succeeded (276.92ms)
+2024-03-16 11:18:35.390 [INFO]: Completion request succeeded (316.72ms)
+2024-03-16 11:18:35.393 [INFO]: No completions were generated
+2024-03-16 11:18:35.393 [INFO]: provideInlineCompletionItems request succeeded (320.08ms)
+2024-03-16 11:18:35.914 [INFO]: Completion request was cancelled by token (234.86ms)
+2024-03-16 11:18:36.892 [INFO]: Completion request was cancelled by token (238.4ms)
+2024-03-16 11:18:37.457 [INFO]: Completion request was cancelled by token (233.71ms)
+2024-03-16 11:18:37.924 [INFO]: Completion request was cancelled by token (155.28ms)
+2024-03-16 11:18:39.052 [INFO]: Completion request was cancelled by token (104.06ms)
+2024-03-16 11:18:40.336 [INFO]: Completion request was cancelled by token (238.42ms)
+2024-03-16 11:18:42.047 [INFO]: Completion request succeeded (332.21ms)
+2024-03-16 11:18:42.050 [INFO]: No completions were generated
+2024-03-16 11:18:42.051 [INFO]: provideInlineCompletionItems request succeeded (336.11ms)
+2024-03-16 11:18:43.685 [INFO]: Completion request succeeded (336.65ms)
+2024-03-16 11:18:43.688 [INFO]: No completions were generated
+2024-03-16 11:18:43.688 [INFO]: provideInlineCompletionItems request succeeded (340.14ms)
+2024-03-16 11:18:48.505 [INFO]: Completion request was cancelled by token (196.47ms)
+2024-03-16 11:18:49.622 [INFO]: Completion request was cancelled by token (43.09ms)
+2024-03-16 11:18:51.178 [INFO]: Completion request was cancelled by token (234.82ms)
+2024-03-16 11:18:52.288 [INFO]: Completion request succeeded (1040.45ms)
+2024-03-16 11:18:52.290 [INFO]: No completions were generated
+2024-03-16 11:18:52.291 [INFO]: provideInlineCompletionItems request succeeded (1043.8ms)
+2024-03-16 11:18:58.910 [INFO]: Completion request succeeded (284.95ms)
+2024-03-16 11:18:58.912 [INFO]: No completions were generated
+2024-03-16 11:18:58.913 [INFO]: provideInlineCompletionItems request succeeded (288.45ms)
+2024-03-16 11:18:59.551 [INFO]: Completion request succeeded (259.66ms)
+2024-03-16 11:18:59.553 [INFO]: No completions were generated
+2024-03-16 11:18:59.554 [INFO]: provideInlineCompletionItems request succeeded (263.07ms)
+2024-03-16 11:19:07.836 [INFO]: Completion request was cancelled by token (634.17ms)
+2024-03-16 11:19:08.313 [INFO]: Completion request succeeded (403.48ms)
+2024-03-16 11:19:08.313 [INFO]: No completions were generated
+2024-03-16 11:19:08.313 [INFO]: provideInlineCompletionItems request succeeded (404.48ms)
+2024-03-16 11:19:09.889 [INFO]: Skipping completions because autocomplete is open
+2024-03-16 11:19:10.082 [INFO]: Completion request was cancelled by token (33.22ms)
+2024-03-16 11:19:10.171 [INFO]: Completion request was cancelled by token (13.78ms)
+2024-03-16 11:19:10.390 [INFO]: Completion request was cancelled by token (144.24ms)
+2024-03-16 11:19:10.540 [INFO]: Completion request was cancelled by token (81.07ms)
+2024-03-16 11:19:10.696 [INFO]: Completion request was cancelled by token (79.08ms)
+2024-03-16 11:19:11.024 [INFO]: Completion request succeeded (258.25ms)
+2024-03-16 11:19:11.027 [INFO]: Generated 1 completions
+2024-03-16 11:19:11.028 [INFO]: provideInlineCompletionItems request succeeded (262.21ms)
+2024-03-16 11:19:11.795 [INFO]: Completion request was cancelled by token (66.46ms)
+2024-03-16 11:19:11.948 [INFO]: Completion request was cancelled by token (77.9ms)
+2024-03-16 11:19:12.075 [INFO]: Completion request was cancelled by token (56.39ms)
+2024-03-16 11:19:12.401 [INFO]: Completion request succeeded (249.84ms)
+2024-03-16 11:19:12.403 [INFO]: Generated 1 completions
+2024-03-16 11:19:12.404 [INFO]: provideInlineCompletionItems request succeeded (253.66ms)
+2024-03-16 11:19:12.626 [INFO]: Completion request was cancelled by token (44.41ms)
+2024-03-16 11:19:12.776 [INFO]: Skipping completions because autocomplete is open
+2024-03-16 11:19:12.955 [INFO]: Skipping completions because autocomplete is open
+2024-03-16 11:19:13.106 [INFO]: Skipping completions because autocomplete is open
+2024-03-16 11:19:13.951 [INFO]: Completion request was cancelled by token (120.73ms)
+2024-03-16 11:19:14.285 [INFO]: Completion request succeeded (259.3ms)
+2024-03-16 11:19:14.287 [INFO]: Generated 1 completions
+2024-03-16 11:19:14.288 [INFO]: provideInlineCompletionItems request succeeded (263.01ms)
+2024-03-16 11:19:14.384 [INFO]: Completion request succeeded (7.17ms)
+2024-03-16 11:19:14.385 [INFO]: Generated 1 completions
+2024-03-16 11:19:14.385 [INFO]: provideInlineCompletionItems request succeeded (8.08ms)
+2024-03-16 11:19:15.229 [INFO]: Completion request succeeded (227.59ms)
+2024-03-16 11:19:15.230 [INFO]: No completions were generated
+2024-03-16 11:19:15.231 [INFO]: provideInlineCompletionItems request succeeded (229.46ms)
+2024-03-16 11:19:16.800 [INFO]: Completion request was cancelled by token (69.97ms)
+2024-03-16 11:19:17.831 [INFO]: Completion request succeeded (956.62ms)
+2024-03-16 11:19:17.836 [INFO]: Generated 6 completions
+2024-03-16 11:19:17.838 [INFO]: provideInlineCompletionItems request succeeded (963.86ms)
+2024-03-16 11:19:32.150 [INFO]: Skipping completions because autocomplete is open
+2024-03-16 11:19:32.270 [INFO]: Completion request succeeded (8.49ms)
+2024-03-16 11:19:32.271 [INFO]: Generated 6 completions
+2024-03-16 11:19:32.271 [INFO]: provideInlineCompletionItems request succeeded (10ms)
+2024-03-16 11:19:34.711 [INFO]: Completion request succeeded (235.73ms)
+2024-03-16 11:19:34.713 [INFO]: No completions were generated
+2024-03-16 11:19:34.713 [INFO]: provideInlineCompletionItems request succeeded (239.04ms)
+2024-03-16 11:20:01.408 [INFO]: Completion request succeeded (248.24ms)
+2024-03-16 11:20:01.409 [INFO]: No completions were generated
+2024-03-16 11:20:01.409 [INFO]: provideInlineCompletionItems request succeeded (249.27ms)
+2024-03-16 11:20:01.834 [INFO]: Completion request was cancelled by token (159.1ms)
+2024-03-16 11:20:02.230 [INFO]: Completion request succeeded (328.17ms)
+2024-03-16 11:20:02.233 [INFO]: Generated 2 completions
+2024-03-16 11:20:02.234 [INFO]: provideInlineCompletionItems request succeeded (332.46ms)
+2024-03-16 11:20:03.933 [INFO]: Completion request succeeded (247.63ms)
+2024-03-16 11:20:03.935 [INFO]: No completions were generated
+2024-03-16 11:20:03.935 [INFO]: provideInlineCompletionItems request succeeded (250.65ms)
+2024-03-16 11:20:23.632 [INFO]: Completion request succeeded (254.72ms)
+2024-03-16 11:20:23.634 [INFO]: No completions were generated
+2024-03-16 11:20:23.635 [INFO]: provideInlineCompletionItems request succeeded (258.82ms)
+2024-03-16 11:20:24.462 [INFO]: Completion request was cancelled by token (214.9ms)
+2024-03-16 11:20:39.087 [INFO]: Completion request succeeded (240.22ms)
+2024-03-16 11:20:39.089 [INFO]: No completions were generated
+2024-03-16 11:20:39.090 [INFO]: provideInlineCompletionItems request succeeded (243.98ms)
+2024-03-16 11:20:39.417 [INFO]: Completion request succeeded (254ms)
+2024-03-16 11:20:39.419 [INFO]: No completions were generated
+2024-03-16 11:20:39.420 [INFO]: provideInlineCompletionItems request succeeded (257.48ms)
+2024-03-16 11:20:41.116 [INFO]: Completion request succeeded (264.75ms)
+2024-03-16 11:20:41.118 [INFO]: No completions were generated
+2024-03-16 11:20:41.119 [INFO]: provideInlineCompletionItems request succeeded (268.15ms)
+2024-03-16 11:20:42.170 [INFO]: Completion request succeeded (244.53ms)
+2024-03-16 11:20:42.173 [INFO]: No completions were generated
+2024-03-16 11:20:42.173 [INFO]: provideInlineCompletionItems request succeeded (248.08ms)
+2024-03-16 11:20:43.374 [INFO]: Completion request succeeded (258.7ms)
+2024-03-16 11:20:43.374 [INFO]: Generated 1 completions
+2024-03-16 11:20:43.374 [INFO]: provideInlineCompletionItems request succeeded (259.7ms)
+2024-03-16 11:20:43.987 [INFO]: Completion request succeeded (254.33ms)
+2024-03-16 11:20:43.990 [INFO]: No completions were generated
+2024-03-16 11:20:43.990 [INFO]: provideInlineCompletionItems request succeeded (257.84ms)
+2024-03-16 11:20:44.609 [INFO]: Completion request was cancelled by token (148.37ms)
+2024-03-16 11:21:26.061 [INFO]: Completion request succeeded (603.15ms)
+2024-03-16 11:21:26.064 [INFO]: Generated 6 completions
+2024-03-16 11:21:26.067 [INFO]: provideInlineCompletionItems request succeeded (610.24ms)
+2024-03-16 11:21:26.387 [INFO]: Completion request succeeded (8.84ms)
+2024-03-16 11:21:26.388 [INFO]: Generated 6 completions
+2024-03-16 11:21:26.389 [INFO]: provideInlineCompletionItems request succeeded (10.39ms)
+2024-03-16 11:21:28.743 [INFO]: Completion request was cancelled by token (209.72ms)
+2024-03-16 11:21:29.823 [INFO]: Completion request succeeded (1012.44ms)
+2024-03-16 11:21:29.827 [INFO]: Generated 6 completions
+2024-03-16 11:21:29.830 [INFO]: provideInlineCompletionItems request succeeded (1018.99ms)
+2024-03-16 11:21:41.286 [INFO]: Completion request succeeded (376.39ms)
+2024-03-16 11:21:41.287 [INFO]: Generated 2 completions
+2024-03-16 11:21:41.288 [INFO]: provideInlineCompletionItems request succeeded (378.13ms)
+2024-03-16 11:21:42.777 [INFO]: Completion request succeeded (229.89ms)
+2024-03-16 11:21:42.780 [INFO]: No completions were generated
+2024-03-16 11:21:42.780 [INFO]: provideInlineCompletionItems request succeeded (233.67ms)
+2024-03-16 11:21:44.367 [INFO]: Completion request was cancelled by token (176.49ms)
+2024-03-16 11:21:45.339 [INFO]: Completion request succeeded (897.77ms)
+2024-03-16 11:21:45.344 [INFO]: Generated 4 completions
+2024-03-16 11:21:45.346 [INFO]: provideInlineCompletionItems request succeeded (904.98ms)
+2024-03-16 11:21:46.431 [INFO]: Completion request succeeded (223.39ms)
+2024-03-16 11:21:46.431 [INFO]: No completions were generated
+2024-03-16 11:21:46.431 [INFO]: provideInlineCompletionItems request succeeded (224.51ms)
+2024-03-16 11:21:48.351 [INFO]: Completion request was cancelled by token (154.81ms)
+2024-03-16 11:21:49.321 [INFO]: Completion request succeeded (895.8ms)
+2024-03-16 11:21:49.326 [INFO]: Generated 1 completions
+2024-03-16 11:21:49.327 [INFO]: provideInlineCompletionItems request succeeded (901.88ms)
+2024-03-16 11:21:50.271 [INFO]: Completion request succeeded (223.41ms)
+2024-03-16 11:21:50.272 [INFO]: No completions were generated
+2024-03-16 11:21:50.272 [INFO]: provideInlineCompletionItems request succeeded (224.39ms)
+2024-03-16 11:33:10.781 [INFO]: [Language Server (stderr)]:
+E0316 11:33:10.781239  1610 open_documents.go:65] open document /home/unk0wn/cpp/test/source/TCClien.hpp not found: stat /home/unk0wn/cpp/test/source/TCClien.hpp: no such file or directory
+2024-03-16 11:33:11.097 [INFO]: Completion request succeeded (317.3ms)
+2024-03-16 11:33:11.098 [INFO]: No completions were generated
+2024-03-16 11:33:11.099 [INFO]: provideInlineCompletionItems request succeeded (319.78ms)
+2024-03-16 11:33:15.877 [INFO]: [Language Server (stderr)]:
+E0316 11:33:15.877080  1610 open_documents.go:65] open document /home/unk0wn/cpp/test/source/TCClien.hpp not found: stat /home/unk0wn/cpp/test/source/TCClien.hpp: no such file or directory
+2024-03-16 11:33:15.937 [INFO]: Completion request was cancelled by token (62.31ms)
+2024-03-16 11:33:16.015 [INFO]: [Language Server (stderr)]:
+E0316 11:33:16.015375  1610 open_documents.go:65] open document /home/unk0wn/cpp/test/source/TCClien.hpp not found: stat /home/unk0wn/cpp/test/source/TCClien.hpp: no such file or directory
+2024-03-16 11:33:16.289 [INFO]: Completion request succeeded (275.79ms)
+2024-03-16 11:33:16.290 [INFO]: No completions were generated
+2024-03-16 11:33:16.291 [INFO]: provideInlineCompletionItems request succeeded (278.16ms)
+2024-03-16 11:33:18.283 [INFO]: [Language Server (stderr)]:
+E0316 11:33:18.283144  1610 open_documents.go:65] open document /home/unk0wn/cpp/test/source/TCClien.hpp not found: stat /home/unk0wn/cpp/test/source/TCClien.hpp: no such file or directory
+2024-03-16 11:33:18.381 [INFO]: Completion request was cancelled by token (99.39ms)
+2024-03-16 11:33:18.456 [INFO]: [Language Server (stderr)]:
+E0316 11:33:18.456423  1610 open_documents.go:65] open document /home/unk0wn/cpp/test/source/TCClien.hpp not found: stat /home/unk0wn/cpp/test/source/TCClien.hpp: no such file or directory
+2024-03-16 11:33:18.823 [INFO]: Completion request succeeded (367.99ms)
+2024-03-16 11:33:18.823 [INFO]: No completions were generated
+2024-03-16 11:33:18.823 [INFO]: provideInlineCompletionItems request succeeded (368.76ms)
+2024-03-16 11:33:25.054 [INFO]: [Language Server (stderr)]:
+E0316 11:33:25.054560  1610 open_documents.go:65] open document /home/unk0wn/cpp/test/source/TCClien.hpp not found: stat /home/unk0wn/cpp/test/source/TCClien.hpp: no such file or directory
+2024-03-16 11:33:25.108 [INFO]: Completion request was cancelled by token (55.78ms)
+2024-03-16 11:33:25.185 [INFO]: [Language Server (stderr)]:
+E0316 11:33:25.184730  1610 open_documents.go:65] open document /home/unk0wn/cpp/test/source/TCClien.hpp not found: stat /home/unk0wn/cpp/test/source/TCClien.hpp: no such file or directory
+2024-03-16 11:33:25.477 [INFO]: Completion request was cancelled by token (293.96ms)
+2024-03-16 11:38:39.272 [INFO]: [Language Server (stderr)]:
+E0316 11:38:39.272415  1610 open_documents.go:65] open document /home/unk0wn/cpp/test/source/TCClien.hpp not found: stat /home/unk0wn/cpp/test/source/TCClien.hpp: no such file or directory
+2024-03-16 11:38:39.479 [INFO]: Completion request was cancelled by token (208.18ms)
+2024-03-16 11:38:39.554 [INFO]: [Language Server (stderr)]:
+E0316 11:38:39.554695  1610 open_documents.go:65] open document /home/unk0wn/cpp/test/source/TCClien.hpp not found: stat /home/unk0wn/cpp/test/source/TCClien.hpp: no such file or directory
+2024-03-16 11:38:39.821 [INFO]: Completion request succeeded (267.45ms)
+2024-03-16 11:38:39.822 [INFO]: No completions were generated
+2024-03-16 11:38:39.822 [INFO]: provideInlineCompletionItems request succeeded (269.97ms)
+2024-03-16 11:38:41.777 [INFO]: [Language Server (stderr)]:
+E0316 11:38:41.777716  1610 open_documents.go:65] open document /home/unk0wn/cpp/test/source/TCClien.hpp not found: stat /home/unk0wn/cpp/test/source/TCClien.hpp: no such file or directory
+2024-03-16 11:38:41.987 [INFO]: Completion request was cancelled by token (210.83ms)
+2024-03-16 11:38:42.060 [INFO]: [Language Server (stderr)]:
+E0316 11:38:42.059811  1610 open_documents.go:65] open document /home/unk0wn/cpp/test/source/TCClien.hpp not found: stat /home/unk0wn/cpp/test/source/TCClien.hpp: no such file or directory
+2024-03-16 11:38:42.622 [INFO]: Completion request succeeded (563.9ms)
+2024-03-16 11:38:42.623 [INFO]: Generated 4 completions
+2024-03-16 11:38:42.624 [INFO]: provideInlineCompletionItems request succeeded (566.01ms)
+2024-03-16 11:39:30.226 [INFO]: [Language Server (stderr)]:
+E0316 11:39:30.226508  1610 open_documents.go:65] open document /home/unk0wn/cpp/test/source/TCClien.hpp not found: stat /home/unk0wn/cpp/test/source/TCClien.hpp: no such file or directory
+2024-03-16 11:39:30.457 [INFO]: Completion request was cancelled by token (231.94ms)
+2024-03-16 11:39:30.528 [INFO]: [Language Server (stderr)]:
+E0316 11:39:30.528359  1610 open_documents.go:65] open document /home/unk0wn/cpp/test/source/TCClien.hpp not found: stat /home/unk0wn/cpp/test/source/TCClien.hpp: no such file or directory
+2024-03-16 11:39:30.860 [INFO]: Completion request succeeded (332.86ms)
+2024-03-16 11:39:30.861 [INFO]: No completions were generated
+2024-03-16 11:39:30.861 [INFO]: provideInlineCompletionItems request succeeded (334.69ms)
+2024-03-16 11:39:31.867 [INFO]: [Language Server (stderr)]:
+E0316 11:39:31.866877  1610 open_documents.go:65] open document /home/unk0wn/cpp/test/source/TCClien.hpp not found: stat /home/unk0wn/cpp/test/source/TCClien.hpp: no such file or directory
+2024-03-16 11:39:32.079 [INFO]: Completion request was cancelled by token (214.2ms)
+2024-03-16 11:39:32.155 [INFO]: [Language Server (stderr)]:
+E0316 11:39:32.154704  1610 open_documents.go:65] open document /home/unk0wn/cpp/test/source/TCClien.hpp not found: stat /home/unk0wn/cpp/test/source/TCClien.hpp: no such file or directory
+2024-03-16 11:39:32.499 [INFO]: Completion request succeeded (345.37ms)
+2024-03-16 11:39:32.499 [INFO]: No completions were generated
+2024-03-16 11:39:32.500 [INFO]: provideInlineCompletionItems request succeeded (347.12ms)
+2024-03-16 11:41:14.215 [INFO]: [Language Server (stderr)]:
+E0316 11:41:14.214846  1610 open_documents.go:65] open document /home/unk0wn/cpp/test/source/TCClien.hpp not found: stat /home/unk0wn/cpp/test/source/TCClien.hpp: no such file or directory
+2024-03-16 11:41:14.393 [INFO]: Completion request was cancelled by token (179.19ms)
+2024-03-16 11:41:14.564 [INFO]: [Language Server (stderr)]:
+E0316 11:41:14.563826  1610 open_documents.go:65] open document /home/unk0wn/cpp/test/source/TCClien.hpp not found: stat /home/unk0wn/cpp/test/source/TCClien.hpp: no such file or directory
+2024-03-16 11:41:15.303 [INFO]: Completion request succeeded (844.48ms)
+2024-03-16 11:41:15.304 [INFO]: Generated 2 completions
+2024-03-16 11:41:15.304 [INFO]: provideInlineCompletionItems request succeeded (845.73ms)
+2024-03-16 11:46:08.413 [INFO]: [Language Server (stderr)]:
+E0316 11:46:08.413134  1610 open_documents.go:65] open document /home/unk0wn/cpp/test/source/TCClien.hpp not found: stat /home/unk0wn/cpp/test/source/TCClien.hpp: no such file or directory
+2024-03-16 11:46:08.503 [INFO]: Completion request was cancelled by token (96.19ms)
+2024-03-16 11:46:08.583 [INFO]: [Language Server (stderr)]:
+E0316 11:46:08.582588  1610 open_documents.go:65] open document /home/unk0wn/cpp/test/source/TCClien.hpp not found: stat /home/unk0wn/cpp/test/source/TCClien.hpp: no such file or directory
+2024-03-16 11:46:08.793 [INFO]: Completion request succeeded (216.76ms)
+2024-03-16 11:46:08.796 [INFO]: No completions were generated
+2024-03-16 11:46:08.796 [INFO]: provideInlineCompletionItems request succeeded (221.18ms)
+2024-03-16 11:46:22.511 [INFO]: [Language Server (stderr)]:
+E0316 11:46:22.510713  1610 open_documents.go:65] open document /home/unk0wn/cpp/test/source/TCClien.hpp not found: stat /home/unk0wn/cpp/test/source/TCClien.hpp: no such file or directory
+2024-03-16 11:46:22.673 [INFO]: Completion request was cancelled by token (166.27ms)
+2024-03-16 11:46:22.825 [INFO]: [Language Server (stderr)]:
+E0316 11:46:22.824962  1610 open_documents.go:65] open document /home/unk0wn/cpp/test/source/TCClien.hpp not found: stat /home/unk0wn/cpp/test/source/TCClien.hpp: no such file or directory
+2024-03-16 11:46:23.032 [INFO]: Completion request succeeded (211.48ms)
+2024-03-16 11:46:23.035 [INFO]: Generated 1 completions
+2024-03-16 11:46:23.036 [INFO]: provideInlineCompletionItems request succeeded (216.58ms)
+2024-03-16 11:46:23.525 [INFO]: [Language Server (stderr)]:
+E0316 11:46:23.524803  1610 open_documents.go:65] open document /home/unk0wn/cpp/test/source/TCClien.hpp not found: stat /home/unk0wn/cpp/test/source/TCClien.hpp: no such file or directory
+2024-03-16 11:46:23.728 [INFO]: Completion request succeeded (205.09ms)
+2024-03-16 11:46:23.729 [INFO]: No completions were generated
+2024-03-16 11:46:23.729 [INFO]: provideInlineCompletionItems request succeeded (207.09ms)
+2024-03-16 11:46:25.078 [INFO]: [Language Server (stderr)]:
+E0316 11:46:25.078516  1610 open_documents.go:65] open document /home/unk0wn/cpp/test/source/TCClien.hpp not found: stat /home/unk0wn/cpp/test/source/TCClien.hpp: no such file or directory
+2024-03-16 11:46:25.081 [INFO]: Completion request succeeded (8.33ms)
+2024-03-16 11:46:25.081 [INFO]: Generated 1 completions
+2024-03-16 11:46:25.081 [INFO]: provideInlineCompletionItems request succeeded (10.26ms)
+2024-03-16 11:46:25.229 [INFO]: [Language Server (stderr)]:
+E0316 11:46:25.228186  1610 open_documents.go:65] open document /home/unk0wn/cpp/test/source/TCClien.hpp not found: stat /home/unk0wn/cpp/test/source/TCClien.hpp: no such file or directory
+2024-03-16 11:46:25.294 [INFO]: Completion request was cancelled by token (71.87ms)
+2024-03-16 11:46:25.375 [INFO]: [Language Server (stderr)]:
+E0316 11:46:25.374771  1610 open_documents.go:65] open document /home/unk0wn/cpp/test/source/TCClien.hpp not found: stat /home/unk0wn/cpp/test/source/TCClien.hpp: no such file or directory
+2024-03-16 11:46:25.441 [INFO]: Completion request was cancelled by token (71.82ms)
+2024-03-16 11:46:25.519 [INFO]: [Language Server (stderr)]:
+E0316 11:46:25.518843  1610 open_documents.go:65] open document /home/unk0wn/cpp/test/source/TCClien.hpp not found: stat /home/unk0wn/cpp/test/source/TCClien.hpp: no such file or directory
+2024-03-16 11:46:25.591 [INFO]: Completion request was cancelled by token (77.92ms)
+2024-03-16 11:46:25.671 [INFO]: [Language Server (stderr)]:
+E0316 11:46:25.670687  1610 open_documents.go:65] open document /home/unk0wn/cpp/test/source/TCClien.hpp not found: stat /home/unk0wn/cpp/test/source/TCClien.hpp: no such file or directory
+2024-03-16 11:46:25.889 [INFO]: Completion request was cancelled by token (225.5ms)
+2024-03-16 11:46:25.974 [INFO]: [Language Server (stderr)]:
+E0316 11:46:25.973789  1610 open_documents.go:65] open document /home/unk0wn/cpp/test/source/TCClien.hpp not found: stat /home/unk0wn/cpp/test/source/TCClien.hpp: no such file or directory
+2024-03-16 11:46:26.163 [INFO]: Completion request succeeded (199.14ms)
+2024-03-16 11:46:26.165 [INFO]: No completions were generated
+2024-03-16 11:46:26.166 [INFO]: provideInlineCompletionItems request succeeded (203.45ms)
+2024-03-16 11:46:29.494 [INFO]: Skipping completions because autocomplete is open
+2024-03-16 11:46:29.741 [INFO]: Skipping completions because autocomplete is open
+2024-03-16 11:46:29.880 [INFO]: [Language Server (stderr)]:
+E0316 11:46:29.880115  1610 open_documents.go:65] open document /home/unk0wn/cpp/test/source/TCClien.hpp not found: stat /home/unk0wn/cpp/test/source/TCClien.hpp: no such file or directory
+2024-03-16 11:46:30.075 [INFO]: Completion request succeeded (198.83ms)
+2024-03-16 11:46:30.077 [INFO]: No completions were generated
+2024-03-16 11:46:30.077 [INFO]: provideInlineCompletionItems request succeeded (202.84ms)
+2024-03-16 11:46:30.722 [INFO]: [Language Server (stderr)]:
+E0316 11:46:30.721858  1610 open_documents.go:65] open document /home/unk0wn/cpp/test/source/TCClien.hpp not found: stat /home/unk0wn/cpp/test/source/TCClien.hpp: no such file or directory
+2024-03-16 11:46:30.821 [INFO]: Completion request was cancelled by token (105.81ms)
+2024-03-16 11:46:30.901 [INFO]: [Language Server (stderr)]:
+E0316 11:46:30.900704  1610 open_documents.go:65] open document /home/unk0wn/cpp/test/source/TCClien.hpp not found: stat /home/unk0wn/cpp/test/source/TCClien.hpp: no such file or directory
+2024-03-16 11:46:31.101 [INFO]: Completion request succeeded (206.01ms)
+2024-03-16 11:46:31.103 [INFO]: No completions were generated
+2024-03-16 11:46:31.104 [INFO]: provideInlineCompletionItems request succeeded (210.05ms)
+2024-03-16 11:48:06.318 [INFO]: Skipping completions because autocomplete is open
+2024-03-16 11:48:09.017 [INFO]: [Language Server (stderr)]:
+E0316 11:48:09.016894  1610 open_documents.go:65] open document /home/unk0wn/cpp/test/source/TCClien.hpp not found: stat /home/unk0wn/cpp/test/source/TCClien.hpp: no such file or directory
+2024-03-16 11:48:09.208 [INFO]: Completion request succeeded (194.15ms)
+2024-03-16 11:48:09.210 [INFO]: No completions were generated
+2024-03-16 11:48:09.210 [INFO]: provideInlineCompletionItems request succeeded (197.11ms)
+2024-03-16 11:48:09.610 [INFO]: [Language Server (stderr)]:
+E0316 11:48:09.609887  1610 open_documents.go:65] open document /home/unk0wn/cpp/test/source/TCClien.hpp not found: stat /home/unk0wn/cpp/test/source/TCClien.hpp: no such file or directory
+2024-03-16 11:48:09.802 [INFO]: Completion request succeeded (195.76ms)
+2024-03-16 11:48:09.804 [INFO]: No completions were generated
+2024-03-16 11:48:09.805 [INFO]: provideInlineCompletionItems request succeeded (199.13ms)
+2024-03-16 11:53:25.681 [INFO]: [Language Server (stderr)]:
+E0316 11:53:25.681405  1610 open_documents.go:65] open document /home/unk0wn/cpp/test/source/TCClien.hpp not found: stat /home/unk0wn/cpp/test/source/TCClien.hpp: no such file or directory
+2024-03-16 11:53:25.746 [INFO]: Completion request was cancelled by token (66.97ms)
+2024-03-16 11:53:25.925 [INFO]: [Language Server (stderr)]:
+E0316 11:53:25.924687  1610 open_documents.go:65] open document /home/unk0wn/cpp/test/source/TCClien.hpp not found: stat /home/unk0wn/cpp/test/source/TCClien.hpp: no such file or directory
+2024-03-16 11:53:25.948 [INFO]: Completion request was cancelled by token (128.35ms)
+2024-03-16 11:53:33.187 [INFO]: [Language Server (stderr)]:
+E0316 11:53:33.187031  1610 open_documents.go:65] open document /home/unk0wn/cpp/test/source/TCClien.hpp not found: stat /home/unk0wn/cpp/test/source/TCClien.hpp: no such file or directory
+2024-03-16 11:53:33.546 [INFO]: Completion request succeeded (360.77ms)
+2024-03-16 11:53:33.547 [INFO]: No completions were generated
+2024-03-16 11:53:33.547 [INFO]: provideInlineCompletionItems request succeeded (362.26ms)
+2024-03-16 11:58:00.523 [INFO]: Skipping completions because autocomplete is open
+2024-03-16 11:58:00.626 [INFO]: Skipping completions because autocomplete is open
+2024-03-16 11:58:32.752 [INFO]: Completion request was cancelled by token (76.83ms)
+2024-03-16 11:58:32.782 [INFO]: [Language Server (stderr)]:
+E0316 11:58:32.781793  1610 open_documents.go:65] open document /home/unk0wn/cpp/test/source/TCClien.hpp not found: stat /home/unk0wn/cpp/test/source/TCClien.hpp: no such file or directory
+2024-03-16 11:58:32.827 [INFO]: [Language Server (stderr)]:
+E0316 11:58:32.827251  1610 open_documents.go:65] open document /home/unk0wn/cpp/test/source/TCClien.hpp not found: stat /home/unk0wn/cpp/test/source/TCClien.hpp: no such file or directory
+2024-03-16 11:58:32.899 [INFO]: Completion request was cancelled by token (73.58ms)
+2024-03-16 11:58:33.078 [INFO]: [Language Server (stderr)]:
+E0316 11:58:33.078469  1610 open_documents.go:65] open document /home/unk0wn/cpp/test/source/TCClien.hpp not found: stat /home/unk0wn/cpp/test/source/TCClien.hpp: no such file or directory
+2024-03-16 11:58:33.344 [INFO]: Completion request succeeded (371.17ms)
+2024-03-16 11:58:33.344 [INFO]: No completions were generated
+2024-03-16 11:58:33.344 [INFO]: provideInlineCompletionItems request succeeded (372.22ms)
+2024-03-16 12:03:05.574 [INFO]: [Language Server (stderr)]:
+E0316 12:03:05.573766  1610 open_documents.go:65] open document /home/unk0wn/cpp/test/source/TCClien.hpp not found: stat /home/unk0wn/cpp/test/source/TCClien.hpp: no such file or directory
+2024-03-16 12:03:05.840 [INFO]: Completion request succeeded (268.44ms)
+2024-03-16 12:03:05.841 [INFO]: No completions were generated
+2024-03-16 12:03:05.841 [INFO]: provideInlineCompletionItems request succeeded (269.78ms)
+2024-03-16 12:04:23.707 [INFO]: [Language Server (stderr)]:
+E0316 12:04:23.707203  1610 open_documents.go:65] open document /home/unk0wn/cpp/test/source/TCClien.hpp not found: stat /home/unk0wn/cpp/test/source/TCClien.hpp: no such file or directory
+2024-03-16 12:04:24.016 [INFO]: Completion request succeeded (310.01ms)
+2024-03-16 12:04:24.017 [INFO]: No completions were generated
+2024-03-16 12:04:24.018 [INFO]: provideInlineCompletionItems request succeeded (312.79ms)
+2024-03-16 12:04:46.588 [INFO]: [Language Server (stderr)]:
+E0316 12:04:46.588333  1610 open_documents.go:65] open document /home/unk0wn/cpp/test/source/TCClien.hpp not found: stat /home/unk0wn/cpp/test/source/TCClien.hpp: no such file or directory
+2024-03-16 12:04:46.705 [INFO]: Completion request was cancelled by token (118.03ms)
+2024-03-16 12:04:49.288 [INFO]: [Language Server (stderr)]:
+E0316 12:04:49.288012  1610 open_documents.go:65] open document /home/unk0wn/cpp/test/source/TCClien.hpp not found: stat /home/unk0wn/cpp/test/source/TCClien.hpp: no such file or directory
+2024-03-16 12:04:49.375 [INFO]: Completion request was cancelled by token (88.86ms)
+2024-03-16 12:05:09.288 [INFO]: [Language Server (stderr)]:
+E0316 12:05:09.287976  1610 open_documents.go:65] open document /home/unk0wn/cpp/test/source/TCClien.hpp not found: stat /home/unk0wn/cpp/test/source/TCClien.hpp: no such file or directory
+2024-03-16 12:05:09.310 [INFO]: Completion request was cancelled by token (23.86ms)
+2024-03-16 12:05:09.984 [INFO]: [Language Server (stderr)]:
+E0316 12:05:09.983945  1610 open_documents.go:65] open document /home/unk0wn/cpp/test/source/TCClien.hpp not found: stat /home/unk0wn/cpp/test/source/TCClien.hpp: no such file or directory
+2024-03-16 12:05:10.343 [INFO]: Completion request was cancelled by token (361.41ms)
+2024-03-16 12:05:10.566 [INFO]: [Language Server (stderr)]:
+E0316 12:05:10.565993  1610 open_documents.go:65] open document /home/unk0wn/cpp/test/source/TCClien.hpp not found: stat /home/unk0wn/cpp/test/source/TCClien.hpp: no such file or directory
+2024-03-16 12:05:10.644 [INFO]: Completion request was cancelled by token (79.91ms)
+2024-03-16 12:05:14.218 [INFO]: [Language Server (stderr)]:
+E0316 12:05:14.217856  1610 open_documents.go:65] open document /home/unk0wn/cpp/test/source/TCClien.hpp not found: stat /home/unk0wn/cpp/test/source/TCClien.hpp: no such file or directory
+2024-03-16 12:05:14.469 [INFO]: Completion request was cancelled by token (253.05ms)
+2024-03-16 12:05:42.178 [INFO]: [Language Server (stderr)]:
+E0316 12:05:42.177631  1610 open_documents.go:65] open document /home/unk0wn/cpp/test/source/TCClien.hpp not found: stat /home/unk0wn/cpp/test/source/TCClien.hpp: no such file or directory
+2024-03-16 12:05:42.230 [INFO]: Completion request was cancelled by token (55.32ms)
+2024-03-16 12:05:42.308 [INFO]: [Language Server (stderr)]:
+E0316 12:05:42.307798  1610 open_documents.go:65] open document /home/unk0wn/cpp/test/source/TCClien.hpp not found: stat /home/unk0wn/cpp/test/source/TCClien.hpp: no such file or directory
+2024-03-16 12:05:42.583 [INFO]: Completion request succeeded (278.84ms)
+2024-03-16 12:05:42.584 [INFO]: No completions were generated
+2024-03-16 12:05:42.585 [INFO]: provideInlineCompletionItems request succeeded (281.08ms)
+2024-03-16 12:05:43.148 [INFO]: [Language Server (stderr)]:
+E0316 12:05:43.147779  1610 open_documents.go:65] open document /home/unk0wn/cpp/test/source/TCClien.hpp not found: stat /home/unk0wn/cpp/test/source/TCClien.hpp: no such file or directory
+2024-03-16 12:05:43.224 [INFO]: Completion request was cancelled by token (78.66ms)
+2024-03-16 12:05:43.303 [INFO]: [Language Server (stderr)]:
+E0316 12:05:43.303243  1610 open_documents.go:65] open document /home/unk0wn/cpp/test/source/TCClien.hpp not found: stat /home/unk0wn/cpp/test/source/TCClien.hpp: no such file or directory
+2024-03-16 12:05:43.391 [INFO]: Completion request was cancelled by token (90.08ms)
+2024-03-16 12:05:43.465 [INFO]: [Language Server (stderr)]:
+E0316 12:05:43.465114  1610 open_documents.go:65] open document /home/unk0wn/cpp/test/source/TCClien.hpp not found: stat /home/unk0wn/cpp/test/source/TCClien.hpp: no such file or directory
+2024-03-16 12:05:43.563 [INFO]: Completion request was cancelled by token (99.25ms)
+2024-03-16 12:05:43.634 [INFO]: [Language Server (stderr)]:
+E0316 12:05:43.634463  1610 open_documents.go:65] open document /home/unk0wn/cpp/test/source/TCClien.hpp not found: stat /home/unk0wn/cpp/test/source/TCClien.hpp: no such file or directory
+2024-03-16 12:05:43.723 [INFO]: Completion request was cancelled by token (89.71ms)
+2024-03-16 12:05:43.794 [INFO]: [Language Server (stderr)]:
+E0316 12:05:43.794387  1610 open_documents.go:65] open document /home/unk0wn/cpp/test/source/TCClien.hpp not found: stat /home/unk0wn/cpp/test/source/TCClien.hpp: no such file or directory
+2024-03-16 12:05:43.917 [INFO]: Completion request was cancelled by token (123.86ms)
+2024-03-16 12:05:43.989 [INFO]: [Language Server (stderr)]:
+E0316 12:05:43.989010  1610 open_documents.go:65] open document /home/unk0wn/cpp/test/source/TCClien.hpp not found: stat /home/unk0wn/cpp/test/source/TCClien.hpp: no such file or directory
+2024-03-16 12:05:44.114 [INFO]: Completion request was cancelled by token (127.23ms)
+2024-03-16 12:05:44.185 [INFO]: [Language Server (stderr)]:
+E0316 12:05:44.185111  1610 open_documents.go:65] open document /home/unk0wn/cpp/test/source/TCClien.hpp not found: stat /home/unk0wn/cpp/test/source/TCClien.hpp: no such file or directory
+2024-03-16 12:05:44.280 [INFO]: Completion request was cancelled by token (97.08ms)
+2024-03-16 12:05:44.354 [INFO]: [Language Server (stderr)]:
+E0316 12:05:44.353975  1610 open_documents.go:65] open document /home/unk0wn/cpp/test/source/TCClien.hpp not found: stat /home/unk0wn/cpp/test/source/TCClien.hpp: no such file or directory
+2024-03-16 12:05:44.450 [INFO]: Completion request was cancelled by token (97.41ms)
+2024-03-16 12:05:44.525 [INFO]: [Language Server (stderr)]:
+E0316 12:05:44.525667  1610 open_documents.go:65] open document /home/unk0wn/cpp/test/source/TCClien.hpp not found: stat /home/unk0wn/cpp/test/source/TCClien.hpp: no such file or directory
+2024-03-16 12:05:44.646 [INFO]: Completion request was cancelled by token (122.41ms)
+2024-03-16 12:05:44.717 [INFO]: [Language Server (stderr)]:
+E0316 12:05:44.717626  1610 open_documents.go:65] open document /home/unk0wn/cpp/test/source/TCClien.hpp not found: stat /home/unk0wn/cpp/test/source/TCClien.hpp: no such file or directory
+2024-03-16 12:05:44.811 [INFO]: Completion request was cancelled by token (95.4ms)
+2024-03-16 12:05:44.888 [INFO]: [Language Server (stderr)]:
+E0316 12:05:44.887770  1610 open_documents.go:65] open document /home/unk0wn/cpp/test/source/TCClien.hpp not found: stat /home/unk0wn/cpp/test/source/TCClien.hpp: no such file or directory
+2024-03-16 12:05:45.033 [INFO]: Completion request was cancelled by token (146.68ms)
+2024-03-16 12:05:45.104 [INFO]: [Language Server (stderr)]:
+E0316 12:05:45.103960  1610 open_documents.go:65] open document /home/unk0wn/cpp/test/source/TCClien.hpp not found: stat /home/unk0wn/cpp/test/source/TCClien.hpp: no such file or directory
+2024-03-16 12:05:45.364 [INFO]: Completion request succeeded (261.12ms)
+2024-03-16 12:05:45.365 [INFO]: No completions were generated
+2024-03-16 12:05:45.366 [INFO]: provideInlineCompletionItems request succeeded (263.43ms)
+2024-03-16 12:06:48.648 [INFO]: [Language Server (stderr)]:
+E0316 12:06:48.648608  1610 open_documents.go:65] open document /home/unk0wn/cpp/test/source/TCClien.hpp not found: stat /home/unk0wn/cpp/test/source/TCClien.hpp: no such file or directory
+2024-03-16 12:06:49.027 [INFO]: Completion request succeeded (379.89ms)
+2024-03-16 12:06:49.027 [INFO]: No completions were generated
+2024-03-16 12:06:49.027 [INFO]: provideInlineCompletionItems request succeeded (380.92ms)
+2024-03-16 12:07:20.358 [INFO]: [Language Server (stderr)]:
+E0316 12:07:20.357732  1610 open_documents.go:65] open document /home/unk0wn/cpp/test/source/TCClien.hpp not found: stat /home/unk0wn/cpp/test/source/TCClien.hpp: no such file or directory
+2024-03-16 12:07:21.079 [INFO]: Completion request was cancelled by token (723.14ms)
+2024-03-16 12:07:21.256 [INFO]: [Language Server (stderr)]:
+E0316 12:07:21.255980  1610 open_documents.go:65] open document /home/unk0wn/cpp/test/source/TCClien.hpp not found: stat /home/unk0wn/cpp/test/source/TCClien.hpp: no such file or directory
+2024-03-16 12:07:22.077 [INFO]: Completion request succeeded (927.19ms)
+2024-03-16 12:07:22.081 [INFO]: Generated 6 completions
+2024-03-16 12:07:22.084 [INFO]: provideInlineCompletionItems request succeeded (933.99ms)
+2024-03-16 12:10:41.981 [INFO]: [Language Server (stderr)]:
+E0316 12:10:41.980679  1610 open_documents.go:65] open document /home/unk0wn/cpp/test/source/TCClien.hpp not found: stat /home/unk0wn/cpp/test/source/TCClien.hpp: no such file or directory
+2024-03-16 12:10:42.391 [INFO]: Completion request succeeded (411.88ms)
+2024-03-16 12:10:42.391 [INFO]: Generated 2 completions
+2024-03-16 12:10:42.392 [INFO]: provideInlineCompletionItems request succeeded (413.24ms)
+2024-03-16 12:10:44.524 [INFO]: Skipping completions because autocomplete is open
+2024-03-16 12:10:44.619 [INFO]: Skipping completions because autocomplete is open
+2024-03-16 12:10:44.731 [INFO]: [Language Server (stderr)]:
+E0316 12:10:44.731644  1610 open_documents.go:65] open document /home/unk0wn/cpp/test/source/TCClien.hpp not found: stat /home/unk0wn/cpp/test/source/TCClien.hpp: no such file or directory
+2024-03-16 12:10:45.113 [INFO]: Completion request succeeded (382.49ms)
+2024-03-16 12:10:45.113 [INFO]: Generated 3 completions
+2024-03-16 12:10:45.113 [INFO]: provideInlineCompletionItems request succeeded (383.56ms)
+2024-03-16 12:10:45.623 [INFO]: Skipping completions because autocomplete is open
+2024-03-16 12:10:46.434 [INFO]: Skipping completions because autocomplete is open
+2024-03-16 12:10:46.741 [INFO]: Skipping completions because autocomplete is open
+2024-03-16 12:10:47.241 [INFO]: [Language Server (stderr)]:
+E0316 12:10:47.241568  1610 open_documents.go:65] open document /home/unk0wn/cpp/test/source/TCClien.hpp not found: stat /home/unk0wn/cpp/test/source/TCClien.hpp: no such file or directory
+2024-03-16 12:10:47.486 [INFO]: Completion request was cancelled by token (246.25ms)
+2024-03-16 12:10:47.558 [INFO]: [Language Server (stderr)]:
+E0316 12:10:47.558304  1610 open_documents.go:65] open document /home/unk0wn/cpp/test/source/TCClien.hpp not found: stat /home/unk0wn/cpp/test/source/TCClien.hpp: no such file or directory
+2024-03-16 12:10:47.842 [INFO]: Completion request was cancelled by token (286.01ms)
+2024-03-16 12:10:47.944 [INFO]: Skipping completions because autocomplete is open
+2024-03-16 12:10:48.067 [INFO]: Skipping completions because autocomplete is open
+2024-03-16 12:10:48.327 [INFO]: Skipping completions because autocomplete is open
+2024-03-16 12:10:48.486 [INFO]: Skipping completions because autocomplete is open
+2024-03-16 12:10:49.368 [INFO]: [Language Server (stderr)]:
+E0316 12:10:49.367741  1610 open_documents.go:65] open document /home/unk0wn/cpp/test/source/TCClien.hpp not found: stat /home/unk0wn/cpp/test/source/TCClien.hpp: no such file or directory
+2024-03-16 12:10:49.706 [INFO]: Completion request succeeded (339.48ms)
+2024-03-16 12:10:49.707 [INFO]: Generated 2 completions
+2024-03-16 12:10:49.708 [INFO]: provideInlineCompletionItems request succeeded (342.33ms)
+2024-03-16 12:10:51.808 [INFO]: [Language Server (stderr)]:
+E0316 12:10:51.807759  1610 open_documents.go:65] open document /home/unk0wn/cpp/test/source/TCClien.hpp not found: stat /home/unk0wn/cpp/test/source/TCClien.hpp: no such file or directory
+2024-03-16 12:10:52.133 [INFO]: Completion request succeeded (327.4ms)
+2024-03-16 12:10:52.134 [INFO]: No completions were generated
+2024-03-16 12:10:52.134 [INFO]: provideInlineCompletionItems request succeeded (328.11ms)
+2024-03-16 12:10:56.524 [INFO]: Skipping completions because autocomplete is open
+2024-03-16 12:10:56.801 [INFO]: Skipping completions because autocomplete is open
+2024-03-16 12:10:57.052 [INFO]: Skipping completions because autocomplete is open
+2024-03-16 12:10:57.464 [INFO]: Skipping completions because autocomplete is open
+2024-03-16 12:10:57.726 [INFO]: [Language Server (stderr)]:
+E0316 12:10:57.725936  1610 open_documents.go:65] open document /home/unk0wn/cpp/test/source/TCClien.hpp not found: stat /home/unk0wn/cpp/test/source/TCClien.hpp: no such file or directory
+2024-03-16 12:10:58.073 [INFO]: Completion request succeeded (348.8ms)
+2024-03-16 12:10:58.073 [INFO]: Generated 1 completions
+2024-03-16 12:10:58.073 [INFO]: provideInlineCompletionItems request succeeded (349.7ms)
+2024-03-16 12:10:58.693 [INFO]: [Language Server (stderr)]:
+E0316 12:10:58.693606  1610 open_documents.go:65] open document /home/unk0wn/cpp/test/source/TCClien.hpp not found: stat /home/unk0wn/cpp/test/source/TCClien.hpp: no such file or directory
+2024-03-16 12:10:58.971 [INFO]: Completion request succeeded (278.78ms)
+2024-03-16 12:10:58.972 [INFO]: No completions were generated
+2024-03-16 12:10:58.973 [INFO]: provideInlineCompletionItems request succeeded (281.12ms)
+2024-03-16 12:17:02.482 [INFO]: [Language Server (stderr)]:
+E0316 12:17:02.481675  1610 open_documents.go:65] open document /home/unk0wn/cpp/test/source/TCClien.hpp not found: stat /home/unk0wn/cpp/test/source/TCClien.hpp: no such file or directory
+2024-03-16 12:17:02.615 [INFO]: Completion request was cancelled by token (233.28ms)
+2024-03-16 12:17:02.689 [INFO]: [Language Server (stderr)]:
+E0316 12:17:02.689442  1610 open_documents.go:65] open document /home/unk0wn/cpp/test/source/TCClien.hpp not found: stat /home/unk0wn/cpp/test/source/TCClien.hpp: no such file or directory
+2024-03-16 12:17:03.045 [INFO]: Completion request succeeded (358.24ms)
+2024-03-16 12:17:03.045 [INFO]: No completions were generated
+2024-03-16 12:17:03.046 [INFO]: provideInlineCompletionItems request succeeded (359.45ms)
+2024-03-16 12:17:03.377 [INFO]: [Language Server (stderr)]:
+E0316 12:17:03.377166  1610 open_documents.go:65] open document /home/unk0wn/cpp/test/source/TCClien.hpp not found: stat /home/unk0wn/cpp/test/source/TCClien.hpp: no such file or directory
+2024-03-16 12:17:03.708 [INFO]: Completion request succeeded (434.8ms)
+2024-03-16 12:17:03.709 [INFO]: No completions were generated
+2024-03-16 12:17:03.709 [INFO]: provideInlineCompletionItems request succeeded (435.79ms)
+2024-03-16 12:19:53.631 [INFO]: [Language Server (stderr)]:
+E0316 12:19:53.631079  1610 open_documents.go:65] open document /home/unk0wn/cpp/test/source/TCClien.hpp not found: stat /home/unk0wn/cpp/test/source/TCClien.hpp: no such file or directory
+2024-03-16 12:19:53.811 [INFO]: Completion request was cancelled by token (181.2ms)
+2024-03-16 12:19:53.982 [INFO]: [Language Server (stderr)]:
+E0316 12:19:53.982352  1610 open_documents.go:65] open document /home/unk0wn/cpp/test/source/TCClien.hpp not found: stat /home/unk0wn/cpp/test/source/TCClien.hpp: no such file or directory
+2024-03-16 12:19:54.250 [INFO]: Completion request succeeded (373.83ms)
+2024-03-16 12:19:54.251 [INFO]: No completions were generated
+2024-03-16 12:19:54.251 [INFO]: provideInlineCompletionItems request succeeded (374.74ms)
+2024-03-16 12:19:54.878 [INFO]: [Language Server (stderr)]:
+E0316 12:19:54.878618  1610 open_documents.go:65] open document /home/unk0wn/cpp/test/source/TCClien.hpp not found: stat /home/unk0wn/cpp/test/source/TCClien.hpp: no such file or directory
+2024-03-16 12:19:55.190 [INFO]: Completion request succeeded (313.27ms)
+2024-03-16 12:19:55.192 [INFO]: No completions were generated
+2024-03-16 12:19:55.192 [INFO]: provideInlineCompletionItems request succeeded (315.65ms)
+2024-03-16 12:20:39.926 [INFO]: [Language Server (stderr)]:
+E0316 12:20:39.926599  1610 open_documents.go:65] open document /home/unk0wn/cpp/test/source/TCClien.hpp not found: stat /home/unk0wn/cpp/test/source/TCClien.hpp: no such file or directory
+2024-03-16 12:20:40.594 [INFO]: Completion request was cancelled by token (668.56ms)
+2024-03-16 12:20:41.550 [INFO]: [Language Server (stderr)]:
+E0316 12:20:41.550387  1610 open_documents.go:65] open document /home/unk0wn/cpp/test/source/TCClien.hpp not found: stat /home/unk0wn/cpp/test/source/TCClien.hpp: no such file or directory
+2024-03-16 12:20:41.637 [INFO]: Completion request was cancelled by token (88.24ms)
+2024-03-16 12:20:41.712 [INFO]: [Language Server (stderr)]:
+E0316 12:20:41.712415  1610 open_documents.go:65] open document /home/unk0wn/cpp/test/source/TCClien.hpp not found: stat /home/unk0wn/cpp/test/source/TCClien.hpp: no such file or directory
+2024-03-16 12:20:41.905 [INFO]: Completion request was cancelled by token (193.59ms)
+2024-03-16 12:20:42.071 [INFO]: [Language Server (stderr)]:
+E0316 12:20:42.071087  1610 open_documents.go:65] open document /home/unk0wn/cpp/test/source/TCClien.hpp not found: stat /home/unk0wn/cpp/test/source/TCClien.hpp: no such file or directory
+2024-03-16 12:20:42.347 [INFO]: Completion request succeeded (377.61ms)
+2024-03-16 12:20:42.347 [INFO]: No completions were generated
+2024-03-16 12:20:42.347 [INFO]: provideInlineCompletionItems request succeeded (378.94ms)
+2024-03-16 12:20:53.652 [INFO]: Completion request was cancelled by token (74.62ms)
+2024-03-16 12:20:53.687 [INFO]: [Language Server (stderr)]:
+E0316 12:20:53.686593  1610 open_documents.go:65] open document /home/unk0wn/cpp/test/source/TCClien.hpp not found: stat /home/unk0wn/cpp/test/source/TCClien.hpp: no such file or directory
+2024-03-16 12:20:53.727 [INFO]: [Language Server (stderr)]:
+E0316 12:20:53.727271  1610 open_documents.go:65] open document /home/unk0wn/cpp/test/source/TCClien.hpp not found: stat /home/unk0wn/cpp/test/source/TCClien.hpp: no such file or directory
+2024-03-16 12:20:54.126 [INFO]: Completion request succeeded (401.03ms)
+2024-03-16 12:20:54.127 [INFO]: No completions were generated
+2024-03-16 12:20:54.127 [INFO]: provideInlineCompletionItems request succeeded (402.02ms)
+2024-03-16 12:20:55.768 [INFO]: Skipping completions because autocomplete is open
+2024-03-16 12:20:56.117 [INFO]: [Language Server (stderr)]:
+E0316 12:20:56.117637  1610 open_documents.go:65] open document /home/unk0wn/cpp/test/source/TCClien.hpp not found: stat /home/unk0wn/cpp/test/source/TCClien.hpp: no such file or directory
+2024-03-16 12:20:56.564 [INFO]: Completion request succeeded (447.84ms)
+2024-03-16 12:20:56.566 [INFO]: Generated 4 completions
+2024-03-16 12:20:56.567 [INFO]: provideInlineCompletionItems request succeeded (451.93ms)
+2024-03-16 12:20:56.816 [INFO]: Skipping completions because autocomplete is open
+2024-03-16 12:20:57.137 [INFO]: Skipping completions because autocomplete is open
+2024-03-16 12:20:58.078 [INFO]: Skipping completions because autocomplete is open
+2024-03-16 12:20:58.428 [INFO]: Skipping completions because autocomplete is open
+2024-03-16 12:20:58.824 [INFO]: Skipping completions because autocomplete is open
+2024-03-16 12:20:59.153 [INFO]: Skipping completions because autocomplete is open
+2024-03-16 12:20:59.285 [INFO]: [Language Server (stderr)]:
+E0316 12:20:59.284996  1610 open_documents.go:65] open document /home/unk0wn/cpp/test/source/TCClien.hpp not found: stat /home/unk0wn/cpp/test/source/TCClien.hpp: no such file or directory
+2024-03-16 12:20:59.295 [INFO]: Completion request succeeded (11.96ms)
+2024-03-16 12:20:59.296 [INFO]: Generated 4 completions
+2024-03-16 12:20:59.296 [INFO]: provideInlineCompletionItems request succeeded (13.44ms)
+2024-03-16 12:21:00.081 [INFO]: [Language Server (stderr)]:
+E0316 12:21:00.081302  1610 open_documents.go:65] open document /home/unk0wn/cpp/test/source/TCClien.hpp not found: stat /home/unk0wn/cpp/test/source/TCClien.hpp: no such file or directory
+2024-03-16 12:21:00.520 [INFO]: Completion request succeeded (440.38ms)
+2024-03-16 12:21:00.520 [INFO]: No completions were generated
+2024-03-16 12:21:00.520 [INFO]: provideInlineCompletionItems request succeeded (441.17ms)
+2024-03-16 12:21:06.254 [INFO]: [Language Server (stderr)]:
+E0316 12:21:06.253614  1610 open_documents.go:65] open document /home/unk0wn/cpp/test/source/TCClien.hpp not found: stat /home/unk0wn/cpp/test/source/TCClien.hpp: no such file or directory
+2024-03-16 12:21:06.809 [INFO]: Completion request succeeded (607.75ms)
+2024-03-16 12:21:06.812 [INFO]: Generated 8 completions
+2024-03-16 12:21:06.814 [INFO]: provideInlineCompletionItems request succeeded (613.39ms)
+2024-03-16 12:21:09.847 [INFO]: Skipping completions because autocomplete is open
+2024-03-16 12:21:10.469 [INFO]: [Language Server (stderr)]:
+E0316 12:21:10.469683  1610 open_documents.go:65] open document /home/unk0wn/cpp/test/source/TCClien.hpp not found: stat /home/unk0wn/cpp/test/source/TCClien.hpp: no such file or directory
+2024-03-16 12:21:10.482 [INFO]: Completion request succeeded (63.15ms)
+2024-03-16 12:21:10.482 [INFO]: Generated 8 completions
+2024-03-16 12:21:10.483 [INFO]: provideInlineCompletionItems request succeeded (64.52ms)
+2024-03-16 12:21:11.165 [INFO]: Skipping completions because autocomplete is open
+2024-03-16 12:21:11.297 [INFO]: Skipping completions because autocomplete is open
+2024-03-16 12:21:12.018 [INFO]: [Language Server (stderr)]:
+E0316 12:21:12.018455  1610 open_documents.go:65] open document /home/unk0wn/cpp/test/source/TCClien.hpp not found: stat /home/unk0wn/cpp/test/source/TCClien.hpp: no such file or directory
+2024-03-16 12:21:12.335 [INFO]: Completion request succeeded (318.15ms)
+2024-03-16 12:21:12.335 [INFO]: Generated 1 completions
+2024-03-16 12:21:12.335 [INFO]: provideInlineCompletionItems request succeeded (319.18ms)
+2024-03-16 12:21:13.715 [INFO]: [Language Server (stderr)]:
+E0316 12:21:13.715687  1610 open_documents.go:65] open document /home/unk0wn/cpp/test/source/TCClien.hpp not found: stat /home/unk0wn/cpp/test/source/TCClien.hpp: no such file or directory
+2024-03-16 12:21:14.038 [INFO]: Completion request succeeded (323.94ms)
+2024-03-16 12:21:14.038 [INFO]: Generated 2 completions
+2024-03-16 12:21:14.038 [INFO]: provideInlineCompletionItems request succeeded (324.95ms)
+2024-03-16 12:21:14.962 [INFO]: [Language Server (stderr)]:
+E0316 12:21:14.962046  1610 open_documents.go:65] open document /home/unk0wn/cpp/test/source/TCClien.hpp not found: stat /home/unk0wn/cpp/test/source/TCClien.hpp: no such file or directory
+2024-03-16 12:21:15.224 [INFO]: Completion request succeeded (263.45ms)
+2024-03-16 12:21:15.225 [INFO]: No completions were generated
+2024-03-16 12:21:15.226 [INFO]: provideInlineCompletionItems request succeeded (265.75ms)
+2024-03-16 12:21:15.566 [INFO]: [Language Server (stderr)]:
+E0316 12:21:15.565951  1610 open_documents.go:65] open document /home/unk0wn/cpp/test/source/TCClien.hpp not found: stat /home/unk0wn/cpp/test/source/TCClien.hpp: no such file or directory
+2024-03-16 12:21:15.889 [INFO]: Completion request succeeded (325.11ms)
+2024-03-16 12:21:15.891 [INFO]: Generated 1 completions
+2024-03-16 12:21:15.892 [INFO]: provideInlineCompletionItems request succeeded (327.81ms)
+2024-03-16 12:21:16.684 [INFO]: [Language Server (stderr)]:
+E0316 12:21:16.684221  1610 open_documents.go:65] open document /home/unk0wn/cpp/test/source/TCClien.hpp not found: stat /home/unk0wn/cpp/test/source/TCClien.hpp: no such file or directory
+2024-03-16 12:21:16.969 [INFO]: Completion request was cancelled by token (286.14ms)
+2024-03-16 12:21:17.043 [INFO]: [Language Server (stderr)]:
+E0316 12:21:17.043054  1610 open_documents.go:65] open document /home/unk0wn/cpp/test/source/TCClien.hpp not found: stat /home/unk0wn/cpp/test/source/TCClien.hpp: no such file or directory
+2024-03-16 12:21:17.053 [INFO]: Completion request succeeded (11.76ms)
+2024-03-16 12:21:17.053 [INFO]: Generated 1 completions
+2024-03-16 12:21:17.053 [INFO]: provideInlineCompletionItems request succeeded (12.49ms)
+2024-03-16 12:21:22.023 [INFO]: Skipping completions because autocomplete is open
+2024-03-16 12:21:22.498 [INFO]: Skipping completions because autocomplete is open
+2024-03-16 12:21:22.891 [INFO]: Skipping completions because autocomplete is open
+2024-03-16 12:21:23.613 [INFO]: Skipping completions because autocomplete is open
+2024-03-16 12:21:24.132 [INFO]: [Language Server (stderr)]:
+E0316 12:21:24.131594  1610 open_documents.go:65] open document /home/unk0wn/cpp/test/source/TCClien.hpp not found: stat /home/unk0wn/cpp/test/source/TCClien.hpp: no such file or directory
+2024-03-16 12:21:24.485 [INFO]: Completion request succeeded (355.07ms)
+2024-03-16 12:21:24.485 [INFO]: Generated 1 completions
+2024-03-16 12:21:24.485 [INFO]: provideInlineCompletionItems request succeeded (356.14ms)
+2024-03-16 12:21:25.559 [INFO]: [Language Server (stderr)]:
+E0316 12:21:25.559358  1610 open_documents.go:65] open document /home/unk0wn/cpp/test/source/TCClien.hpp not found: stat /home/unk0wn/cpp/test/source/TCClien.hpp: no such file or directory
+2024-03-16 12:21:25.921 [INFO]: Completion request succeeded (363.31ms)
+2024-03-16 12:21:25.923 [INFO]: No completions were generated
+2024-03-16 12:21:25.923 [INFO]: provideInlineCompletionItems request succeeded (365.66ms)
+2024-03-16 12:22:07.890 [INFO]: [Language Server (stderr)]:
+E0316 12:22:07.889897  1610 open_documents.go:65] open document /home/unk0wn/cpp/test/source/TCClien.hpp not found: stat /home/unk0wn/cpp/test/source/TCClien.hpp: no such file or directory
+2024-03-16 12:22:08.161 [INFO]: Completion request was cancelled by token (273.11ms)
+2024-03-16 12:22:08.247 [INFO]: Skipping completions because autocomplete is open
+2024-03-16 12:22:08.430 [INFO]: Skipping completions because autocomplete is open
+2024-03-16 12:22:08.765 [INFO]: Skipping completions because autocomplete is open
+2024-03-16 12:22:08.882 [INFO]: [Language Server (stderr)]:
+E0316 12:22:08.882560  1610 open_documents.go:65] open document /home/unk0wn/cpp/test/source/TCClien.hpp not found: stat /home/unk0wn/cpp/test/source/TCClien.hpp: no such file or directory
+2024-03-16 12:22:09.235 [INFO]: Completion request succeeded (354.5ms)
+2024-03-16 12:22:09.236 [INFO]: Generated 1 completions
+2024-03-16 12:22:09.236 [INFO]: provideInlineCompletionItems request succeeded (355.92ms)
+2024-03-16 12:22:09.852 [INFO]: [Language Server (stderr)]:
+E0316 12:22:09.852460  1610 open_documents.go:65] open document /home/unk0wn/cpp/test/source/TCClien.hpp not found: stat /home/unk0wn/cpp/test/source/TCClien.hpp: no such file or directory
+2024-03-16 12:22:10.116 [INFO]: Completion request succeeded (265.37ms)
+2024-03-16 12:22:10.117 [INFO]: No completions were generated
+2024-03-16 12:22:10.118 [INFO]: provideInlineCompletionItems request succeeded (267.72ms)
+2024-03-16 12:22:42.028 [INFO]: [Language Server (stderr)]:
+E0316 12:22:42.027893  1610 open_documents.go:65] open document /home/unk0wn/cpp/test/source/TCClien.hpp not found: stat /home/unk0wn/cpp/test/source/TCClien.hpp: no such file or directory
+2024-03-16 12:22:42.301 [INFO]: Completion request succeeded (274.31ms)
+2024-03-16 12:22:42.301 [INFO]: No completions were generated
+2024-03-16 12:22:42.302 [INFO]: provideInlineCompletionItems request succeeded (275.65ms)
+2024-03-16 12:22:43.424 [INFO]: [Language Server (stderr)]:
+E0316 12:22:43.420532  1610 open_documents.go:65] open document /home/unk0wn/cpp/test/source/TCClien.hpp not found: stat /home/unk0wn/cpp/test/source/TCClien.hpp: no such file or directory
+2024-03-16 12:22:43.761 [INFO]: Completion request succeeded (346.04ms)
+2024-03-16 12:22:43.762 [INFO]: Generated 1 completions
+2024-03-16 12:22:43.762 [INFO]: provideInlineCompletionItems request succeeded (348.16ms)
+2024-03-16 12:23:47.418 [INFO]: [Language Server (stderr)]:
+E0316 12:23:47.417847  1610 open_documents.go:65] open document /home/unk0wn/cpp/test/source/TCClien.hpp not found: stat /home/unk0wn/cpp/test/source/TCClien.hpp: no such file or directory
+2024-03-16 12:23:47.781 [INFO]: Completion request succeeded (414.67ms)
+2024-03-16 12:23:47.781 [INFO]: No completions were generated
+2024-03-16 12:23:47.781 [INFO]: provideInlineCompletionItems request succeeded (415.61ms)
+2024-03-16 12:23:53.302 [INFO]: Skipping completions because autocomplete is open
+2024-03-16 12:23:53.447 [INFO]: [Language Server (stderr)]:
+E0316 12:23:53.447001  1610 open_documents.go:65] open document /home/unk0wn/cpp/test/source/TCClien.hpp not found: stat /home/unk0wn/cpp/test/source/TCClien.hpp: no such file or directory
+2024-03-16 12:23:53.697 [INFO]: Completion request was cancelled by token (252.13ms)
+2024-03-16 12:23:53.774 [INFO]: [Language Server (stderr)]:
+E0316 12:23:53.773842  1610 open_documents.go:65] open document /home/unk0wn/cpp/test/source/TCClien.hpp not found: stat /home/unk0wn/cpp/test/source/TCClien.hpp: no such file or directory
+2024-03-16 12:23:54.101 [INFO]: Completion request succeeded (329.66ms)
+2024-03-16 12:23:54.101 [INFO]: Generated 3 completions
+2024-03-16 12:23:54.101 [INFO]: provideInlineCompletionItems request succeeded (330.75ms)
+2024-03-16 12:23:54.627 [INFO]: [Language Server (stderr)]:
+E0316 12:23:54.627658  1610 open_documents.go:65] open document /home/unk0wn/cpp/test/source/TCClien.hpp not found: stat /home/unk0wn/cpp/test/source/TCClien.hpp: no such file or directory
+2024-03-16 12:23:54.710 [INFO]: Completion request was cancelled by token (83.72ms)
+2024-03-16 12:23:54.784 [INFO]: [Language Server (stderr)]:
+E0316 12:23:54.784215  1610 open_documents.go:65] open document /home/unk0wn/cpp/test/source/TCClien.hpp not found: stat /home/unk0wn/cpp/test/source/TCClien.hpp: no such file or directory
+2024-03-16 12:23:54.849 [INFO]: Completion request was cancelled by token (66.79ms)
+2024-03-16 12:23:54.926 [INFO]: [Language Server (stderr)]:
+E0316 12:23:54.925613  1610 open_documents.go:65] open document /home/unk0wn/cpp/test/source/TCClien.hpp not found: stat /home/unk0wn/cpp/test/source/TCClien.hpp: no such file or directory
+2024-03-16 12:23:55.008 [INFO]: Completion request was cancelled by token (84.63ms)
+2024-03-16 12:23:55.134 [INFO]: [Language Server (stderr)]:
+E0316 12:23:55.134246  1610 open_documents.go:65] open document /home/unk0wn/cpp/test/source/TCClien.hpp not found: stat /home/unk0wn/cpp/test/source/TCClien.hpp: no such file or directory
+2024-03-16 12:23:55.468 [INFO]: Completion request succeeded (385.06ms)
+2024-03-16 12:23:55.468 [INFO]: No completions were generated
+2024-03-16 12:23:55.468 [INFO]: provideInlineCompletionItems request succeeded (385.92ms)
+2024-03-16 12:23:56.809 [INFO]: Skipping completions because autocomplete is open
+2024-03-16 12:23:56.895 [INFO]: Skipping completions because autocomplete is open
+2024-03-16 12:23:57.196 [INFO]: Skipping completions because autocomplete is open
+2024-03-16 12:23:57.290 [INFO]: Skipping completions because autocomplete is open
+2024-03-16 12:23:58.234 [INFO]: Skipping completions because autocomplete is open
+2024-03-16 12:23:58.330 [INFO]: Skipping completions because autocomplete is open
+2024-03-16 12:23:58.462 [INFO]: Skipping completions because autocomplete is open
+2024-03-16 12:23:59.667 [INFO]: [Language Server (stderr)]:
+E0316 12:23:59.666694  1610 open_documents.go:65] open document /home/unk0wn/cpp/test/source/TCClien.hpp not found: stat /home/unk0wn/cpp/test/source/TCClien.hpp: no such file or directory
+2024-03-16 12:24:00.043 [INFO]: Completion request succeeded (377.43ms)
+2024-03-16 12:24:00.044 [INFO]: Generated 1 completions
+2024-03-16 12:24:00.045 [INFO]: provideInlineCompletionItems request succeeded (380.35ms)
+2024-03-16 12:24:00.255 [INFO]: [Language Server (stderr)]:
+E0316 12:24:00.255210  1610 open_documents.go:65] open document /home/unk0wn/cpp/test/source/TCClien.hpp not found: stat /home/unk0wn/cpp/test/source/TCClien.hpp: no such file or directory
+2024-03-16 12:24:00.606 [INFO]: Completion request succeeded (352.15ms)
+2024-03-16 12:24:00.607 [INFO]: Generated 1 completions
+2024-03-16 12:24:00.607 [INFO]: provideInlineCompletionItems request succeeded (353.81ms)
+2024-03-16 12:24:00.714 [INFO]: [Language Server (stderr)]:
+E0316 12:24:00.714417  1610 open_documents.go:65] open document /home/unk0wn/cpp/test/source/TCClien.hpp not found: stat /home/unk0wn/cpp/test/source/TCClien.hpp: no such file or directory
+2024-03-16 12:24:00.855 [INFO]: Completion request was cancelled by token (141.95ms)
+2024-03-16 12:24:00.942 [INFO]: [Language Server (stderr)]:
+E0316 12:24:00.942455  1610 open_documents.go:65] open document /home/unk0wn/cpp/test/source/TCClien.hpp not found: stat /home/unk0wn/cpp/test/source/TCClien.hpp: no such file or directory
+2024-03-16 12:24:01.287 [INFO]: Completion request was cancelled by token (347.2ms)
+2024-03-16 12:24:01.362 [INFO]: [Language Server (stderr)]:
+E0316 12:24:01.361921  1610 open_documents.go:65] open document /home/unk0wn/cpp/test/source/TCClien.hpp not found: stat /home/unk0wn/cpp/test/source/TCClien.hpp: no such file or directory
+2024-03-16 12:24:01.484 [INFO]: Completion request was cancelled by token (124.67ms)
+2024-03-16 12:24:01.556 [INFO]: [Language Server (stderr)]:
+E0316 12:24:01.555858  1610 open_documents.go:65] open document /home/unk0wn/cpp/test/source/TCClien.hpp not found: stat /home/unk0wn/cpp/test/source/TCClien.hpp: no such file or directory
+2024-03-16 12:24:01.650 [INFO]: Completion request was cancelled by token (95.94ms)
+2024-03-16 12:24:01.726 [INFO]: [Language Server (stderr)]:
+E0316 12:24:01.726319  1610 open_documents.go:65] open document /home/unk0wn/cpp/test/source/TCClien.hpp not found: stat /home/unk0wn/cpp/test/source/TCClien.hpp: no such file or directory
+2024-03-16 12:24:02.025 [INFO]: Completion request was cancelled by token (300.53ms)
+2024-03-16 12:24:02.094 [INFO]: [Language Server (stderr)]:
+E0316 12:24:02.094257  1610 open_documents.go:65] open document /home/unk0wn/cpp/test/source/TCClien.hpp not found: stat /home/unk0wn/cpp/test/source/TCClien.hpp: no such file or directory
+2024-03-16 12:24:02.122 [INFO]: Completion request was cancelled by token (29.58ms)
+2024-03-16 12:24:02.210 [INFO]: Skipping completions because autocomplete is open
+2024-03-16 12:24:03.105 [INFO]: [Language Server (stderr)]:
+E0316 12:24:03.104795  1610 open_documents.go:65] open document /home/unk0wn/cpp/test/source/TCClien.hpp not found: stat /home/unk0wn/cpp/test/source/TCClien.hpp: no such file or directory
+2024-03-16 12:24:03.426 [INFO]: Completion request succeeded (322.27ms)
+2024-03-16 12:24:03.427 [INFO]: Generated 1 completions
+2024-03-16 12:24:03.428 [INFO]: provideInlineCompletionItems request succeeded (325.32ms)
+2024-03-16 12:24:03.777 [INFO]: [Language Server (stderr)]:
+E0316 12:24:03.777412  1610 open_documents.go:65] open document /home/unk0wn/cpp/test/source/TCClien.hpp not found: stat /home/unk0wn/cpp/test/source/TCClien.hpp: no such file or directory
+2024-03-16 12:24:04.621 [INFO]: Completion request was cancelled by token (845.02ms)
+2024-03-16 12:24:04.622 [INFO]: [Language Server (stderr)]:
+E0316 12:24:04.622236  1610 interceptor.go:40] /exa.language_server_pb.LanguageServerService/AcceptCompletion: previous state not found for completion id a1b83ca4-d2f7-467f-b7fd-6ce3348da16e
+2024-03-16 12:24:04.623 [ERROR]: [unknown] previous state not found for completion id a1b83ca4-d2f7-467f-b7fd-6ce3348da16e
+2024-03-16 12:24:04.704 [INFO]: [Language Server (stderr)]:
+E0316 12:24:04.704360  1610 open_documents.go:65] open document /home/unk0wn/cpp/test/source/TCClien.hpp not found: stat /home/unk0wn/cpp/test/source/TCClien.hpp: no such file or directory
+2024-03-16 12:24:05.053 [INFO]: Completion request succeeded (350.76ms)
+2024-03-16 12:24:05.054 [INFO]: No completions were generated
+2024-03-16 12:24:05.054 [INFO]: provideInlineCompletionItems request succeeded (351.65ms)
+2024-03-16 12:24:06.415 [INFO]: [Language Server (stderr)]:
+E0316 12:24:06.414942  1610 open_documents.go:65] open document /home/unk0wn/cpp/test/source/TCClien.hpp not found: stat /home/unk0wn/cpp/test/source/TCClien.hpp: no such file or directory
+2024-03-16 12:24:06.715 [INFO]: Completion request succeeded (301.37ms)
+2024-03-16 12:24:06.717 [INFO]: Generated 1 completions
+2024-03-16 12:24:06.717 [INFO]: provideInlineCompletionItems request succeeded (304.21ms)
+2024-03-16 12:24:07.221 [INFO]: [Language Server (stderr)]:
+E0316 12:24:07.220860  1610 open_documents.go:65] open document /home/unk0wn/cpp/test/source/TCClien.hpp not found: stat /home/unk0wn/cpp/test/source/TCClien.hpp: no such file or directory
+2024-03-16 12:24:07.261 [INFO]: Completion request was cancelled by token (48.39ms)
+2024-03-16 12:24:07.332 [INFO]: [Language Server (stderr)]:
+E0316 12:24:07.332466  1610 open_documents.go:65] open document /home/unk0wn/cpp/test/source/TCClien.hpp not found: stat /home/unk0wn/cpp/test/source/TCClien.hpp: no such file or directory
+2024-03-16 12:24:07.404 [INFO]: Completion request was cancelled by token (73.74ms)
+2024-03-16 12:24:07.480 [INFO]: [Language Server (stderr)]:
+E0316 12:24:07.480460  1610 open_documents.go:65] open document /home/unk0wn/cpp/test/source/TCClien.hpp not found: stat /home/unk0wn/cpp/test/source/TCClien.hpp: no such file or directory
+2024-03-16 12:24:07.605 [INFO]: Completion request was cancelled by token (125.44ms)
+2024-03-16 12:24:07.676 [INFO]: [Language Server (stderr)]:
+E0316 12:24:07.676563  1610 open_documents.go:65] open document /home/unk0wn/cpp/test/source/TCClien.hpp not found: stat /home/unk0wn/cpp/test/source/TCClien.hpp: no such file or directory
+2024-03-16 12:24:07.780 [INFO]: Completion request was cancelled by token (105.16ms)
+2024-03-16 12:24:07.856 [INFO]: [Language Server (stderr)]:
+E0316 12:24:07.855812  1610 open_documents.go:65] open document /home/unk0wn/cpp/test/source/TCClien.hpp not found: stat /home/unk0wn/cpp/test/source/TCClien.hpp: no such file or directory
+2024-03-16 12:24:08.059 [INFO]: Completion request was cancelled by token (204.69ms)
+2024-03-16 12:24:08.128 [INFO]: [Language Server (stderr)]:
+E0316 12:24:08.128314  1610 open_documents.go:65] open document /home/unk0wn/cpp/test/source/TCClien.hpp not found: stat /home/unk0wn/cpp/test/source/TCClien.hpp: no such file or directory
+2024-03-16 12:24:08.197 [INFO]: Completion request was cancelled by token (70.73ms)
+2024-03-16 12:24:08.279 [INFO]: [Language Server (stderr)]:
+E0316 12:24:08.278388  1610 open_documents.go:65] open document /home/unk0wn/cpp/test/source/TCClien.hpp not found: stat /home/unk0wn/cpp/test/source/TCClien.hpp: no such file or directory
+2024-03-16 12:24:08.365 [INFO]: Completion request was cancelled by token (91.29ms)
+2024-03-16 12:24:08.438 [INFO]: [Language Server (stderr)]:
+E0316 12:24:08.438025  1610 open_documents.go:65] open document /home/unk0wn/cpp/test/source/TCClien.hpp not found: stat /home/unk0wn/cpp/test/source/TCClien.hpp: no such file or directory
+2024-03-16 12:24:08.727 [INFO]: Completion request succeeded (290.84ms)
+2024-03-16 12:24:08.729 [INFO]: Generated 1 completions
+2024-03-16 12:24:08.730 [INFO]: provideInlineCompletionItems request succeeded (293.98ms)
+2024-03-16 12:24:09.259 [INFO]: Skipping completions because autocomplete is open
+2024-03-16 12:24:09.473 [INFO]: Skipping completions because autocomplete is open
+2024-03-16 12:24:09.968 [INFO]: [Language Server (stderr)]:
+E0316 12:24:09.968064  1610 open_documents.go:65] open document /home/unk0wn/cpp/test/source/TCClien.hpp not found: stat /home/unk0wn/cpp/test/source/TCClien.hpp: no such file or directory
+2024-03-16 12:24:10.290 [INFO]: Completion request succeeded (322.89ms)
+2024-03-16 12:24:10.290 [INFO]: Generated 2 completions
+2024-03-16 12:24:10.290 [INFO]: provideInlineCompletionItems request succeeded (324.46ms)
+2024-03-16 12:24:12.887 [INFO]: [Language Server (stderr)]:
+E0316 12:24:12.887376  1610 open_documents.go:65] open document /home/unk0wn/cpp/test/source/TCClien.hpp not found: stat /home/unk0wn/cpp/test/source/TCClien.hpp: no such file or directory
+2024-03-16 12:24:13.169 [INFO]: Completion request succeeded (282.45ms)
+2024-03-16 12:24:13.170 [INFO]: Generated 1 completions
+2024-03-16 12:24:13.171 [INFO]: provideInlineCompletionItems request succeeded (285.3ms)
+2024-03-16 12:24:15.192 [INFO]: [Language Server (stderr)]:
+E0316 12:24:15.192239  1610 open_documents.go:65] open document /home/unk0wn/cpp/test/source/TCClien.hpp not found: stat /home/unk0wn/cpp/test/source/TCClien.hpp: no such file or directory
+2024-03-16 12:24:15.753 [INFO]: Completion request succeeded (562.39ms)
+2024-03-16 12:24:15.756 [INFO]: Generated 8 completions
+2024-03-16 12:24:15.757 [INFO]: provideInlineCompletionItems request succeeded (567.09ms)
+2024-03-16 12:24:18.891 [INFO]: [Language Server (stderr)]:
+E0316 12:24:18.891136  1610 open_documents.go:65] open document /home/unk0wn/cpp/test/source/TCClien.hpp not found: stat /home/unk0wn/cpp/test/source/TCClien.hpp: no such file or directory
+2024-03-16 12:24:19.173 [INFO]: Completion request succeeded (283.19ms)
+2024-03-16 12:24:19.174 [INFO]: No completions were generated
+2024-03-16 12:24:19.175 [INFO]: provideInlineCompletionItems request succeeded (285.58ms)
+2024-03-16 12:24:19.724 [INFO]: [Language Server (stderr)]:
+E0316 12:24:19.724435  1610 open_documents.go:65] open document /home/unk0wn/cpp/test/source/TCClien.hpp not found: stat /home/unk0wn/cpp/test/source/TCClien.hpp: no such file or directory
+2024-03-16 12:24:20.370 [INFO]: Completion request succeeded (748.15ms)
+2024-03-16 12:24:20.372 [INFO]: Generated 8 completions
+2024-03-16 12:24:20.374 [INFO]: provideInlineCompletionItems request succeeded (752.59ms)
+2024-03-16 12:24:21.610 [INFO]: [Language Server (stderr)]:
+E0316 12:24:21.607031  1610 open_documents.go:65] open document /home/unk0wn/cpp/test/source/TCClien.hpp not found: stat /home/unk0wn/cpp/test/source/TCClien.hpp: no such file or directory
+2024-03-16 12:24:21.623 [INFO]: Completion request succeeded (25.16ms)
+2024-03-16 12:24:21.623 [INFO]: Generated 8 completions
+2024-03-16 12:24:21.624 [INFO]: provideInlineCompletionItems request succeeded (27.63ms)
+2024-03-16 12:24:24.912 [INFO]: [Language Server (stderr)]:
+E0316 12:24:24.911696  1610 open_documents.go:65] open document /home/unk0wn/cpp/test/source/TCClien.hpp not found: stat /home/unk0wn/cpp/test/source/TCClien.hpp: no such file or directory
+2024-03-16 12:24:25.212 [INFO]: Completion request succeeded (403.41ms)
+2024-03-16 12:24:25.213 [INFO]: Generated 2 completions
+2024-03-16 12:24:25.213 [INFO]: provideInlineCompletionItems request succeeded (404.45ms)
+2024-03-16 12:24:31.068 [INFO]: [Language Server (stderr)]:
+E0316 12:24:31.068560  1610 open_documents.go:65] open document /home/unk0wn/cpp/test/source/TCClien.hpp not found: stat /home/unk0wn/cpp/test/source/TCClien.hpp: no such file or directory
+2024-03-16 12:24:31.278 [INFO]: Completion request was cancelled by token (211.11ms)
+2024-03-16 12:24:31.453 [INFO]: [Language Server (stderr)]:
+E0316 12:24:31.452664  1610 open_documents.go:65] open document /home/unk0wn/cpp/test/source/TCClien.hpp not found: stat /home/unk0wn/cpp/test/source/TCClien.hpp: no such file or directory
+2024-03-16 12:24:31.756 [INFO]: Completion request succeeded (404.9ms)
+2024-03-16 12:24:31.756 [INFO]: No completions were generated
+2024-03-16 12:24:31.756 [INFO]: provideInlineCompletionItems request succeeded (405.77ms)
+2024-03-16 12:24:33.929 [INFO]: [Language Server (stderr)]:
+E0316 12:24:33.929243  1610 open_documents.go:65] open document /home/unk0wn/cpp/test/source/TCClien.hpp not found: stat /home/unk0wn/cpp/test/source/TCClien.hpp: no such file or directory
+2024-03-16 12:24:34.126 [INFO]: Completion request was cancelled by token (299.56ms)
+2024-03-16 12:24:34.515 [INFO]: [Language Server (stderr)]:
+E0316 12:24:34.515020  1610 open_documents.go:65] open document /home/unk0wn/cpp/test/source/TCClien.hpp not found: stat /home/unk0wn/cpp/test/source/TCClien.hpp: no such file or directory
+2024-03-16 12:24:34.697 [INFO]: Completion request was cancelled by token (183.05ms)
+2024-03-16 12:24:34.815 [INFO]: [Language Server (stderr)]:
+E0316 12:24:34.815446  1610 open_documents.go:65] open document /home/unk0wn/cpp/test/source/TCClien.hpp not found: stat /home/unk0wn/cpp/test/source/TCClien.hpp: no such file or directory
+2024-03-16 12:24:35.136 [INFO]: Completion request succeeded (371.34ms)
+2024-03-16 12:24:35.136 [INFO]: Generated 2 completions
+2024-03-16 12:24:35.137 [INFO]: provideInlineCompletionItems request succeeded (373.07ms)
+2024-03-16 12:24:36.826 [INFO]: [Language Server (stderr)]:
+E0316 12:24:36.826322  1610 open_documents.go:65] open document /home/unk0wn/cpp/test/source/TCClien.hpp not found: stat /home/unk0wn/cpp/test/source/TCClien.hpp: no such file or directory
+2024-03-16 12:24:37.143 [INFO]: Completion request succeeded (318.05ms)
+2024-03-16 12:24:37.145 [INFO]: No completions were generated
+2024-03-16 12:24:37.146 [INFO]: provideInlineCompletionItems request succeeded (321.15ms)
+2024-03-16 12:24:39.709 [INFO]: [Language Server (stderr)]:
+E0316 12:24:39.709477  1610 open_documents.go:65] open document /home/unk0wn/cpp/test/source/TCClien.hpp not found: stat /home/unk0wn/cpp/test/source/TCClien.hpp: no such file or directory
+2024-03-16 12:24:39.978 [INFO]: Completion request was cancelled by token (270.02ms)
+2024-03-16 12:24:40.620 [INFO]: [Language Server (stderr)]:
+E0316 12:24:40.620304  1610 open_documents.go:65] open document /home/unk0wn/cpp/test/source/TCClien.hpp not found: stat /home/unk0wn/cpp/test/source/TCClien.hpp: no such file or directory
+2024-03-16 12:24:41.042 [INFO]: Completion request was cancelled by token (423.14ms)
+2024-03-16 12:24:41.114 [INFO]: [Language Server (stderr)]:
+E0316 12:24:41.113756  1610 open_documents.go:65] open document /home/unk0wn/cpp/test/source/TCClien.hpp not found: stat /home/unk0wn/cpp/test/source/TCClien.hpp: no such file or directory
+2024-03-16 12:24:41.684 [INFO]: Completion request succeeded (571.84ms)
+2024-03-16 12:24:41.685 [INFO]: Generated 7 completions
+2024-03-16 12:24:41.685 [INFO]: provideInlineCompletionItems request succeeded (574.21ms)
+2024-03-16 12:24:42.201 [INFO]: [Language Server (stderr)]:
+E0316 12:24:42.200992  1610 open_documents.go:65] open document /home/unk0wn/cpp/test/source/TCClien.hpp not found: stat /home/unk0wn/cpp/test/source/TCClien.hpp: no such file or directory
+2024-03-16 12:24:42.213 [INFO]: Completion request succeeded (16.17ms)
+2024-03-16 12:24:42.213 [INFO]: Generated 7 completions
+2024-03-16 12:24:42.214 [INFO]: provideInlineCompletionItems request succeeded (17.62ms)
+2024-03-16 12:24:42.861 [INFO]: Skipping completions because autocomplete is open
+2024-03-16 12:24:43.237 [INFO]: Skipping completions because autocomplete is open
+2024-03-16 12:24:43.377 [INFO]: Skipping completions because autocomplete is open
+2024-03-16 12:24:43.667 [INFO]: Skipping completions because autocomplete is open
+2024-03-16 12:24:44.052 [INFO]: Skipping completions because autocomplete is open
+2024-03-16 12:24:44.418 [INFO]: [Language Server (stderr)]:
+E0316 12:24:44.417767  1610 open_documents.go:65] open document /home/unk0wn/cpp/test/source/TCClien.hpp not found: stat /home/unk0wn/cpp/test/source/TCClien.hpp: no such file or directory
+2024-03-16 12:24:44.825 [INFO]: Completion request succeeded (409.22ms)
+2024-03-16 12:24:44.827 [INFO]: Generated 7 completions
+2024-03-16 12:24:44.829 [INFO]: provideInlineCompletionItems request succeeded (413.47ms)
+2024-03-16 12:24:45.317 [INFO]: [Language Server (stderr)]:
+E0316 12:24:45.317584  1610 open_documents.go:65] open document /home/unk0wn/cpp/test/source/TCClien.hpp not found: stat /home/unk0wn/cpp/test/source/TCClien.hpp: no such file or directory
+2024-03-16 12:24:45.544 [INFO]: Completion request was cancelled by token (228.25ms)
+2024-03-16 12:24:45.616 [INFO]: [Language Server (stderr)]:
+E0316 12:24:45.615908  1610 open_documents.go:65] open document /home/unk0wn/cpp/test/source/TCClien.hpp not found: stat /home/unk0wn/cpp/test/source/TCClien.hpp: no such file or directory
+2024-03-16 12:24:46.030 [INFO]: Completion request succeeded (415.89ms)
+2024-03-16 12:24:46.030 [INFO]: Generated 8 completions
+2024-03-16 12:24:46.031 [INFO]: provideInlineCompletionItems request succeeded (417.2ms)
+2024-03-16 12:24:46.212 [INFO]: [Language Server (stderr)]:
+E0316 12:24:46.211682  1610 open_documents.go:65] open document /home/unk0wn/cpp/test/source/TCClien.hpp not found: stat /home/unk0wn/cpp/test/source/TCClien.hpp: no such file or directory
+2024-03-16 12:24:46.422 [INFO]: Completion request was cancelled by token (211.81ms)
+2024-03-16 12:24:46.494 [INFO]: [Language Server (stderr)]:
+E0316 12:24:46.494618  1610 open_documents.go:65] open document /home/unk0wn/cpp/test/source/TCClien.hpp not found: stat /home/unk0wn/cpp/test/source/TCClien.hpp: no such file or directory
+2024-03-16 12:24:46.678 [INFO]: Completion request was cancelled by token (185.28ms)
+2024-03-16 12:24:46.749 [INFO]: [Language Server (stderr)]:
+E0316 12:24:46.749429  1610 open_documents.go:65] open document /home/unk0wn/cpp/test/source/TCClien.hpp not found: stat /home/unk0wn/cpp/test/source/TCClien.hpp: no such file or directory
+2024-03-16 12:24:46.766 [INFO]: Completion request was cancelled by token (18.16ms)
+2024-03-16 12:24:46.843 [INFO]: [Language Server (stderr)]:
+E0316 12:24:46.843151  1610 open_documents.go:65] open document /home/unk0wn/cpp/test/source/TCClien.hpp not found: stat /home/unk0wn/cpp/test/source/TCClien.hpp: no such file or directory
+2024-03-16 12:24:47.391 [INFO]: Completion request was cancelled by token (549.65ms)
+2024-03-16 12:24:47.471 [INFO]: [Language Server (stderr)]:
+E0316 12:24:47.470757  1610 open_documents.go:65] open document /home/unk0wn/cpp/test/source/TCClien.hpp not found: stat /home/unk0wn/cpp/test/source/TCClien.hpp: no such file or directory
+2024-03-16 12:24:47.507 [INFO]: Completion request was cancelled by token (41.29ms)
+2024-03-16 12:24:47.581 [INFO]: [Language Server (stderr)]:
+E0316 12:24:47.581323  1610 open_documents.go:65] open document /home/unk0wn/cpp/test/source/TCClien.hpp not found: stat /home/unk0wn/cpp/test/source/TCClien.hpp: no such file or directory
+2024-03-16 12:24:47.773 [INFO]: Completion request was cancelled by token (193.76ms)
+2024-03-16 12:24:47.849 [INFO]: [Language Server (stderr)]:
+E0316 12:24:47.849377  1610 open_documents.go:65] open document /home/unk0wn/cpp/test/source/TCClien.hpp not found: stat /home/unk0wn/cpp/test/source/TCClien.hpp: no such file or directory
+2024-03-16 12:24:48.248 [INFO]: Completion request succeeded (400.59ms)
+2024-03-16 12:24:48.249 [INFO]: Generated 7 completions
+2024-03-16 12:24:48.249 [INFO]: provideInlineCompletionItems request succeeded (401.92ms)
+2024-03-16 12:24:49.096 [INFO]: Skipping completions because autocomplete is open
+2024-03-16 12:24:49.245 [INFO]: Skipping completions because autocomplete is open
+2024-03-16 12:24:49.376 [INFO]: Skipping completions because autocomplete is open
+2024-03-16 12:24:49.960 [INFO]: [Language Server (stderr)]:
+E0316 12:24:49.960347  1610 open_documents.go:65] open document /home/unk0wn/cpp/test/source/TCClien.hpp not found: stat /home/unk0wn/cpp/test/source/TCClien.hpp: no such file or directory
+2024-03-16 12:24:49.971 [INFO]: Completion request succeeded (12.33ms)
+2024-03-16 12:24:49.971 [INFO]: Generated 7 completions
+2024-03-16 12:24:49.971 [INFO]: provideInlineCompletionItems request succeeded (13.45ms)
+2024-03-16 12:24:50.999 [INFO]: [Language Server (stderr)]:
+E0316 12:24:50.999378  1610 open_documents.go:65] open document /home/unk0wn/cpp/test/source/TCClien.hpp not found: stat /home/unk0wn/cpp/test/source/TCClien.hpp: no such file or directory
+2024-03-16 12:24:51.398 [INFO]: Completion request succeeded (399.65ms)
+2024-03-16 12:24:51.400 [INFO]: Generated 6 completions
+2024-03-16 12:24:51.401 [INFO]: provideInlineCompletionItems request succeeded (403.64ms)
+2024-03-16 12:24:51.558 [INFO]: [Language Server (stderr)]:
+E0316 12:24:51.558186  1610 open_documents.go:65] open document /home/unk0wn/cpp/test/source/TCClien.hpp not found: stat /home/unk0wn/cpp/test/source/TCClien.hpp: no such file or directory
+2024-03-16 12:24:51.568 [INFO]: Completion request succeeded (11.68ms)
+2024-03-16 12:24:51.568 [INFO]: Generated 7 completions
+2024-03-16 12:24:51.569 [INFO]: provideInlineCompletionItems request succeeded (12.74ms)
+2024-03-16 12:24:51.916 [INFO]: [Language Server (stderr)]:
+E0316 12:24:51.915925  1610 open_documents.go:65] open document /home/unk0wn/cpp/test/source/TCClien.hpp not found: stat /home/unk0wn/cpp/test/source/TCClien.hpp: no such file or directory
+2024-03-16 12:24:51.925 [INFO]: Completion request succeeded (11.36ms)
+2024-03-16 12:24:51.926 [INFO]: Generated 7 completions
+2024-03-16 12:24:51.926 [INFO]: provideInlineCompletionItems request succeeded (12.47ms)
+2024-03-16 12:24:52.032 [INFO]: [Language Server (stderr)]:
+E0316 12:24:52.032558  1610 open_documents.go:65] open document /home/unk0wn/cpp/test/source/TCClien.hpp not found: stat /home/unk0wn/cpp/test/source/TCClien.hpp: no such file or directory
+2024-03-16 12:24:52.042 [INFO]: Completion request succeeded (12.66ms)
+2024-03-16 12:24:52.042 [INFO]: Generated 7 completions
+2024-03-16 12:24:52.043 [INFO]: provideInlineCompletionItems request succeeded (13.77ms)
+2024-03-16 12:24:52.320 [INFO]: [Language Server (stderr)]:
+E0316 12:24:52.320382  1610 open_documents.go:65] open document /home/unk0wn/cpp/test/source/TCClien.hpp not found: stat /home/unk0wn/cpp/test/source/TCClien.hpp: no such file or directory
+2024-03-16 12:24:52.330 [INFO]: Completion request succeeded (11.9ms)
+2024-03-16 12:24:52.331 [INFO]: Generated 7 completions
+2024-03-16 12:24:52.331 [INFO]: provideInlineCompletionItems request succeeded (13.02ms)
+2024-03-16 12:24:52.806 [INFO]: [Language Server (stderr)]:
+E0316 12:24:52.805783  1610 open_documents.go:65] open document /home/unk0wn/cpp/test/source/TCClien.hpp not found: stat /home/unk0wn/cpp/test/source/TCClien.hpp: no such file or directory
+2024-03-16 12:24:53.336 [INFO]: Completion request succeeded (532.14ms)
+2024-03-16 12:24:53.336 [INFO]: Generated 4 completions
+2024-03-16 12:24:53.337 [INFO]: provideInlineCompletionItems request succeeded (533.19ms)
+2024-03-16 12:24:55.832 [INFO]: [Language Server (stderr)]:
+E0316 12:24:55.832063  1610 open_documents.go:65] open document /home/unk0wn/cpp/test/source/TCClien.hpp not found: stat /home/unk0wn/cpp/test/source/TCClien.hpp: no such file or directory
+2024-03-16 12:24:55.955 [INFO]: Completion request was cancelled by token (124.91ms)
+2024-03-16 12:24:56.028 [INFO]: [Language Server (stderr)]:
+E0316 12:24:56.027997  1610 open_documents.go:65] open document /home/unk0wn/cpp/test/source/TCClien.hpp not found: stat /home/unk0wn/cpp/test/source/TCClien.hpp: no such file or directory
+2024-03-16 12:24:56.213 [INFO]: Completion request was cancelled by token (187.8ms)
+2024-03-16 12:24:56.285 [INFO]: [Language Server (stderr)]:
+E0316 12:24:56.285391  1610 open_documents.go:65] open document /home/unk0wn/cpp/test/source/TCClien.hpp not found: stat /home/unk0wn/cpp/test/source/TCClien.hpp: no such file or directory
+2024-03-16 12:24:56.383 [INFO]: Completion request was cancelled by token (98.83ms)
+2024-03-16 12:24:56.454 [INFO]: [Language Server (stderr)]:
+E0316 12:24:56.454169  1610 open_documents.go:65] open document /home/unk0wn/cpp/test/source/TCClien.hpp not found: stat /home/unk0wn/cpp/test/source/TCClien.hpp: no such file or directory
+2024-03-16 12:24:56.496 [INFO]: Completion request was cancelled by token (43.45ms)
+2024-03-16 12:24:56.580 [INFO]: [Language Server (stderr)]:
+E0316 12:24:56.579754  1610 open_documents.go:65] open document /home/unk0wn/cpp/test/source/TCClien.hpp not found: stat /home/unk0wn/cpp/test/source/TCClien.hpp: no such file or directory
+2024-03-16 12:24:56.632 [INFO]: Completion request was cancelled by token (59.1ms)
+2024-03-16 12:24:56.706 [INFO]: [Language Server (stderr)]:
+E0316 12:24:56.706640  1610 open_documents.go:65] open document /home/unk0wn/cpp/test/source/TCClien.hpp not found: stat /home/unk0wn/cpp/test/source/TCClien.hpp: no such file or directory
+2024-03-16 12:24:56.790 [INFO]: Completion request was cancelled by token (85.34ms)
+2024-03-16 12:24:56.866 [INFO]: [Language Server (stderr)]:
+E0316 12:24:56.866139  1610 open_documents.go:65] open document /home/unk0wn/cpp/test/source/TCClien.hpp not found: stat /home/unk0wn/cpp/test/source/TCClien.hpp: no such file or directory
+2024-03-16 12:24:57.043 [INFO]: Completion request was cancelled by token (178.21ms)
+2024-03-16 12:24:57.114 [INFO]: [Language Server (stderr)]:
+E0316 12:24:57.114254  1610 open_documents.go:65] open document /home/unk0wn/cpp/test/source/TCClien.hpp not found: stat /home/unk0wn/cpp/test/source/TCClien.hpp: no such file or directory
+2024-03-16 12:24:57.179 [INFO]: Completion request was cancelled by token (66.93ms)
+2024-03-16 12:24:57.255 [INFO]: [Language Server (stderr)]:
+E0316 12:24:57.255200  1610 open_documents.go:65] open document /home/unk0wn/cpp/test/source/TCClien.hpp not found: stat /home/unk0wn/cpp/test/source/TCClien.hpp: no such file or directory
+2024-03-16 12:24:57.345 [INFO]: Completion request was cancelled by token (91.55ms)
+2024-03-16 12:24:57.422 [INFO]: [Language Server (stderr)]:
+E0316 12:24:57.421867  1610 open_documents.go:65] open document /home/unk0wn/cpp/test/source/TCClien.hpp not found: stat /home/unk0wn/cpp/test/source/TCClien.hpp: no such file or directory
+2024-03-16 12:24:57.526 [INFO]: Completion request was cancelled by token (106.61ms)
+2024-03-16 12:24:57.598 [INFO]: [Language Server (stderr)]:
+E0316 12:24:57.597813  1610 open_documents.go:65] open document /home/unk0wn/cpp/test/source/TCClien.hpp not found: stat /home/unk0wn/cpp/test/source/TCClien.hpp: no such file or directory
+2024-03-16 12:24:57.703 [INFO]: Completion request was cancelled by token (106.55ms)
+2024-03-16 12:24:57.783 [INFO]: [Language Server (stderr)]:
+E0316 12:24:57.783413  1610 open_documents.go:65] open document /home/unk0wn/cpp/test/source/TCClien.hpp not found: stat /home/unk0wn/cpp/test/source/TCClien.hpp: no such file or directory
+2024-03-16 12:24:57.793 [INFO]: Completion request was cancelled by token (11.75ms)
+2024-03-16 12:24:57.877 [INFO]: [Language Server (stderr)]:
+E0316 12:24:57.876517  1610 open_documents.go:65] open document /home/unk0wn/cpp/test/source/TCClien.hpp not found: stat /home/unk0wn/cpp/test/source/TCClien.hpp: no such file or directory
+2024-03-16 12:24:57.945 [INFO]: Completion request was cancelled by token (75.09ms)
+2024-03-16 12:24:58.019 [INFO]: [Language Server (stderr)]:
+E0316 12:24:58.019595  1610 open_documents.go:65] open document /home/unk0wn/cpp/test/source/TCClien.hpp not found: stat /home/unk0wn/cpp/test/source/TCClien.hpp: no such file or directory
+2024-03-16 12:24:58.074 [INFO]: Completion request was cancelled by token (56.18ms)
+2024-03-16 12:24:58.161 [INFO]: [Language Server (stderr)]:
+E0316 12:24:58.160073  1610 open_documents.go:65] open document /home/unk0wn/cpp/test/source/TCClien.hpp not found: stat /home/unk0wn/cpp/test/source/TCClien.hpp: no such file or directory
+2024-03-16 12:24:58.345 [INFO]: Completion request was cancelled by token (191.54ms)
+2024-03-16 12:24:58.538 [INFO]: [Language Server (stderr)]:
+E0316 12:24:58.537475  1610 open_documents.go:65] open document /home/unk0wn/cpp/test/source/TCClien.hpp not found: stat /home/unk0wn/cpp/test/source/TCClien.hpp: no such file or directory
+2024-03-16 12:24:58.572 [INFO]: Completion request was cancelled by token (38.03ms)
+2024-03-16 12:24:58.646 [INFO]: [Language Server (stderr)]:
+E0316 12:24:58.646421  1610 open_documents.go:65] open document /home/unk0wn/cpp/test/source/TCClien.hpp not found: stat /home/unk0wn/cpp/test/source/TCClien.hpp: no such file or directory
+2024-03-16 12:24:58.927 [INFO]: Completion request succeeded (281.92ms)
+2024-03-16 12:24:58.929 [INFO]: Generated 1 completions
+2024-03-16 12:24:58.930 [INFO]: provideInlineCompletionItems request succeeded (285.16ms)
+2024-03-16 12:24:59.101 [INFO]: [Language Server (stderr)]:
+E0316 12:24:59.100277  1610 open_documents.go:65] open document /home/unk0wn/cpp/test/source/TCClien.hpp not found: stat /home/unk0wn/cpp/test/source/TCClien.hpp: no such file or directory
+2024-03-16 12:24:59.498 [INFO]: Completion request succeeded (404.3ms)
+2024-03-16 12:24:59.500 [INFO]: No completions were generated
+2024-03-16 12:24:59.501 [INFO]: provideInlineCompletionItems request succeeded (408.13ms)
+2024-03-16 12:24:59.795 [INFO]: [Language Server (stderr)]:
+E0316 12:24:59.794824  1610 open_documents.go:65] open document /home/unk0wn/cpp/test/source/TCClien.hpp not found: stat /home/unk0wn/cpp/test/source/TCClien.hpp: no such file or directory
+2024-03-16 12:25:00.147 [INFO]: Completion request succeeded (354.13ms)
+2024-03-16 12:25:00.147 [INFO]: No completions were generated
+2024-03-16 12:25:00.147 [INFO]: provideInlineCompletionItems request succeeded (354.93ms)
+2024-03-16 12:25:00.531 [INFO]: [Language Server (stderr)]:
+E0316 12:25:00.531510  1610 open_documents.go:65] open document /home/unk0wn/cpp/test/source/TCClien.hpp not found: stat /home/unk0wn/cpp/test/source/TCClien.hpp: no such file or directory
+2024-03-16 12:25:00.627 [INFO]: Completion request was cancelled by token (97.62ms)
+2024-03-16 12:25:00.701 [INFO]: [Language Server (stderr)]:
+E0316 12:25:00.701685  1610 open_documents.go:65] open document /home/unk0wn/cpp/test/source/TCClien.hpp not found: stat /home/unk0wn/cpp/test/source/TCClien.hpp: no such file or directory
+2024-03-16 12:25:01.075 [INFO]: Completion request succeeded (374.26ms)
+2024-03-16 12:25:01.076 [INFO]: Generated 2 completions
+2024-03-16 12:25:01.077 [INFO]: provideInlineCompletionItems request succeeded (377.49ms)
+2024-03-16 12:25:02.749 [INFO]: [Language Server (stderr)]:
+E0316 12:25:02.749539  1610 open_documents.go:65] open document /home/unk0wn/cpp/test/source/TCClien.hpp not found: stat /home/unk0wn/cpp/test/source/TCClien.hpp: no such file or directory
+2024-03-16 12:25:02.936 [INFO]: Completion request was cancelled by token (187.78ms)
+2024-03-16 12:25:03.008 [INFO]: [Language Server (stderr)]:
+E0316 12:25:03.008614  1610 open_documents.go:65] open document /home/unk0wn/cpp/test/source/TCClien.hpp not found: stat /home/unk0wn/cpp/test/source/TCClien.hpp: no such file or directory
+2024-03-16 12:25:03.033 [INFO]: Completion request was cancelled by token (26.37ms)
+2024-03-16 12:25:03.118 [INFO]: [Language Server (stderr)]:
+E0316 12:25:03.117266  1610 open_documents.go:65] open document /home/unk0wn/cpp/test/source/TCClien.hpp not found: stat /home/unk0wn/cpp/test/source/TCClien.hpp: no such file or directory
+2024-03-16 12:25:03.430 [INFO]: Completion request succeeded (318.71ms)
+2024-03-16 12:25:03.431 [INFO]: Generated 1 completions
+2024-03-16 12:25:03.432 [INFO]: provideInlineCompletionItems request succeeded (322.57ms)
+2024-03-16 12:25:04.316 [INFO]: [Language Server (stderr)]:
+E0316 12:25:04.316005  1610 open_documents.go:65] open document /home/unk0wn/cpp/test/source/TCClien.hpp not found: stat /home/unk0wn/cpp/test/source/TCClien.hpp: no such file or directory
+2024-03-16 12:25:04.771 [INFO]: Completion request succeeded (456.2ms)
+2024-03-16 12:25:04.771 [INFO]: Generated 2 completions
+2024-03-16 12:25:04.771 [INFO]: provideInlineCompletionItems request succeeded (457.42ms)
+2024-03-16 12:25:04.913 [INFO]: [Language Server (stderr)]:
+E0316 12:25:04.913105  1610 open_documents.go:65] open document /home/unk0wn/cpp/test/source/TCClien.hpp not found: stat /home/unk0wn/cpp/test/source/TCClien.hpp: no such file or directory
+2024-03-16 12:25:04.922 [INFO]: Completion request succeeded (11.33ms)
+2024-03-16 12:25:04.923 [INFO]: Generated 2 completions
+2024-03-16 12:25:04.923 [INFO]: provideInlineCompletionItems request succeeded (12.21ms)
+2024-03-16 12:25:05.086 [INFO]: [Language Server (stderr)]:
+E0316 12:25:05.086183  1610 open_documents.go:65] open document /home/unk0wn/cpp/test/source/TCClien.hpp not found: stat /home/unk0wn/cpp/test/source/TCClien.hpp: no such file or directory
+2024-03-16 12:25:05.095 [INFO]: Completion request succeeded (11.01ms)
+2024-03-16 12:25:05.096 [INFO]: Generated 2 completions
+2024-03-16 12:25:05.096 [INFO]: provideInlineCompletionItems request succeeded (11.88ms)
+2024-03-16 12:25:05.617 [INFO]: [Language Server (stderr)]:
+E0316 12:25:05.616882  1610 open_documents.go:65] open document /home/unk0wn/cpp/test/source/TCClien.hpp not found: stat /home/unk0wn/cpp/test/source/TCClien.hpp: no such file or directory
+2024-03-16 12:25:05.989 [INFO]: Completion request succeeded (373.74ms)
+2024-03-16 12:25:05.991 [INFO]: No completions were generated
+2024-03-16 12:25:05.991 [INFO]: provideInlineCompletionItems request succeeded (376.28ms)
+2024-03-16 12:25:07.168 [INFO]: [Language Server (stderr)]:
+E0316 12:25:07.167891  1610 open_documents.go:65] open document /home/unk0wn/cpp/test/source/TCClien.hpp not found: stat /home/unk0wn/cpp/test/source/TCClien.hpp: no such file or directory
+2024-03-16 12:25:07.677 [INFO]: Completion request succeeded (510.58ms)
+2024-03-16 12:25:07.677 [INFO]: Generated 3 completions
+2024-03-16 12:25:07.677 [INFO]: provideInlineCompletionItems request succeeded (511.82ms)
+2024-03-16 12:25:09.224 [INFO]: [Language Server (stderr)]:
+E0316 12:25:09.224409  1610 open_documents.go:65] open document /home/unk0wn/cpp/test/source/TCClien.hpp not found: stat /home/unk0wn/cpp/test/source/TCClien.hpp: no such file or directory
+2024-03-16 12:25:09.487 [INFO]: Completion request succeeded (264.11ms)
+2024-03-16 12:25:09.488 [INFO]: No completions were generated
+2024-03-16 12:25:09.489 [INFO]: provideInlineCompletionItems request succeeded (266.57ms)
+2024-03-16 12:25:09.697 [INFO]: [Language Server (stderr)]:
+E0316 12:25:09.696612  1610 open_documents.go:65] open document /home/unk0wn/cpp/test/source/TCClien.hpp not found: stat /home/unk0wn/cpp/test/source/TCClien.hpp: no such file or directory
+2024-03-16 12:25:09.800 [INFO]: Completion request was cancelled by token (205.8ms)
+2024-03-16 12:25:09.871 [INFO]: [Language Server (stderr)]:
+E0316 12:25:09.870824  1610 open_documents.go:65] open document /home/unk0wn/cpp/test/source/TCClien.hpp not found: stat /home/unk0wn/cpp/test/source/TCClien.hpp: no such file or directory
+2024-03-16 12:25:10.471 [INFO]: Completion request succeeded (602.44ms)
+2024-03-16 12:25:10.472 [INFO]: Generated 7 completions
+2024-03-16 12:25:10.472 [INFO]: provideInlineCompletionItems request succeeded (603.7ms)
+2024-03-16 12:25:12.486 [INFO]: [Language Server (stderr)]:
+E0316 12:25:12.486543  1610 open_documents.go:65] open document /home/unk0wn/cpp/test/source/TCClien.hpp not found: stat /home/unk0wn/cpp/test/source/TCClien.hpp: no such file or directory
+2024-03-16 12:25:12.845 [INFO]: Completion request succeeded (360.86ms)
+2024-03-16 12:25:12.846 [INFO]: No completions were generated
+2024-03-16 12:25:12.846 [INFO]: provideInlineCompletionItems request succeeded (361.81ms)
+2024-03-16 12:25:16.489 [INFO]: [Language Server (stderr)]:
+E0316 12:25:16.489287  1610 open_documents.go:65] open document /home/unk0wn/cpp/test/source/TCClien.hpp not found: stat /home/unk0wn/cpp/test/source/TCClien.hpp: no such file or directory
+2024-03-16 12:25:17.026 [INFO]: Completion request succeeded (538.2ms)
+2024-03-16 12:25:17.026 [INFO]: Generated 8 completions
+2024-03-16 12:25:17.027 [INFO]: provideInlineCompletionItems request succeeded (539.99ms)
+2024-03-16 12:25:20.739 [INFO]: [Language Server (stderr)]:
+E0316 12:25:20.739518  1610 open_documents.go:65] open document /home/unk0wn/cpp/test/source/TCClien.hpp not found: stat /home/unk0wn/cpp/test/source/TCClien.hpp: no such file or directory
+2024-03-16 12:25:21.081 [INFO]: Completion request succeeded (344.59ms)
+2024-03-16 12:25:21.083 [INFO]: Generated 2 completions
+2024-03-16 12:25:21.084 [INFO]: provideInlineCompletionItems request succeeded (347.82ms)
+2024-03-16 12:25:21.687 [INFO]: [Language Server (stderr)]:
+E0316 12:25:21.686699  1610 open_documents.go:65] open document /home/unk0wn/cpp/test/source/TCClien.hpp not found: stat /home/unk0wn/cpp/test/source/TCClien.hpp: no such file or directory
+2024-03-16 12:25:22.061 [INFO]: Completion request succeeded (376.71ms)
+2024-03-16 12:25:22.062 [INFO]: No completions were generated
+2024-03-16 12:25:22.062 [INFO]: provideInlineCompletionItems request succeeded (377.51ms)
+2024-03-16 12:25:22.352 [INFO]: [Language Server (stderr)]:
+E0316 12:25:22.352425  1610 open_documents.go:65] open document /home/unk0wn/cpp/test/source/TCClien.hpp not found: stat /home/unk0wn/cpp/test/source/TCClien.hpp: no such file or directory
+2024-03-16 12:25:22.676 [INFO]: Completion request succeeded (375.66ms)
+2024-03-16 12:25:22.677 [INFO]: Generated 1 completions
+2024-03-16 12:25:22.677 [INFO]: provideInlineCompletionItems request succeeded (376.7ms)
+2024-03-16 12:25:23.129 [INFO]: [Language Server (stderr)]:
+E0316 12:25:23.129018  1610 open_documents.go:65] open document /home/unk0wn/cpp/test/source/TCClien.hpp not found: stat /home/unk0wn/cpp/test/source/TCClien.hpp: no such file or directory
+2024-03-16 12:25:23.392 [INFO]: Completion request succeeded (264.9ms)
+2024-03-16 12:25:23.394 [INFO]: No completions were generated
+2024-03-16 12:25:23.395 [INFO]: provideInlineCompletionItems request succeeded (267.46ms)
+2024-03-16 12:25:30.112 [INFO]: Disposing language server process
+2024-03-16 12:25:30.112 [INFO]: Deleting manager directory: /tmp/2f84061d-bd71-4593-b075-564f2c6c92af/codeium/manager
+2024-03-16 12:25:30.113 [INFO]: Successfully disposed language server
+2024-03-16 12:25:30.118 [INFO]: [Language Server (stderr)]:
+W0316 12:25:30.112803  1599 main.go:111] Language server manager got signal terminated, shutting down

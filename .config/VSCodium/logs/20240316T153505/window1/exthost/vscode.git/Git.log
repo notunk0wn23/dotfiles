@@ -1,0 +1,130 @@
+2024-03-16 15:35:06.970 [info] Log level: Info
+2024-03-16 15:35:06.970 [info] Validating found git in: "git"
+2024-03-16 15:35:06.970 [info] Using git "2.44.0" from "git"
+2024-03-16 15:35:06.970 [info] > git rev-parse --show-toplevel [5ms]
+2024-03-16 15:35:06.970 [info] fatal: not a git repository (or any of the parent directories): .git
+2024-03-16 15:35:06.970 [info] > git rev-parse --show-toplevel [2ms]
+2024-03-16 15:35:06.970 [info] fatal: not a git repository (or any of the parent directories): .git
+2024-03-16 15:35:06.970 [info] > git rev-parse --show-toplevel [46ms]
+2024-03-16 15:35:06.970 [info] fatal: not a git repository (or any of the parent directories): .git
+2024-03-16 15:35:06.971 [info] > git rev-parse --show-toplevel [5ms]
+2024-03-16 15:35:06.971 [info] fatal: not a git repository (or any of the parent directories): .git
+2024-03-16 15:35:07.000 [info] > git rev-parse --show-toplevel [2ms]
+2024-03-16 15:35:07.000 [info] fatal: not a git repository (or any of the parent directories): .git
+2024-03-16 15:35:07.024 [info] > git rev-parse --show-toplevel [2ms]
+2024-03-16 15:35:07.024 [info] fatal: not a git repository (or any of the parent directories): .git
+2024-03-16 15:35:07.038 [info] > git rev-parse --show-toplevel [0ms]
+2024-03-16 15:35:07.038 [info] fatal: not a git repository (or any of the parent directories): .git
+2024-03-16 15:35:18.448 [info] Log level: Info
+2024-03-16 15:35:18.448 [info] Validating found git in: "git"
+2024-03-16 15:35:18.448 [info] Using git "2.44.0" from "git"
+2024-03-16 15:35:18.448 [info] > git rev-parse --show-toplevel [6ms]
+2024-03-16 15:35:18.448 [info] fatal: not a git repository (or any of the parent directories): .git
+2024-03-16 15:35:18.449 [info] > git rev-parse --show-toplevel [1ms]
+2024-03-16 15:35:18.491 [info] > git rev-parse --git-dir --git-common-dir [18ms]
+2024-03-16 15:35:18.497 [info] Open repository: /home/unk0wn/knightos/KnightOS
+2024-03-16 15:35:18.521 [info] > git rev-parse --show-toplevel [10ms]
+2024-03-16 15:35:18.521 [info] > git config --get commit.template [18ms]
+2024-03-16 15:35:18.535 [info] > git rev-parse --git-dir --git-common-dir [8ms]
+2024-03-16 15:35:18.538 [info] Open repository: /home/unk0wn/knightos/genkfs
+2024-03-16 15:35:18.550 [info] > git config --get commit.template [6ms]
+2024-03-16 15:35:18.552 [info] > git rev-parse --show-toplevel [3ms]
+2024-03-16 15:35:18.566 [info] > git for-each-ref --format=%(refname)%00%(upstream:short)%00%(objectname)%00%(upstream:track)%00%(upstream:remotename)%00%(upstream:remoteref) refs/heads/master refs/remotes/master [9ms]
+2024-03-16 15:35:18.566 [info] > git for-each-ref --format=%(refname)%00%(upstream:short)%00%(objectname)%00%(upstream:track)%00%(upstream:remotename)%00%(upstream:remoteref) refs/heads/master refs/remotes/master [31ms]
+2024-03-16 15:35:18.573 [warning] ENOENT: no such file or directory, open '/home/unk0wn/knightos/genkfs/.git/refs/remotes/origin/master'
+2024-03-16 15:35:18.579 [warning] ENOENT: no such file or directory, open '/home/unk0wn/knightos/KnightOS/.git/refs/remotes/origin/master'
+2024-03-16 15:35:18.580 [info] > git rev-parse --git-dir --git-common-dir [16ms]
+2024-03-16 15:35:18.587 [info] Open repository: /home/unk0wn/knightos/kimg
+2024-03-16 15:35:18.602 [info] > git rev-parse refs/remotes/origin/master [23ms]
+2024-03-16 15:35:18.610 [info] > git rev-parse refs/remotes/origin/master [37ms]
+2024-03-16 15:35:18.623 [info] > git status -z -uall [12ms]
+2024-03-16 15:35:18.623 [info] > git status -z -uall [6ms]
+2024-03-16 15:35:18.628 [info] > git rev-parse --show-toplevel [27ms]
+2024-03-16 15:35:18.628 [info] > git config --get commit.template [34ms]
+2024-03-16 15:35:18.658 [info] > git rev-parse --git-dir --git-common-dir [17ms]
+2024-03-16 15:35:18.661 [info] Open repository: /home/unk0wn/knightos/mktiupgrade
+2024-03-16 15:35:18.662 [info] > git config --get commit.template [27ms]
+2024-03-16 15:35:18.674 [info] > git config --get commit.template [18ms]
+2024-03-16 15:35:18.674 [info] > git for-each-ref --format=%(refname)%00%(upstream:short)%00%(objectname)%00%(upstream:track)%00%(upstream:remotename)%00%(upstream:remoteref) refs/heads/master refs/remotes/master [24ms]
+2024-03-16 15:35:18.686 [warning] ENOENT: no such file or directory, open '/home/unk0wn/knightos/kimg/.git/refs/remotes/origin/master'
+2024-03-16 15:35:18.687 [info] > git rev-parse --show-toplevel [13ms]
+2024-03-16 15:35:18.687 [info] > git config --get commit.template [20ms]
+2024-03-16 15:35:18.697 [info] > git rev-parse refs/remotes/origin/master [11ms]
+2024-03-16 15:35:18.702 [info] > git for-each-ref --format=%(refname)%00%(upstream:short)%00%(objectname)%00%(upstream:track)%00%(upstream:remotename)%00%(upstream:remoteref) refs/heads/master refs/remotes/master [22ms]
+2024-03-16 15:35:18.714 [warning] ENOENT: no such file or directory, open '/home/unk0wn/knightos/KnightOS/.git/refs/remotes/origin/master'
+2024-03-16 15:35:18.715 [info] > git status -z -uall [13ms]
+2024-03-16 15:35:18.718 [info] > git rev-parse --git-dir --git-common-dir [21ms]
+2024-03-16 15:35:18.721 [info] Open repository: /home/unk0wn/knightos/sass
+2024-03-16 15:35:18.721 [info] > git for-each-ref --format=%(refname)%00%(upstream:short)%00%(objectname)%00%(upstream:track)%00%(upstream:remotename)%00%(upstream:remoteref) refs/heads/master refs/remotes/master [29ms]
+2024-03-16 15:35:18.997 [warning] ENOENT: no such file or directory, open '/home/unk0wn/knightos/genkfs/.git/refs/remotes/origin/master'
+2024-03-16 15:35:18.999 [info] > git rev-parse refs/remotes/origin/master [285ms]
+2024-03-16 15:35:19.005 [info] > git for-each-ref --format=%(refname)%00%(upstream:short)%00%(objectname)%00%(upstream:track)%00%(upstream:remotename)%00%(upstream:remoteref) refs/heads/master refs/remotes/master [295ms]
+2024-03-16 15:35:19.012 [warning] ENOENT: no such file or directory, open '/home/unk0wn/knightos/mktiupgrade/.git/refs/remotes/origin/master'
+2024-03-16 15:35:19.013 [info] > git status -z -uall [9ms]
+2024-03-16 15:35:19.015 [info] > git rev-parse refs/remotes/origin/master [18ms]
+2024-03-16 15:35:19.020 [info] > git rev-parse --show-toplevel [29ms]
+2024-03-16 15:35:19.021 [info] > git config --get commit.template [35ms]
+2024-03-16 15:35:19.021 [info] > git config --get commit.template [43ms]
+2024-03-16 15:35:19.032 [info] > git status -z -uall [12ms]
+2024-03-16 15:35:19.034 [info] > git rev-parse refs/remotes/origin/master [22ms]
+2024-03-16 15:35:19.050 [info] > git status -z -uall [10ms]
+2024-03-16 15:35:19.050 [info] > git rev-parse --git-dir --git-common-dir [18ms]
+2024-03-16 15:35:19.053 [info] Open repository: /home/unk0wn/knightos/sdk
+2024-03-16 15:35:19.066 [info] > git for-each-ref --format=%(refname)%00%(upstream:short)%00%(objectname)%00%(upstream:track)%00%(upstream:remotename)%00%(upstream:remoteref) refs/heads/master refs/remotes/master [16ms]
+2024-03-16 15:35:19.066 [info] > git for-each-ref --format=%(refname)%00%(upstream:short)%00%(objectname)%00%(upstream:track)%00%(upstream:remotename)%00%(upstream:remoteref) refs/heads/master refs/remotes/master [21ms]
+2024-03-16 15:35:19.075 [warning] ENOENT: no such file or directory, open '/home/unk0wn/knightos/sass/.git/refs/remotes/origin/master'
+2024-03-16 15:35:19.079 [warning] ENOENT: no such file or directory, open '/home/unk0wn/knightos/kimg/.git/refs/remotes/origin/master'
+2024-03-16 15:35:19.084 [info] > git rev-parse --show-toplevel [19ms]
+2024-03-16 15:35:19.084 [info] > git config --get commit.template [23ms]
+2024-03-16 15:35:19.091 [info] > git config --get commit.template [8ms]
+2024-03-16 15:35:19.091 [info] > git rev-parse refs/remotes/origin/master [12ms]
+2024-03-16 15:35:19.096 [info] > git rev-parse refs/remotes/origin/master [21ms]
+2024-03-16 15:35:19.106 [info] > git status -z -uall [10ms]
+2024-03-16 15:35:19.106 [info] > git status -z -uall [5ms]
+2024-03-16 15:35:19.107 [info] > git rev-parse --git-dir --git-common-dir [17ms]
+2024-03-16 15:35:19.112 [info] Open repository: /home/unk0wn/knightos/z80e
+2024-03-16 15:35:19.123 [info] > git for-each-ref --format=%(refname)%00%(upstream:short)%00%(objectname)%00%(upstream:track)%00%(upstream:remotename)%00%(upstream:remoteref) refs/heads/master refs/remotes/master [18ms]
+2024-03-16 15:35:19.131 [warning] ENOENT: no such file or directory, open '/home/unk0wn/knightos/sdk/.git/refs/remotes/origin/master'
+2024-03-16 15:35:19.136 [info] > git config --get commit.template [13ms]
+2024-03-16 15:35:19.136 [info] > git for-each-ref --format=%(refname)%00%(upstream:short)%00%(objectname)%00%(upstream:track)%00%(upstream:remotename)%00%(upstream:remoteref) refs/heads/master refs/remotes/master [18ms]
+2024-03-16 15:35:19.143 [warning] ENOENT: no such file or directory, open '/home/unk0wn/knightos/mktiupgrade/.git/refs/remotes/origin/master'
+2024-03-16 15:35:19.144 [info] > git config --get commit.template [8ms]
+2024-03-16 15:35:19.144 [info] > git rev-parse refs/remotes/origin/master [13ms]
+2024-03-16 15:35:19.154 [info] > git status -z -uall [6ms]
+2024-03-16 15:35:19.154 [info] > git rev-parse refs/remotes/origin/master [11ms]
+2024-03-16 15:35:19.164 [info] > git status -z -uall [6ms]
+2024-03-16 15:35:19.164 [info] > git for-each-ref --format=%(refname)%00%(upstream:short)%00%(objectname)%00%(upstream:track)%00%(upstream:remotename)%00%(upstream:remoteref) refs/heads/master refs/remotes/master [11ms]
+2024-03-16 15:35:19.173 [warning] ENOENT: no such file or directory, open '/home/unk0wn/knightos/z80e/.git/refs/remotes/origin/master'
+2024-03-16 15:35:19.178 [info] > git for-each-ref --format=%(refname)%00%(upstream:short)%00%(objectname)%00%(upstream:track)%00%(upstream:remotename)%00%(upstream:remoteref) refs/heads/master refs/remotes/master [14ms]
+2024-03-16 15:35:19.184 [warning] ENOENT: no such file or directory, open '/home/unk0wn/knightos/sass/.git/refs/remotes/origin/master'
+2024-03-16 15:35:19.185 [info] > git config --get commit.template [8ms]
+2024-03-16 15:35:19.185 [info] > git rev-parse refs/remotes/origin/master [12ms]
+2024-03-16 15:35:19.191 [info] > git rev-parse refs/remotes/origin/master [7ms]
+2024-03-16 15:35:19.200 [info] > git status -z -uall [10ms]
+2024-03-16 15:35:19.200 [info] > git status -z -uall [5ms]
+2024-03-16 15:35:19.209 [info] > git for-each-ref --format=%(refname)%00%(upstream:short)%00%(objectname)%00%(upstream:track)%00%(upstream:remotename)%00%(upstream:remoteref) refs/heads/master refs/remotes/master [8ms]
+2024-03-16 15:35:19.215 [warning] ENOENT: no such file or directory, open '/home/unk0wn/knightos/sdk/.git/refs/remotes/origin/master'
+2024-03-16 15:35:19.216 [info] > git config --get commit.template [7ms]
+2024-03-16 15:35:19.216 [info] > git rev-parse refs/remotes/origin/master [1ms]
+2024-03-16 15:35:19.226 [info] > git status -z -uall [6ms]
+2024-03-16 15:35:19.228 [info] > git for-each-ref --format=%(refname)%00%(upstream:short)%00%(objectname)%00%(upstream:track)%00%(upstream:remotename)%00%(upstream:remoteref) refs/heads/master refs/remotes/master [2ms]
+2024-03-16 15:35:19.233 [warning] ENOENT: no such file or directory, open '/home/unk0wn/knightos/z80e/.git/refs/remotes/origin/master'
+2024-03-16 15:35:19.234 [info] > git rev-parse refs/remotes/origin/master [1ms]
+2024-03-16 15:35:19.241 [info] > git status -z -uall [3ms]
+2024-03-16 15:35:19.514 [warning] Failed to get repository realpath for: "/home/unk0wn/knightos/KnightOS/kernel". Error: ENOENT: no such file or directory, realpath '/home/unk0wn/knightos/KnightOS/kernel'
+2024-03-16 15:35:20.184 [info] > git check-ignore -v -z --stdin [44ms]
+2024-03-16 15:35:20.185 [info] > git check-ignore -v -z --stdin [39ms]
+2024-03-16 15:35:20.185 [info] > git check-ignore -v -z --stdin [33ms]
+2024-03-16 15:35:20.186 [info] > git check-ignore -v -z --stdin [27ms]
+2024-03-16 15:35:20.186 [info] > git check-ignore -v -z --stdin [21ms]
+2024-03-16 15:35:20.186 [info] > git check-ignore -v -z --stdin [15ms]
+2024-03-16 15:35:20.186 [info] > git check-ignore -v -z --stdin [9ms]
+2024-03-16 15:35:22.140 [info] > git check-ignore -v -z --stdin [1ms]
+2024-03-16 15:35:22.998 [info] > git show --textconv :.knightos/variables.make [9ms]
+2024-03-16 15:35:22.998 [info] > git ls-files --stage -- /home/unk0wn/knightos/KnightOS/.knightos/variables.make [2ms]
+2024-03-16 15:35:26.513 [info] > git check-ignore -v -z --stdin [1ms]
+2024-03-16 15:35:32.582 [info] > git show --textconv :Makefile [5ms]
+2024-03-16 15:35:32.610 [info] > git ls-files --stage -- /home/unk0wn/knightos/KnightOS/Makefile [4ms]
+2024-03-16 15:35:32.632 [info] > git cat-file -s 70a5bdcd5ae1dc6127d20c0eec768b303fabe605 [2ms]
+2024-03-16 15:37:52.019 [info] > git rev-parse --show-toplevel [1ms]
+2024-03-16 15:37:52.019 [info] fatal: not a git repository (or any of the parent directories): .git

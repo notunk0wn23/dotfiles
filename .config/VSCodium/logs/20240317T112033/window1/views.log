@@ -1,0 +1,12 @@
+2024-03-17 11:20:53.499 [info] Added views:workbench.panel.markers.view in workbench.panel.markers
+2024-03-17 11:20:53.499 [info] Added views:workbench.panel.output in workbench.panel.output
+2024-03-17 11:20:53.499 [info] Added views:terminal in terminal
+2024-03-17 11:20:53.499 [info] Added views:outline in workbench.view.explorer
+2024-03-17 11:20:53.499 [info] Added views:workbench.scm in workbench.view.scm
+2024-03-17 11:20:53.499 [info] Added views:workbench.view.search in workbench.view.search
+2024-03-17 11:20:53.499 [info] Added views:timeline in workbench.view.explorer
+2024-03-17 11:20:53.499 [info] Added views:workbench.explorer.fileView in workbench.view.explorer
+2024-03-17 11:20:53.959 [info] Added views:workbench.debug.welcome in workbench.view.debug
+2024-03-17 11:20:56.847 [info] Added views:codeium.chatPanelView,codeium.searchPanelView in workbench.view.extension.codeium
+2024-03-17 11:20:56.847 [info] Added views:thunder-client-sidebar in workbench.view.extension.thunder-client
+2024-03-17 11:20:59.080 [info] Added views:~remote.forwardedPorts in ~remote.forwardedPortsContainer

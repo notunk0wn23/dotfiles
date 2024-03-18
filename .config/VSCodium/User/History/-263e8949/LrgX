@@ -1,0 +1,9 @@
+main:
+	if [ ! -d build ]; then mkdir build; fi
+	if [ ! -d build/obj ]; then mkdir build/obj; fi
+	g++ source/headers/json.hpp -o build/obj/json.o
+	g++ source/main.cpp -o build/main
+	printf "\n \n"
+	./build/main
+clean:
+	rm -rf build

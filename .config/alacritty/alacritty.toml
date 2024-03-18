@@ -1,0 +1,6 @@
+live_config_reload = true
+
+[window]
+padding = { x = 5, y = 5 }
+blur = true
+opacity = 0.8

@@ -1,0 +1,79 @@
+2024-03-17 15:25:26.889 [INFO]: No proxy settings found
+2024-03-17 15:25:27.161 [INFO]: Creating manager directory: /tmp/fbab9d0d-331b-4484-aa81-055f39a71887/codeium/manager
+2024-03-17 15:25:28.228 [INFO]: Using cached LS with valid crc32: /home/unk0wn/.vscode-oss/extensions/codeium.codeium-1.8.11-universal/dist/ae9d4149edcf0d092aac843e1d0e2d395e771664/language_server_linux_x64
+2024-03-17 15:25:28.234 [INFO]: Language server started
+2024-03-17 15:25:28.350 [INFO]: [Language Server (stderr)]:
+I0317 15:25:28.350175 19902 main.go:544] Starting language server manager with pid 19902
+I0317 15:25:28.350244 19902 main.go:107] Manager acquired its lock file /tmp/fbab9d0d-331b-4484-aa81-055f39a71887/codeium/manager/locks/manager.lock
+2024-03-17 15:25:28.351 [INFO]: [Language Server (stderr)]:
+I0317 15:25:28.350509 19902 main.go:245] Waiting for random port file in /tmp/fbab9d0d-331b-4484-aa81-055f39a71887/codeium/manager/child_random_port_1710707128350320183_4561249621934385815 to be created
+2024-03-17 15:25:28.469 [INFO]: [Language Server (stderr)]:
+I0317 15:25:28.468869 19913 main.go:538] Starting language server process with pid 19913
+I0317 15:25:28.468907 19913 server.go:151] Language server will attempt to listen on host 127.0.0.1
+2024-03-17 15:25:28.469 [INFO]: [Language Server (stderr)]:
+I0317 15:25:28.468990 19913 server.go:158] Language server listening on random port at 41665
+I0317 15:25:28.469019 19913 proxy.go:113] proxyplease.proxy> No proxy provided. Attempting to infer from system.
+I0317 15:25:28.469051 19913 proxy.go:113] proxyplease.proxy> No proxy could be determined. Assuming a direct connection.
+I0317 15:25:28.469066 19913 client.go:589] [DEBUG] GET https://server.codeium.com/exa.api_server_pb.ApiServerService/GetCompletions
+2024-03-17 15:25:28.622 [INFO]: [Language Server (stderr)]:
+I0317 15:25:28.621484 19913 unleash.go:86] Initializing Unleash
+2024-03-17 15:25:28.765 [INFO]: [Language Server (stderr)]:
+I0317 15:25:28.744939 19913 unleash.go:106] Successfully initialized Unleash
+I0317 15:25:28.759781 19913 server.go:336] Successfully created API server client
+2024-03-17 15:25:28.791 [INFO]: [Language Server (stderr)]:
+I0317 15:25:28.766260 19913 server.go:350] Successfully created API streaming client
+2024-03-17 15:25:28.819 [INFO]: [Language Server (stderr)]:
+I0317 15:25:28.804413 19913 server.go:359] Successfully initialized tokenizer
+I0317 15:25:28.804468 19913 search_provider.go:169] Using database at /home/unk0wn/.codeium/database/9c0694567290725d9dcba14ade58e297/2/MODEL_EMBED_6591
+I0317 15:25:28.805026 19913 search_provider.go:181] Successfully created embedding search database
+I0317 15:25:28.805237 19913 search_provider.go:229] Successfully created embedding search provider
+I0317 15:25:28.805243 19913 server.go:444] Successfully created exact search provider
+E0317 15:25:28.805688 19913 unleash.go:57] Unleash error: Version string empty
+E0317 15:25:28.805725 19913 unleash.go:57] Unleash error: Version string empty
+E0317 15:25:28.805762 19913 unleash.go:57] Unleash error: Version string empty
+E0317 15:25:28.805803 19913 unleash.go:57] Unleash error: Version string empty
+I0317 15:25:28.808874 19913 server.go:472] Successfully created completion provider
+2024-03-17 15:25:28.862 [INFO]: [Language Server (stderr)]:
+I0317 15:25:28.861557 19913 server.go:548] Child process attempting to acquire lock file /tmp/fbab9d0d-331b-4484-aa81-055f39a71887/codeium/manager/locks/child_lock_1710707128350341911_358463906911876333
+I0317 15:25:28.861612 19913 server.go:558] Child process acquired lock file /tmp/fbab9d0d-331b-4484-aa81-055f39a71887/codeium/manager/locks/child_lock_1710707128350341911_358463906911876333
+2024-03-17 15:25:28.864 [INFO]: [Language Server (stderr)]:
+I0317 15:25:28.864020 19913 server.go:178] LSP listening on random port at 45695
+2024-03-17 15:25:28.864 [INFO]: [Language Server (stderr)]:
+I0317 15:25:28.864424 19913 web_server.go:235] Chat Web Server listening at ws://127.0.0.1:44041
+2024-03-17 15:25:28.954 [INFO]: [Language Server (stdout)]:
+45695
+2024-03-17 15:25:28.954 [INFO]: [Language Server (stderr)]:
+I0317 15:25:28.953686 19902 main.go:281] Language server manager found random server port 41665
+I0317 15:25:28.953730 19902 main.go:282] Language server manager found random lsp port 45695
+I0317 15:25:28.953757 19902 main.go:289] Language server manager attempting to connect to language server at 127.0.0.1:41665
+2024-03-17 15:25:28.983 [INFO]: [Language Server (stderr)]:
+I0317 15:25:28.982869 19902 main.go:160] Fixing language server port at 41665
+I0317 15:25:28.982894 19902 main.go:340] Language server manager successfully connected to new language server at 127.0.0.1:41665
+2024-03-17 15:25:29.041 [INFO]: Found language server running on port 41665
+2024-03-17 15:25:29.049 [INFO]: Downloaded binary: /home/unk0wn/.codeium/bin/af6b6c543b224d348a8876f0c06245d9ea7929c5/ripgrep_linux_x64
+2024-03-17 15:25:29.171 [INFO]: [Language Server (stderr)]:
+I0317 15:25:29.169854 19913 rpcs_miscellaneous.go:301] University version is up to date.
+2024-03-17 15:25:29.238 [INFO]: [Language Server (stderr)]:
+I0317 15:25:29.230789 19913 rpcs_seat_management.go:94] GetUserStatus Request: metadata:{ide_name:"vscode" ide_version:"VSCodium 1.87.1" extension_name:"vscode" extension_version:"1.8.11" api_key:"d64f76b7-d802-4704-b4b3-583168f2f64e" locale:"en" disable_telemetry:true session_id:"90b6ec86-b45c-4eb6-827e-f07a999c5797" request_id:2 extension_path:"/home/unk0wn/.vscode-oss/extensions/codeium.codeium-1.8.11-universal"}
+2024-03-17 15:25:29.301 [INFO]: [Language Server (stderr)]:
+I0317 15:25:29.284256 19913 rpcs_seat_management.go:103] GetUserStatus Response: user_status:{pro:true name:"Asher" email:"asherlr2@gmail.com"}
+2024-03-17 15:25:54.696 [ERROR]: [unknown] file is generated: content not valid for parsing
+2024-03-17 15:25:54.697 [INFO]: [Language Server (stderr)]:
+E0317 15:25:54.694529 19913 interceptor.go:40] /exa.language_server_pb.LanguageServerService/RefreshContextForIdeAction: file is generated: content not valid for parsing
+2024-03-17 15:34:19.056 [ERROR]: [unknown] file is generated: content not valid for parsing
+2024-03-17 15:34:19.057 [INFO]: [Language Server (stderr)]:
+E0317 15:34:19.054221 19913 interceptor.go:40] /exa.language_server_pb.LanguageServerService/RefreshContextForIdeAction: file is generated: content not valid for parsing
+2024-03-17 15:34:22.063 [INFO]: [Language Server (stderr)]:
+E0317 15:34:22.062570 19913 interceptor.go:40] /exa.language_server_pb.LanguageServerService/RefreshContextForIdeAction: file is generated: content not valid for parsing
+2024-03-17 15:34:22.067 [ERROR]: [unknown] file is generated: content not valid for parsing
+2024-03-17 15:34:22.241 [INFO]: [Language Server (stderr)]:
+E0317 15:34:22.240092 19913 interceptor.go:40] /exa.language_server_pb.LanguageServerService/RefreshContextForIdeAction: file is generated: content not valid for parsing
+2024-03-17 15:34:22.244 [ERROR]: [unknown] file is generated: content not valid for parsing
+2024-03-17 15:34:22.659 [INFO]: [Language Server (stderr)]:
+E0317 15:34:22.659362 19913 open_document_context_provider.go:74] error getting items for open doc /home/unk0wn/package-lock.json: file is generated: content not valid for parsing
+2024-03-17 15:34:22.858 [INFO]: [Language Server (stderr)]:
+E0317 15:34:22.857154 19913 interceptor.go:40] /exa.language_server_pb.LanguageServerService/RefreshContextForIdeAction: file is generated: content not valid for parsing
+2024-03-17 15:34:22.861 [ERROR]: [unknown] file is generated: content not valid for parsing
+2024-03-17 15:34:24.240 [INFO]: [Language Server (stderr)]:
+E0317 15:34:24.239175 19913 interceptor.go:40] /exa.language_server_pb.LanguageServerService/RefreshContextForIdeAction: file is generated: content not valid for parsing
+2024-03-17 15:34:24.244 [ERROR]: [unknown] file is generated: content not valid for parsing

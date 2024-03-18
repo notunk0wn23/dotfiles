@@ -1,0 +1,5 @@
+shiba:
+	if [ ! -d bin ]; then
+		mkdir bin
+	fi
+	gcc main.c -o bin/shiba

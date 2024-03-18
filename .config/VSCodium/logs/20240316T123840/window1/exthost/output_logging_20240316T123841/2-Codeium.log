@@ -1,0 +1,66 @@
+2024-03-16 12:38:42.627 [INFO]: No proxy settings found
+2024-03-16 12:38:42.934 [INFO]: Creating manager directory: /tmp/2baa9a49-1ce3-41e0-8389-4ebb9ac31bcc/codeium/manager
+2024-03-16 12:38:43.240 [INFO]: Using cached LS with valid crc32: /home/unk0wn/.vscode-oss/extensions/codeium.codeium-1.8.11-universal/dist/ae9d4149edcf0d092aac843e1d0e2d395e771664/language_server_linux_x64
+2024-03-16 12:38:43.246 [INFO]: Language server started
+2024-03-16 12:38:43.383 [INFO]: [Language Server (stderr)]:
+I0316 12:38:43.372697 22114 main.go:544] Starting language server manager with pid 22114
+I0316 12:38:43.372758 22114 main.go:107] Manager acquired its lock file /tmp/2baa9a49-1ce3-41e0-8389-4ebb9ac31bcc/codeium/manager/locks/manager.lock
+I0316 12:38:43.373133 22114 main.go:245] Waiting for random port file in /tmp/2baa9a49-1ce3-41e0-8389-4ebb9ac31bcc/codeium/manager/child_random_port_1710610723372877679_6050238357707337643 to be created
+2024-03-16 12:38:43.490 [INFO]: [Language Server (stderr)]:
+I0316 12:38:43.489761 22130 main.go:538] Starting language server process with pid 22130
+I0316 12:38:43.489799 22130 server.go:151] Language server will attempt to listen on host 127.0.0.1
+2024-03-16 12:38:43.490 [INFO]: [Language Server (stderr)]:
+I0316 12:38:43.489870 22130 server.go:158] Language server listening on random port at 34957
+I0316 12:38:43.489899 22130 proxy.go:113] proxyplease.proxy> No proxy provided. Attempting to infer from system.
+I0316 12:38:43.489914 22130 proxy.go:113] proxyplease.proxy> No proxy could be determined. Assuming a direct connection.
+I0316 12:38:43.489924 22130 client.go:589] [DEBUG] GET https://server.codeium.com/exa.api_server_pb.ApiServerService/GetCompletions
+2024-03-16 12:38:43.664 [INFO]: [Language Server (stderr)]:
+I0316 12:38:43.664216 22130 unleash.go:86] Initializing Unleash
+2024-03-16 12:38:43.783 [INFO]: [Language Server (stderr)]:
+I0316 12:38:43.783284 22130 unleash.go:106] Successfully initialized Unleash
+2024-03-16 12:38:43.790 [INFO]: [Language Server (stderr)]:
+I0316 12:38:43.789826 22130 server.go:336] Successfully created API server client
+2024-03-16 12:38:43.793 [INFO]: [Language Server (stderr)]:
+I0316 12:38:43.793067 22130 server.go:350] Successfully created API streaming client
+2024-03-16 12:38:43.820 [INFO]: [Language Server (stderr)]:
+I0316 12:38:43.820212 22130 server.go:359] Successfully initialized tokenizer
+I0316 12:38:43.820276 22130 search_provider.go:169] Using database at /home/unk0wn/.codeium/database/9c0694567290725d9dcba14ade58e297/2/MODEL_EMBED_6591
+2024-03-16 12:38:43.821 [INFO]: [Language Server (stderr)]:
+I0316 12:38:43.820863 22130 search_provider.go:181] Successfully created embedding search database
+2024-03-16 12:38:43.821 [INFO]: [Language Server (stderr)]:
+I0316 12:38:43.821154 22130 search_provider.go:229] Successfully created embedding search provider
+I0316 12:38:43.821161 22130 server.go:444] Successfully created exact search provider
+2024-03-16 12:38:43.821 [INFO]: [Language Server (stderr)]:
+E0316 12:38:43.821662 22130 unleash.go:57] Unleash error: Version string empty
+E0316 12:38:43.821691 22130 unleash.go:57] Unleash error: Version string empty
+E0316 12:38:43.821695 22130 unleash.go:57] Unleash error: Version string empty
+E0316 12:38:43.821743 22130 unleash.go:57] Unleash error: Version string empty
+2024-03-16 12:38:43.824 [INFO]: [Language Server (stderr)]:
+I0316 12:38:43.824034 22130 server.go:472] Successfully created completion provider
+2024-03-16 12:38:43.870 [INFO]: [Language Server (stderr)]:
+I0316 12:38:43.870226 22130 server.go:548] Child process attempting to acquire lock file /tmp/2baa9a49-1ce3-41e0-8389-4ebb9ac31bcc/codeium/manager/locks/child_lock_1710610723372894389_3572976892719304472
+I0316 12:38:43.870268 22130 server.go:558] Child process acquired lock file /tmp/2baa9a49-1ce3-41e0-8389-4ebb9ac31bcc/codeium/manager/locks/child_lock_1710610723372894389_3572976892719304472
+2024-03-16 12:38:43.873 [INFO]: [Language Server (stderr)]:
+I0316 12:38:43.872734 22130 server.go:178] LSP listening on random port at 40643
+2024-03-16 12:38:43.873 [INFO]: [Language Server (stderr)]:
+I0316 12:38:43.872953 22130 web_server.go:235] Chat Web Server listening at ws://127.0.0.1:42205
+2024-03-16 12:38:43.875 [INFO]: [Language Server (stdout)]:
+40643
+2024-03-16 12:38:43.875 [INFO]: [Language Server (stderr)]:
+I0316 12:38:43.875057 22114 main.go:281] Language server manager found random server port 34957
+I0316 12:38:43.875072 22114 main.go:282] Language server manager found random lsp port 40643
+I0316 12:38:43.875081 22114 main.go:289] Language server manager attempting to connect to language server at 127.0.0.1:34957
+2024-03-16 12:38:43.893 [INFO]: [Language Server (stderr)]:
+I0316 12:38:43.893125 22114 main.go:160] Fixing language server port at 34957
+I0316 12:38:43.893141 22114 main.go:340] Language server manager successfully connected to new language server at 127.0.0.1:34957
+2024-03-16 12:38:43.950 [INFO]: Found language server running on port 34957
+2024-03-16 12:38:43.957 [INFO]: Downloaded binary: /home/unk0wn/.codeium/bin/af6b6c543b224d348a8876f0c06245d9ea7929c5/ripgrep_linux_x64
+2024-03-16 12:38:44.034 [INFO]: [Language Server (stderr)]:
+I0316 12:38:44.034047 22130 rpcs_miscellaneous.go:301] University version is up to date.
+2024-03-16 12:38:44.055 [INFO]: [Language Server (stderr)]:
+I0316 12:38:44.053920 22130 rpcs_seat_management.go:94] GetUserStatus Request: metadata:{ide_name:"vscode" ide_version:"VSCodium 1.87.1" extension_name:"vscode" extension_version:"1.8.11" api_key:"d64f76b7-d802-4704-b4b3-583168f2f64e" locale:"en" disable_telemetry:true session_id:"1b22d9b1-7ad7-4d25-82ad-e34eed650754" request_id:2 extension_path:"/home/unk0wn/.vscode-oss/extensions/codeium.codeium-1.8.11-universal"}
+2024-03-16 12:38:44.089 [INFO]: [Language Server (stderr)]:
+I0316 12:38:44.088967 22130 rpcs_seat_management.go:103] GetUserStatus Response: user_status:{pro:true name:"Asher" email:"asherlr2@gmail.com"}
+2024-03-16 12:39:00.168 [INFO]: Disposing language server process
+2024-03-16 12:39:00.168 [INFO]: Deleting manager directory: /tmp/2baa9a49-1ce3-41e0-8389-4ebb9ac31bcc/codeium/manager
+2024-03-16 12:39:00.169 [INFO]: Successfully disposed language server

@@ -1,0 +1,22 @@
+2024-03-17 15:24:59.027 [info] Started local extension host with pid 19402.
+2024-03-17 15:25:01.765 [info] [perf] Render performance baseline is 56ms
+2024-03-17 15:25:11.140 [info] Started local extension host with pid 19680.
+2024-03-17 15:25:13.829 [info] [perf] Render performance baseline is 24ms
+2024-03-17 15:25:19.541 [info] Started local extension host with pid 19809.
+2024-03-17 15:25:22.161 [info] [perf] Render performance baseline is 24ms
+2024-03-17 15:25:46.340 [error] Error: The editor could not be opened because the file was not found.
+    at R.handleSetInputError (vscode-file://vscode-app/opt/vscodium-bin/resources/app/out/vs/workbench/workbench.desktop.main.js:2414:33279)
+    at async R.setInput (vscode-file://vscode-app/opt/vscodium-bin/resources/app/out/vs/workbench/workbench.desktop.main.js:2414:32077)
+    at async h.doSetInput (vscode-file://vscode-app/opt/vscodium-bin/resources/app/out/vs/workbench/workbench.desktop.main.js:2412:38434)
+    at async h.doOpenEditor (vscode-file://vscode-app/opt/vscodium-bin/resources/app/out/vs/workbench/workbench.desktop.main.js:2412:36255)
+    at async h.openEditor (vscode-file://vscode-app/opt/vscodium-bin/resources/app/out/vs/workbench/workbench.desktop.main.js:2412:34991)
+    at async vscode-file://vscode-app/opt/vscodium-bin/resources/app/out/vs/workbench/workbench.desktop.main.js:2535:33206
+    at async l.value (vscode-file://vscode-app/opt/vscodium-bin/resources/app/out/vs/workbench/workbench.desktop.main.js:2605:60397)
+2024-03-17 15:34:11.565 [error] Error: The editor could not be opened because the file was not found.
+    at R.handleSetInputError (vscode-file://vscode-app/opt/vscodium-bin/resources/app/out/vs/workbench/workbench.desktop.main.js:2414:33279)
+    at async R.setInput (vscode-file://vscode-app/opt/vscodium-bin/resources/app/out/vs/workbench/workbench.desktop.main.js:2414:32077)
+    at async h.doSetInput (vscode-file://vscode-app/opt/vscodium-bin/resources/app/out/vs/workbench/workbench.desktop.main.js:2412:38434)
+    at async h.doOpenEditor (vscode-file://vscode-app/opt/vscodium-bin/resources/app/out/vs/workbench/workbench.desktop.main.js:2412:36255)
+    at async h.openEditor (vscode-file://vscode-app/opt/vscodium-bin/resources/app/out/vs/workbench/workbench.desktop.main.js:2412:34991)
+    at async vscode-file://vscode-app/opt/vscodium-bin/resources/app/out/vs/workbench/workbench.desktop.main.js:2535:33206
+    at async l.value (vscode-file://vscode-app/opt/vscodium-bin/resources/app/out/vs/workbench/workbench.desktop.main.js:2605:60397)

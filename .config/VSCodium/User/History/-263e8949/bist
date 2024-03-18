@@ -1,0 +1,10 @@
+main:
+	if [ ! -d build ]; then mkdir build; fi
+	if [ ! -d build/obj ]; then mkdir build/obj; fi
+	// build http header
+	g++ -c source/http/http.cpp -o build/obj/http.o
+	g++ source/main.cpp -o build/main
+	printf "\n \n"
+	./build/main
+clean:
+	rm -rf build

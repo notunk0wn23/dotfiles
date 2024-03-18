@@ -1,0 +1,9 @@
+2024-03-17 11:20:40.341 [info] update#setState disabled
+2024-03-17 11:20:40.503 [info] update#ctor - updates are disabled as there is no update URL
+2024-03-17 11:21:00.949 [error] Blocked vscode-file request vscode-file://vscode-app/home/unk0wn/.vscode-oss/extensions/vscode-icons-team.vscode-icons-12.7.0-universal/icons/file_type_license.svg
+2024-03-17 11:21:00.951 [error] Blocked vscode-file request vscode-file://vscode-app/home/unk0wn/.vscode-oss/extensions/vscode-icons-team.vscode-icons-12.7.0-universal/icons/file_type_markdown.svg
+2024-03-17 11:21:00.952 [error] Blocked vscode-file request vscode-file://vscode-app/home/unk0wn/.vscode-oss/extensions/vscode-icons-team.vscode-icons-12.7.0-universal/icons/folder_type_sass.svg
+2024-03-17 11:21:01.665 [info] Extension host with pid 1456 exited with code: 0, signal: unknown.
+2024-03-17 11:22:30.358 [info] Extension host with pid 1455 exited with code: 0, signal: unknown.
+2024-03-17 11:22:30.372 [error] [UtilityProcessWorker]: terminated unexpectedly with code 15, signal: unknown
+2024-03-17 11:22:30.373 [error] [UtilityProcess id: 2, type: fileWatcher, pid: 1453]: crashed with code 15 and reason 'killed'
